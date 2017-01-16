@@ -1,27 +1,36 @@
-import xml.etree.ElementTree as ET
 from time import gmtime, strftime
-import random
 from datetime import datetime, timedelta
-import dateutil.parser
+import dateutil.parser, dateutil.relativedelta
+import xml.etree.ElementTree as ET
+import random
+
 
 
 # Open File to be modified
 tree = ET.parse('user.xml')
 root = tree.getroot()
 
-# Parser to Change ISOFormat to Date Object
+# Parser to convert date from ISOFormat to Date Object
+# This allows us to manipulate the date range.
 def getDateTimeFromISO8601String(i):
 	d = dateutil.parser.parse(i)
 	return d
 
-#Date Optimizer
-def dateUpdate(xmlFile):
+# Checks date and updates if outside 90 day range
+def dateUpdater(xmlFile):
 	for dates in root.iter('transDate'):
+		todayDate = datetime.now()
+		beginDate = todayDate + dateutil.relativedelta.relativedelta(months=-3)
 		originalDate = dates.text
-		newDate = getDateTimeFromISO8601String(originalDate)
-		changedDate = newDate - timedelta(days=90)
-		dates = changedDate.isoformat()
+		rangeDate = getDateTimeFromISO8601String(originalDate)
+		
+		if (rangeDate > beginDate and rangeDate < todayDate):
+			dates.text = str(rangeDate.isoformat())
+		else:
+			testRange = rangeDate + dateutil.relativedelta.relativedelta(months=3)
+			dates.text = str(testRange.isoformat())	
 	return dates
+
 
 # Randomizer for account Name
 def accountName(xmlFile):
@@ -60,8 +69,9 @@ balanceUpdater(tree)
 transactionAmountUpdater(tree)
 baseTypeRandomizer(tree)
 accountName(tree)
-dateUpdate(tree)
-#print accountName(tree).text
+dateUpdater(tree)
+print(dateUpdater(tree).text)
+
    
 # Write back to a file
 now = datetime.now()
