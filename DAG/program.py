@@ -1,13 +1,27 @@
 import xml.etree.ElementTree as ET
 from time import gmtime, strftime
 import random
-import datetime
+from datetime import datetime, timedelta
 import dateutil.parser
 
 
 # Open File to be modified
 tree = ET.parse('user.xml')
 root = tree.getroot()
+
+# Parser to Change ISOFormat to Date Object
+def getDateTimeFromISO8601String(i):
+	d = dateutil.parser.parse(i)
+	return d
+
+#Date Optimizer
+def dateUpdate(xmlFile):
+	for dates in root.iter('transDate'):
+		originalDate = dates.text
+		newDate = getDateTimeFromISO8601String(originalDate)
+		changedDate = newDate - timedelta(days=90)
+		dates = changedDate.isoformat()
+	return dates
 
 # Randomizer for account Name
 def accountName(xmlFile):
@@ -41,15 +55,16 @@ def transactionAmountUpdater(xmlFile):
   return amount
 
 
-  
+
 balanceUpdater(tree)
 transactionAmountUpdater(tree)
 baseTypeRandomizer(tree)
 accountName(tree)
+dateUpdate(tree)
 #print accountName(tree).text
    
 # Write back to a file
-now = datetime.datetime.now()
+now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
 tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
 
