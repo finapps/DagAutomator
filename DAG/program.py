@@ -3,7 +3,7 @@ from time import gmtime, strftime
 import random
 import datetime
 import dateutil.parser
-from itertools import count
+
 
 # Open File to be modified
 tree = ET.parse('user.xml')
