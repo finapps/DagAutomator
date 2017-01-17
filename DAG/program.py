@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 from time import gmtime, strftime
 import random
 import datetime
-import dateutil.parser
+#import dateutil.parser
 
 
 # Open File to be modified
