@@ -1,13 +1,41 @@
-import xml.etree.ElementTree as ET
 from time import gmtime, strftime
+from datetime import datetime, timedelta
+import dateutil.parser, dateutil.relativedelta
+import xml.etree.ElementTree as ET
 import random
+<<<<<<< HEAD
 import datetime
 #import dateutil.parser
+=======
+
+>>>>>>> 3c0a9d1f31fde243bf0aae25a9851a1ac50553c9
 
 
 # Open File to be modified
 tree = ET.parse('user.xml')
 root = tree.getroot()
+
+# Parser to convert date from ISOFormat to Date Object
+# This allows us to manipulate the date range.
+def getDateTimeFromISO8601String(i):
+	d = dateutil.parser.parse(i)
+	return d
+
+# Checks date and updates if outside 90 day range
+def dateUpdater(xmlFile):
+	for dates in root.iter('transDate'):
+		todayDate = datetime.now()
+		beginDate = todayDate + dateutil.relativedelta.relativedelta(months=-3)
+		originalDate = dates.text
+		transactionDate = getDateTimeFromISO8601String(originalDate)
+
+		if (transactionDate > beginDate and transactionDate < todayDate):
+			dates.text = str(transactionDate.isoformat())
+		else:
+			updatedDate = todayDate + dateutil.relativedelta.relativedelta(months=-1)
+			dates.text = str(updatedDate.isoformat())
+	return dates
+
 
 # Randomizer for account Name
 def accountName(xmlFile):
@@ -23,7 +51,7 @@ def baseTypeRandomizer(xmlFile):
     baseType = ["credit","debit"]
     i.attrib["baseType"] = random.choice(baseType)
   return i.text
- 
+
 # Randomizer for balance
 def balanceUpdater(xmlFile):
   for balance in root.iter('curAmt'):
@@ -41,15 +69,16 @@ def transactionAmountUpdater(xmlFile):
   return amount
 
 
-  
+
 balanceUpdater(tree)
 transactionAmountUpdater(tree)
 baseTypeRandomizer(tree)
 accountName(tree)
-#print accountName(tree).text
-   
+dateUpdater(tree)
+print(dateUpdater(tree).text)
+
+
 # Write back to a file
-now = datetime.datetime.now()
+now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
 tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
-
