@@ -22,13 +22,13 @@ def dateUpdater(xmlFile):
 		todayDate = datetime.now()
 		beginDate = todayDate + dateutil.relativedelta.relativedelta(months=-3)
 		originalDate = dates.text
-		rangeDate = getDateTimeFromISO8601String(originalDate)
-		
-		if (rangeDate > beginDate and rangeDate < todayDate):
-			dates.text = str(rangeDate.isoformat())
+		transactionDate = getDateTimeFromISO8601String(originalDate)
+
+		if (transactionDate > beginDate and transactionDate < todayDate):
+			dates.text = str(transactionDate.isoformat())
 		else:
-			testRange = rangeDate + dateutil.relativedelta.relativedelta(months=3)
-			dates.text = str(testRange.isoformat())	
+			updatedDate = todayDate + dateutil.relativedelta.relativedelta(months=-1)
+			dates.text = str(updatedDate.isoformat())
 	return dates
 
 
@@ -46,7 +46,7 @@ def baseTypeRandomizer(xmlFile):
     baseType = ["credit","debit"]
     i.attrib["baseType"] = random.choice(baseType)
   return i.text
- 
+
 # Randomizer for balance
 def balanceUpdater(xmlFile):
   for balance in root.iter('curAmt'):
@@ -72,9 +72,8 @@ accountName(tree)
 dateUpdater(tree)
 print(dateUpdater(tree).text)
 
-   
+
 # Write back to a file
 now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
 tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
-
