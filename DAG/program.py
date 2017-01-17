@@ -3,12 +3,7 @@ from datetime import datetime, timedelta
 import dateutil.parser, dateutil.relativedelta
 import xml.etree.ElementTree as ET
 import random
-<<<<<<< HEAD
 import datetime
-#import dateutil.parser
-=======
-
->>>>>>> 3c0a9d1f31fde243bf0aae25a9851a1ac50553c9
 
 
 # Open File to be modified
