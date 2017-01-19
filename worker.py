@@ -13,6 +13,10 @@ root = tree.getroot()
 
 print("THIS d3dLINE THERE")
 
+
+for x in root:
+	print (x.text, x.attrib)
+
 def textMethod(xmlFile):
 	for child in root:
 		for subchild in child:
