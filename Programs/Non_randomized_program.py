@@ -52,8 +52,12 @@ def dateUpdater(xmlFile):
   return dates
   
 
+
+
+  
+'''
 # Randomizer for account Name
-#def accountName(xmlFile):
+def accountName(xmlFile):
   for accountNames in root.iter('accountName'):
     accountName = ["Chase Checking","Wells Fargo Checking", "Merrill Lynch"]
     new_accountName = random.choice(accountName)
@@ -61,14 +65,14 @@ def dateUpdater(xmlFile):
   return accountNames
 
 # Randomly chooses credit of debit between each transaction
-#def baseTypeRandomizer(xmlFile):
+def baseTypeRandomizer(xmlFile):
   for i in root.iter('transaction'):
     baseType = ["credit","debit"]
     i.attrib["baseType"] = random.choice(baseType)
   return i.text
 
 # Randomizer for balance
-#def balanceUpdater(xmlFile):
+def balanceUpdater(xmlFile):
   for balance in root.iter('curAmt'):
     new_balance = round(random.uniform(2000.0, 100000.0), 2)
     balance.text = str(new_balance)
@@ -76,13 +80,13 @@ def dateUpdater(xmlFile):
   return balance
 
 # Randomize amounts for each transaction
-#def transactionAmountUpdater(xmlFile):
+def transactionAmountUpdater(xmlFile):
   # Updates amounts on each transaction
   for amt in root.iter('amount'):
     amount = round(random.uniform(1.0, 10000.0), 2)
     amt.text = str(amount)
   return amount
-
+'''
 
 
 #balanceUpdater(tree)
