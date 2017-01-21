@@ -1,24 +1,33 @@
-import dateutil.parser
+from time import gmtime, strftime
 from datetime import datetime, timedelta
+import dateutil.parser, dateutil.relativedelta
+import xml.etree.ElementTree as ET
+import random
+
 
 now = datetime.now()
-print now
+print(now)
 
-date = now.isoformat()
-print date
+beginDate = now + dateutil.relativedelta.relativedelta(months=-3)
+print(beginDate)
 
-def getDateTimeFromISO8601String(i):
-	d = dateutil.parser.parse(i)
-	return d
+#date = now.isoformat()
+#print date
 
-newDate = getDateTimeFromISO8601String(date)	
+#def getDateTimeFromISO8601String(i):
+#	d = dateutil.parser.parse(i)
+#	return d
+
+#newDate = getDateTimeFromISO8601String(date)	
 
 #newDate = now - timedelta(days=-90)
-print newDate
+#print newDate
 
-changedDate = newDate - timedelta(days=90)
-print changedDate
-print changedDate.isoformat()
+#changedDate = newDate - timedelta(days=90)
+#print changedDate
+#print changedDate.isoformat()
+
+
 
 
 

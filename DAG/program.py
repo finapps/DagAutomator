@@ -3,12 +3,23 @@ from datetime import datetime, timedelta
 import dateutil.parser, dateutil.relativedelta
 import xml.etree.ElementTree as ET
 import random
-
+import copy
 
 
 # Open File to be modified
 tree = ET.parse('user.xml')
 root = tree.getroot()
+
+
+print("THIS LINE THERE")
+
+def duplicate(xmlFile):
+  for c in root.iter('transaction'):
+    dupe = copy.deepcopy(c)
+    break;
+    root.append(dupe)
+  return(ET.tostring(root))
+
 
 # Parser to convert date from ISOFormat to Date Object
 # This allows us to manipulate the date range.
@@ -27,7 +38,7 @@ def dateUpdater(xmlFile):
 		if (rangeDate > beginDate and rangeDate < todayDate):
 			dates.text = str(rangeDate.isoformat())
 		else:
-			testRange = rangeDate + dateutil.relativedelta.relativedelta(months=3)
+			testRange = rangeDate + dateutil.relativedelta.relativedelta(years=1, months=3)
 			dates.text = str(testRange.isoformat())	
 	return dates
 
@@ -70,7 +81,10 @@ transactionAmountUpdater(tree)
 baseTypeRandomizer(tree)
 accountName(tree)
 dateUpdater(tree)
-print(dateUpdater(tree).text)
+#print(dateUpdater(tree).text)
+duplicate(tree)
+
+
 
    
 # Write back to a file
