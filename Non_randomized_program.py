@@ -4,41 +4,56 @@ import dateutil.parser, dateutil.relativedelta
 import xml.etree.ElementTree as ET
 import random
 
-
+# Global Variables
+global updatedDate
 
 # Open File to be modified
 tree = ET.parse('user.xml')
 root = tree
-myArray = []
+datesArray = []
 
 # Parser to convert date from ISOFormat to Date Object
 # This allows us to manipulate the date range.
 def getDateTimeFromISO8601String(i):
-	d = dateutil.parser.parse(i)
-	return d
+  d = dateutil.parser.parse(i)
+  return d
 
-# Checks date and updates if outside 90 day range
-myArray = []
+'''
+ Compare current day with youngest(most recent) transaction date. 
+ Calculate the difference between the two days and update all other transactions
+ exactly that many days.
+'''
 def dateUpdater(xmlFile):
-	for dates in root.iter('transDate'):
-		todayDate = datetime.now()
+  for dates in root.iter('transDate'):
+    originalDate = dates.text
+    todayDate = datetime.now()
+    #Sets the transactions range 3 months
+    #beginDate = todayDate + dateutil.relativedelta.relativedelta(months=-3)
+    transactionDate = getDateTimeFromISO8601String(originalDate)
+    #Add all transactions into an array.
+    datesArray.append(transactionDate)
+    newArray = datesArray
+    #Find the Youngest Date (most recent)
+    youngest = max(dt for dt in newArray if dt < todayDate)
+    updatedDate = abs((todayDate - youngest).days)
+    newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
+    dates.text = str(newDates.isoformat())
+
+    '''
+     *** USE ONLY IF WE WANT TO SET A RANGE AND MOST ALL TRANSACTIONS INTO THAT RANGE ****
     
-		beginDate = todayDate + dateutil.relativedelta.relativedelta(months=-3)
-		originalDate = dates.text
-		transactionDate = getDateTimeFromISO8601String(originalDate)
-    
-		
     if (transactionDate > beginDate and transactionDate < todayDate):
-			dates.text = str(transactionDate.isoformat())
-		else:
-			updatedDate = todayDate + dateutil.relativedelta.relativedelta(months=-1)
-			dates.text = str(updatedDate.isoformat())
-
-	  return dates
-
+      dates.text = str(transactionDate.isoformat())
+    else:
+      updatedDate = abs((todayDate - youngest).days)
+      newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
+      dates.text = str(newDates.isoformat())
+    '''
+  return dates
+  
 
 # Randomizer for account Name
-def accountName(xmlFile):
+#def accountName(xmlFile):
   for accountNames in root.iter('accountName'):
     accountName = ["Chase Checking","Wells Fargo Checking", "Merrill Lynch"]
     new_accountName = random.choice(accountName)
@@ -46,14 +61,14 @@ def accountName(xmlFile):
   return accountNames
 
 # Randomly chooses credit of debit between each transaction
-def baseTypeRandomizer(xmlFile):
+#def baseTypeRandomizer(xmlFile):
   for i in root.iter('transaction'):
     baseType = ["credit","debit"]
     i.attrib["baseType"] = random.choice(baseType)
   return i.text
 
 # Randomizer for balance
-def balanceUpdater(xmlFile):
+#def balanceUpdater(xmlFile):
   for balance in root.iter('curAmt'):
     new_balance = round(random.uniform(2000.0, 100000.0), 2)
     balance.text = str(new_balance)
@@ -61,7 +76,7 @@ def balanceUpdater(xmlFile):
   return balance
 
 # Randomize amounts for each transaction
-def transactionAmountUpdater(xmlFile):
+#def transactionAmountUpdater(xmlFile):
   # Updates amounts on each transaction
   for amt in root.iter('amount'):
     amount = round(random.uniform(1.0, 10000.0), 2)
@@ -74,12 +89,9 @@ def transactionAmountUpdater(xmlFile):
 #transactionAmountUpdater(tree)
 #baseTypeRandomizer(tree)
 #accountName(tree)
-#dateUpdater(tree)
-#youngestDate(tree)
-#print(youngestDate(tree).text)
-print(dateUpdater(tree).text)
-
-
+dateUpdater(tree)
+print("XML File Created")
+#print(newArray)
 
 # Write back to a file
 now = datetime.now()
