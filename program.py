@@ -4,12 +4,13 @@ import dateutil.parser, dateutil.relativedelta
 import xml.etree.ElementTree as ET
 import random
 
-
-
 # Open File to be modified
 tree = ET.parse('user.xml')
 root = tree
 myArray = []
+
+
+#add Transactions
 
 # Parser to convert date from ISOFormat to Date Object
 # This allows us to manipulate the date range.
@@ -68,8 +69,15 @@ def transactionAmountUpdater(xmlFile):
     amt.text = str(amount)
   return amount
 
+#add Transactions
+#def addTransactions(xmlFile):
 
 
+
+
+
+
+<<<<<<< HEAD
 #balanceUpdater(tree)
 #transactionAmountUpdater(tree)
 #baseTypeRandomizer(tree)
@@ -79,9 +87,19 @@ def transactionAmountUpdater(xmlFile):
 #print(youngestDate(tree).text)
 print(dateUpdater(tree).text)
 
+=======
+balanceUpdater(tree)
+transactionAmountUpdater(tree)
+baseTypeRandomizer(tree)
+accountName(tree)
+dateUpdater(tree)
+#addTransactions(tree)
+#print(dateUpdater(tree).text)
+>>>>>>> ed9490106f4d57932dba860bcfcfd4c3f35a9008
 
 
 # Write back to a file
 now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
+tree.write()
 tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
