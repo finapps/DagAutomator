@@ -67,11 +67,7 @@ baseTypeRandomizer(tree)
 accountName(tree)
 dateUpdater(tree)
 
-
-
-
 # Write back to a file
 now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
-tree.write("Randomize Transactions")
 tree.write("Program_Randomize: Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)

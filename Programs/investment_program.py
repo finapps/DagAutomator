@@ -39,11 +39,7 @@ def dateUpdater(xmlFile):
     newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
     dates.text = str(newDates.isoformat())
   return dates
-  
-
-
-
-  
+    
 '''
 # Randomizer for account Name
 def accountName(xmlFile):
@@ -77,16 +73,13 @@ def transactionAmountUpdater(xmlFile):
   return amount
 '''
 
-
 #balanceUpdater(tree)
 #transactionAmountUpdater(tree)
 #baseTypeRandomizer(tree)
 #accountName(tree)
 dateUpdater(tree)
-print("XML File Created")
-#print(newArray)
 
 # Write back to a file
 now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
-tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
+tree.write("Investment Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
