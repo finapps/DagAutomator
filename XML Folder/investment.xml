@@ -177,49 +177,49 @@
         <isRestricted>1</isRestricted>
       </holding>
       <holding uniqueId="955340538" holdingType="stock">
-            <link>http://www.altova.com</link>
-            <description>AMKOR TECHNOLOGIES INC COM</description>
-            <percentageAllocation>100</percentageAllocation>
-            <riskCategory>category</riskCategory>
-            <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
-            <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
-            <employerContribution curCode="USD">3500</employerContribution>
-            <employeeContribution curCode="USD">2000</employeeContribution>
-            <internalReferenceNumber>string</internalReferenceNumber>
-            <symbol>AMKR</symbol>
-            <quantity>250</quantity>
-            <price curCode="USD">6.23</price>
-            <dailyChange curCode="USD">115</dailyChange>
-            <value curCode="USD">1557.5</value>
-            <cusipNumber>74300183</cusipNumber>
-            <isShort>1</isShort>
-            <percentageChange>1</percentageChange>
-            <costBasis curCode="USD">1250</costBasis>
-            <isMarginable>1</isMarginable>
-            <isRestricted>1</isRestricted>
-        </holding>
+        <link>http://www.altova.com</link>
+        <description>AMKOR TECHNOLOGIES INC COM</description>
+        <percentageAllocation>100</percentageAllocation>
+        <riskCategory>category</riskCategory>
+        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+        <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+        <employerContribution curCode="USD">3500</employerContribution>
+        <employeeContribution curCode="USD">2000</employeeContribution>
+        <internalReferenceNumber>string</internalReferenceNumber>
+        <symbol>AMKR</symbol>
+        <quantity>250</quantity>
+        <price curCode="USD">6.23</price>
+        <dailyChange curCode="USD">115</dailyChange>
+        <value curCode="USD">1557.5</value>
+        <cusipNumber>74300183</cusipNumber>
+        <isShort>1</isShort>
+        <percentageChange>1</percentageChange>
+        <costBasis curCode="USD">1250</costBasis>
+        <isMarginable>1</isMarginable>
+        <isRestricted>1</isRestricted>
+      </holding>
       <holding uniqueId="955340539" holdingType="stock">
-            <link>http://www.altova.com</link>
-            <description>JDS UNIPHASE CORP COM</description>
-            <percentageAllocation>100</percentageAllocation>
-            <riskCategory>category</riskCategory>
-            <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
-            <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
-            <employerContribution curCode="USD">3500</employerContribution>
-            <employeeContribution curCode="USD">2000</employeeContribution>
-            <internalReferenceNumber>string</internalReferenceNumber>
-            <symbol>JDSU</symbol>
-            <quantity>18</quantity>
-            <price curCode="USD">13.93</price>
-            <dailyChange curCode="USD">115</dailyChange>
-            <value curCode="USD">250.74</value>
-            <cusipNumber>74300183</cusipNumber>
-            <isShort>1</isShort>
-            <percentageChange>1</percentageChange>
-            <costBasis curCode="USD">375.00</costBasis>
-            <isMarginable>1</isMarginable>
-            <isRestricted>1</isRestricted>
-        </holding>
+        <link>http://www.altova.com</link>
+        <description>JDS UNIPHASE CORP COM</description>
+        <percentageAllocation>100</percentageAllocation>
+        <riskCategory>category</riskCategory>
+        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+        <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+        <employerContribution curCode="USD">3500</employerContribution>
+        <employeeContribution curCode="USD">2000</employeeContribution>
+        <internalReferenceNumber>string</internalReferenceNumber>
+        <symbol>JDSU</symbol>
+        <quantity>18</quantity>
+        <price curCode="USD">13.93</price>
+        <dailyChange curCode="USD">115</dailyChange>
+        <value curCode="USD">250.74</value>
+        <cusipNumber>74300183</cusipNumber>
+        <isShort>1</isShort>
+        <percentageChange>1</percentageChange>
+        <costBasis curCode="USD">375.00</costBasis>
+        <isMarginable>1</isMarginable>
+        <isRestricted>1</isRestricted>
+      </holding>
       <holding uniqueId="791746161" holdingType="mutualFund">
         <link>http://www.altova.com</link>
         <description>Morgan Stanley Focus Growth Fund Class A</description>
@@ -246,108 +246,93 @@
         <costBasis curCode="USD">10000</costBasis>
         <percentageChange>1</percentageChange>
       </holding>
-      <holding uniqueId="733540555" holdingType="bond">
-        <link>http://www.altova.com</link>
-        <description>VanguardBondLimitedIndex</description>
+      <holding uniqueId="955340539" holdingType="stock">
+        <link>http://www.cocacola.com</link>
+        <description>Coca-Cola Company</description>
         <percentageAllocation>100</percentageAllocation>
-        <riskCategory>Moderate</riskCategory>
-        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-10-31T00:00:00</mostRecentContributionDate>
-        <mostRecentContributionAmount curCode="USD">5000</mostRecentContributionAmount>
-        <employerContribution curCode="USD">2700</employerContribution>
-        <employeeContribution curCode="USD">2300</employeeContribution>
+        <riskCategory>category</riskCategory>
+        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+        <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+        <employerContribution curCode="USD">3500</employerContribution>
+        <employeeContribution curCode="USD">2000</employeeContribution>
         <internalReferenceNumber>string</internalReferenceNumber>
-        <quantity>714</quantity>
-        <price curCode="USD">7.00</price>
-        <dailyChange curCode="USD">7.05</dailyChange>
-        <value curCode="USD">5030</value>
-        <cusipNumber>33447711</cusipNumber>
-        <moodyRating>AA rating</moodyRating>
-        <spRating>sprating</spRating>
-        <parValue curCode="USD">2500</parValue>
-        <maturityDate localFormat="yyyy-MM-dd">2016-10-15T00:00:00</maturityDate>
-        <couponRate>2000</couponRate>
-        <nextCouponDate localFormat="yyyy-MM-dd">2016-10-15T00:00:00</nextCouponDate>
-        <couponFrequency>other</couponFrequency>
-        <callPrice curCode="USD">2500</callPrice>
-        <yieldToCall>2000</yieldToCall>
-        <nextCallDate localFormat="yyyy-MM-dd">2016-10-10T00:00:00</nextCallDate>
-        <callType>other</callType>
-        <yieldToMaturity>2400</yieldToMaturity>
-        <assetClass>domesticBond</assetClass>
-        <FIAssetClass>FIAssetClass</FIAssetClass>
-        <percentageChange>2000</percentageChange>
-        <costBasis curCode="USD">3500</costBasis>
-        <currentYield>2300</currentYield>
-        <nominalYield>2700</nominalYield>
+        <symbol>KO</symbol>
+        <quantity>18</quantity>
+        <price curCode="USD">13.93</price>
+        <dailyChange curCode="USD">115</dailyChange>
+        <value curCode="USD">250.74</value>
+        <cusipNumber>74300183</cusipNumber>
+        <isShort>1</isShort>
+        <percentageChange>1</percentageChange>
+        <costBasis curCode="USD">375.00</costBasis>
+        <isMarginable>1</isMarginable>
+        <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="505606303" holdingType="CD">
+      <holding uniqueId="955340539" holdingType="stock">
         <link>http://www.altova.com</link>
-        <description>Traditional CD</description>
-        <percentageAllocation>2000</percentageAllocation>
-        <riskCategory>CDRisk</riskCategory>
-        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-10-11T00:00:00</mostRecentContributionDate>
-        <mostRecentContributionAmount curCode="USD">16500</mostRecentContributionAmount>
-        <employerContribution curCode="USD">10000</employerContribution>
-        <employeeContribution curCode="USD">6500</employeeContribution>
-        <internalReferenceNumber>string</internalReferenceNumber>
-        <term>bondterm</term>
-        <faceValue curCode="USD">16665</faceValue>
-        <interestRate>1</interestRate>
-        <maturityDate localFormat="yyyy-MM-dd">2016-10-17T00:00:00</maturityDate>
-        <daysRemaining>18</daysRemaining>
-      </holding>
-      <holding uniqueId="35460187" holdingType="moneyMarketFund">
-        <link>http://www.altova.com</link>
-        <description>FDIC INSURED DEPOSIT ACCOUNT</description>
+        <description>Procter and Gamble</description>
         <percentageAllocation>100</percentageAllocation>
-        <riskCategory>12</riskCategory>
-        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-10-03T00:00:00</mostRecentContributionDate>
-        <mostRecentContributionAmount curCode="USD">6700</mostRecentContributionAmount>
-        <employerContribution curCode="USD">8700</employerContribution>
-        <employeeContribution curCode="USD">8000</employeeContribution>
-        <internalReferenceNumber>345177</internalReferenceNumber>
-        <symbol>VMMXX</symbol>
-        <quantity>5700</quantity>
-        <price curCode="USD">1.00</price>
-        <dailyChange curCode="USD">1.00</dailyChange>
-        <value curCode="USD">6700</value>
-        <cusipNumber>64529847</cusipNumber>
-        <moneyMarketFundNumber>76548</moneyMarketFundNumber>
-      </holding>
-      <holding uniqueId="12348765" holdingType="currency">
-        <link>http://www.altova.com</link>
-        <description>currency</description>
-        <percentageAllocation>10</percentageAllocation>
-        <riskCategory>currency</riskCategory>
-        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-09-19T00:00:00</mostRecentContributionDate>
-        <mostRecentContributionAmount curCode="USD">6000</mostRecentContributionAmount>
-        <employerContribution curCode="USD">3750</employerContribution>
-        <employeeContribution curCode="USD">2250</employeeContribution>
+        <riskCategory>category</riskCategory>
+        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+        <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+        <employerContribution curCode="USD">3500</employerContribution>
+        <employeeContribution curCode="USD">2000</employeeContribution>
         <internalReferenceNumber>string</internalReferenceNumber>
-        <currencyType>currency</currencyType>
-        <quantity>7340</quantity>
-        <price curCode="USD">1.00</price>
-        <value curCode="USD">7340</value>
-        <dailyChange curCode="USD">1.00</dailyChange>
-        <percentageChange>100</percentageChange>
-        <costBasis curCode="USD">253</costBasis>
+        <symbol>PG</symbol>
+        <quantity>18</quantity>
+        <price curCode="USD">13.93</price>
+        <dailyChange curCode="USD">115</dailyChange>
+        <value curCode="USD">250.74</value>
+        <cusipNumber>74300183</cusipNumber>
+        <isShort>1</isShort>
+        <percentageChange>1</percentageChange>
+        <costBasis curCode="USD">375.00</costBasis>
+        <isMarginable>1</isMarginable>
+        <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="9453250" holdingType="commodity">
+      <holding uniqueId="955340539" holdingType="stock">
+        <link>http://www.google.com</link>
+        <description>Google</description>
+        <percentageAllocation>100</percentageAllocation>
+        <riskCategory>category</riskCategory>
+        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+        <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+        <employerContribution curCode="USD">3500</employerContribution>
+        <employeeContribution curCode="USD">2000</employeeContribution>
+        <internalReferenceNumber>string</internalReferenceNumber>
+        <symbol>GOOGL</symbol>
+        <quantity>18</quantity>
+        <price curCode="USD">13.93</price>
+        <dailyChange curCode="USD">115</dailyChange>
+        <value curCode="USD">250.74</value>
+        <cusipNumber>74300183</cusipNumber>
+        <isShort>1</isShort>
+        <percentageChange>1</percentageChange>
+        <costBasis curCode="USD">375.00</costBasis>
+        <isMarginable>1</isMarginable>
+        <isRestricted>1</isRestricted>
+      </holding>
+      <holding uniqueId="955340539" holdingType="stock">
         <link>http://www.altova.com</link>
-        <description>Commodity</description>
-        <percentageAllocation>10</percentageAllocation>
-        <riskCategory>commodity</riskCategory>
-        <mostRecentContributionDate>2016-09-07T00:00:00</mostRecentContributionDate>
-        <mostRecentContributionAmount curCode="USD">6000</mostRecentContributionAmount>
-        <employerContribution curCode="USD">3750</employerContribution>
-        <employeeContribution curCode="USD">2250</employeeContribution>
-        <internalReferenceNumber>7734</internalReferenceNumber>
-        <commodityType>Crude Oil</commodityType>
-        <cusipNumber>12345678</cusipNumber>
-        <contractQuantity>111.11</contractQuantity>
-        <price curCode="USD">54</price>
-        <value curCode="USD">4500</value>
-        <costBasis curCode="USD">2700</costBasis>
+        <description>Intel</description>
+        <percentageAllocation>100</percentageAllocation>
+        <riskCategory>category</riskCategory>
+        <mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+        <mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+        <employerContribution curCode="USD">3500</employerContribution>
+        <employeeContribution curCode="USD">2000</employeeContribution>
+        <internalReferenceNumber>string</internalReferenceNumber>
+        <symbol>INTC</symbol>
+        <quantity>18</quantity>
+        <price curCode="USD">13.93</price>
+        <dailyChange curCode="USD">115</dailyChange>
+        <value curCode="USD">250.74</value>
+        <cusipNumber>74300183</cusipNumber>
+        <isShort>1</isShort>
+        <percentageChange>1</percentageChange>
+        <costBasis curCode="USD">375.00</costBasis>
+        <isMarginable>1</isMarginable>
+        <isRestricted>1</isRestricted>
       </holding>
     </holdingList>
   </investmentAccount>
