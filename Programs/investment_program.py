@@ -58,6 +58,7 @@ def balanceSumModule(xmlFile):
         total_balance = balanceArray
         final_balance = str(sum(total_balance))
         print("Total Balance:" + str(final_balance))
+
     #Update balance 
     for node in tree.iter('balance'):
         balType = node.attrib.get('balType')
