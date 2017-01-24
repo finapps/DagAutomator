@@ -90,7 +90,7 @@
         <amount curCode="USD">1185</amount>
         <date localFormat="yyyy-MM-dd">2016-02-01T00:00:00</date>
         <settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
-        <symbol>VIIFLG</symbol>
+        <symbol>TSLA</symbol>
         <description>DEPOSIT</description>
         <quantity>50</quantity>
         <price curCode="USD">17.23</price>
@@ -230,7 +230,7 @@
         <employerContribution curCode="USD">2300</employerContribution>
         <employeeContribution curCode="USD">1200</employeeContribution>
         <internalReferenceNumber>string</internalReferenceNumber>
-        <symbol>AMOAX</symbol>
+        <symbol>PTTRX</symbol>
         <quantity>525</quantity>
         <price curCode="USD">26.73</price>
         <dailyChange curCode="USD">6.70</dailyChange>

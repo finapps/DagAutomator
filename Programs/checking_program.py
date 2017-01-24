@@ -38,6 +38,7 @@ def dateUpdater(xmlFile):
     updatedDate = abs((todayDate - youngest).days)
     newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
     dates.text = str(newDates.isoformat())
+    print(updatedDate)
 
     '''
      *** USE ONLY IF WE WANT TO SET A RANGE AND MOST ALL TRANSACTIONS INTO THAT RANGE ****
@@ -49,7 +50,7 @@ def dateUpdater(xmlFile):
       newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
       dates.text = str(newDates.isoformat())
     '''
-  return dates
+    return dates
   
 
 
@@ -99,4 +100,4 @@ dateUpdater(tree)
 # Write back to a file
 now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
-tree.write("Checking Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
+tree.write(str(actual_time) + "Checking Dag Account.xml", xml_declaration=True)
