@@ -1,6 +1,7 @@
+<?xml version='1.0' encoding='us-ascii'?>
 <site>
   <status>0</status>
-  <investmentAccount uniqueId="9191111" uniqueIdModified="1" acctType="401k">
+  <investmentAccount acctType="401k" uniqueId="9191111" uniqueIdModified="1">
     <link>http://www.altova.com</link>
     <accountNumber>9791018</accountNumber>
     <accountName>Vanguard</accountName>
@@ -8,7 +9,7 @@
     <isMarginTradingAllowed>1</isMarginTradingAllowed>
     <isOptionTradingAllowed>1</isOptionTradingAllowed>
     <accountCurrency>string</accountCurrency>
-    <accountEquityPercentage></accountEquityPercentage>
+    <accountEquityPercentage />
     <personInformationId>
       <name>
         <title>Mr.</title>
@@ -56,7 +57,7 @@
     <planName>Vanguard 401K plan</planName>
     <asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
     <balance balType="totalBalance">
-      <curAmt curCode="USD">10456</curAmt>
+      <curAmt curCode="USD">32371.3</curAmt>
     </balance>
     <balance balType="totalVestedBalance">
       <curAmt curCode="USD">65456</curAmt>
@@ -83,12 +84,12 @@
       <curAmt curCode="USD">1500</curAmt>
     </balance>
     <transactionList>
-      <transaction  type="buy" uniqueId="102186709" uniqueIdModified="1">
+      <transaction type="buy" uniqueId="102186709" uniqueIdModified="1">
         <link>http://www.altova.com</link>
         <transactionId>958120</transactionId>
         <description>buy Growth Index Fund shares</description>
         <amount curCode="USD">1185</amount>
-        <date localFormat="yyyy-MM-dd">2016-02-01T00:00:00</date>
+        <date localFormat="yyyy-MM-dd">2017-01-24T00:00:00</date>
         <settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
         <symbol>TSLA</symbol>
         <description>DEPOSIT</description>
@@ -106,7 +107,7 @@
         <referredAccountType>unknown</referredAccountType>
         <confirmationNumber>7542</confirmationNumber>
       </transaction>
-      <transaction  type="sell" uniqueId="00013552" uniqueIdModified="1">
+      <transaction type="sell" uniqueId="00013552" uniqueIdModified="1">
         <link>http://www.altova.com</link>
         <transactionId>357369</transactionId>
         <description>Sold shares of WindsorII</description>
@@ -129,7 +130,7 @@
         <referredAccountType>unknown</referredAccountType>
         <confirmationNumber>60023</confirmationNumber>
       </transaction>
-      <transaction  type="loanPayment" uniqueId="0002176767" uniqueIdModified="1">
+      <transaction type="loanPayment" uniqueId="0002176767" uniqueIdModified="1">
         <link>http://www.altova.com</link>
         <transactionId>124836</transactionId>
         <description>DIVIDEND DISTRIBUTION</description>
@@ -154,7 +155,7 @@
       </transaction>
     </transactionList>
     <holdingList>
-      <holding uniqueId="955340537" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340537">
         <link>http://www.altova.com</link>
         <description>Microsoft Corporation</description>
         <percentageAllocation>100</percentageAllocation>
@@ -176,7 +177,7 @@
         <isMarginable>1</isMarginable>
         <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="955340538" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340538">
         <link>http://www.altova.com</link>
         <description>AMKOR TECHNOLOGIES INC COM</description>
         <percentageAllocation>100</percentageAllocation>
@@ -198,7 +199,7 @@
         <isMarginable>1</isMarginable>
         <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="955340539" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340539">
         <link>http://www.altova.com</link>
         <description>JDS UNIPHASE CORP COM</description>
         <percentageAllocation>100</percentageAllocation>
@@ -220,7 +221,7 @@
         <isMarginable>1</isMarginable>
         <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="791746161" holdingType="mutualFund">
+      <holding holdingType="mutualFund" uniqueId="791746161">
         <link>http://www.altova.com</link>
         <description>Morgan Stanley Focus Growth Fund Class A</description>
         <percentageAllocation>100</percentageAllocation>
@@ -246,7 +247,7 @@
         <costBasis curCode="USD">10000</costBasis>
         <percentageChange>1</percentageChange>
       </holding>
-      <holding uniqueId="955340539" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340539">
         <link>http://www.cocacola.com</link>
         <description>Coca-Cola Company</description>
         <percentageAllocation>100</percentageAllocation>
@@ -268,7 +269,7 @@
         <isMarginable>1</isMarginable>
         <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="955340539" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340539">
         <link>http://www.altova.com</link>
         <description>Procter and Gamble</description>
         <percentageAllocation>100</percentageAllocation>
@@ -290,7 +291,7 @@
         <isMarginable>1</isMarginable>
         <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="955340539" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340539">
         <link>http://www.google.com</link>
         <description>Google</description>
         <percentageAllocation>100</percentageAllocation>
@@ -312,7 +313,7 @@
         <isMarginable>1</isMarginable>
         <isRestricted>1</isRestricted>
       </holding>
-      <holding uniqueId="955340539" holdingType="stock">
+      <holding holdingType="stock" uniqueId="955340539">
         <link>http://www.altova.com</link>
         <description>Intel</description>
         <percentageAllocation>100</percentageAllocation>

@@ -19,7 +19,7 @@ def getDateTimeFromISO8601String(i):
     d = dateutil.parser.parse(i)
     return d
 '''
- Compare current day with youngest(most recent) transaction date. 
+ Compare current day with youngest(most recent) transaction date.
  Calculate the difference between the two days and update all other transactions
  exactly that many days.
 '''
@@ -38,12 +38,12 @@ def dateUpdater(xmlFile):
     updatedDate = abs((todayDate - youngest).days)
     newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
     dates.text = str(newDates.isoformat())
-    # * Uncomment to Test 
+    # * Uncomment to Test
     #testModule(updatedDate, youngest, todayDate)
     return dates
 
 def balanceSumModule(xmlFile):
-    transactions = tree.iter('transaction')
+    transactions = tree.iter('holding')
     for value in transactions:
         symbol = value.find('symbol').text
         quantity = float(value.find('quantity').text)
@@ -51,14 +51,14 @@ def balanceSumModule(xmlFile):
         resp_dict = json.loads(tickerData)
         lastPrice = resp_dict[0]['LastTradePrice']
         quantityPrice = float(lastPrice)
-        print(quantity, symbol, quantityPrice) 
+        print(quantity, symbol, quantityPrice)
         individual_balance = quantity * quantityPrice
         print(individual_balance)
         balanceArray.append(individual_balance)
         total_balance = balanceArray
         final_balance = str(sum(total_balance))
         print("Total Balance:" + str(final_balance))
-    #Update balance 
+    #Update balance
     for node in tree.iter('balance'):
         balType = node.attrib.get('balType')
         if balType == 'totalBalance':
