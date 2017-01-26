@@ -8,7 +8,7 @@ import random
 global updatedDate
 
 # Open File to be modified
-tree = ET.parse('MAV_Case1.xml')
+tree = ET.parse('MAV_Case3.xml')
 root = tree
 datesArray = []
 postDateArray = []
@@ -41,7 +41,7 @@ def transDateUpdater(xmlFile):
     dates.text = str(newDates.isoformat())
 
     '''
-     *** USE ONLY IF WE WANT TO 0SET A RANGE AND MOST ALL TRANSACTIONS INTO THAT RANGE ****
+     *** USE ONLY IF WE WANT TO SET A RANGE AND MOST ALL TRANSACTIONS INTO THAT RANGE ****
     
     if (transactionDate > beginDate and transactionDate < todayDate):
       dates.text = str(transactionDate.isoformat())
@@ -50,44 +50,35 @@ def transDateUpdater(xmlFile):
       newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
       dates.text = str(newDates.isoformat())
     '''
-  print("Youngest " + str(youngest))
-  print("Updated Date " + str(updatedDate))
-  print("New Date " + str(newDates))
   return dates
 
-# def postDateUpdater(xmlFile):
-#     for postDates in root.findall('transaction'):
-#       postDate = postDates.find('postDate').text
-#       transDate = postDates.find('transDate').text
-#       if postDates is None:
-#         transDate = postDates
-#         originalDate = transDate
-#         todayDate = datetime.now()
-#         transactionDate = getDateTimeFromISO8601String(originalDate)
-#         #Add all transactions into an array.
-#         postDateArray.append(transactionDate)
-#         postNewArray = postDateArray
-#         #Find the Youngest Date (most recent)
-#         youngest = max(dt for dt in postDateArray if dt < todayDate)
-#         updatedDate = abs((todayDate - youngest).days)
-#         newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
-#         postDates.text = str(newDates.isoformat())
-#       else:
-#         originalDate = postDates
-#         todayDate = datetime.now()
-#         transactionDate = getDateTimeFromISO8601String(originalDate)
-#         #Add all transactions into an array.
-#         postDateArray.append(transactionDate)
-#         postNewArray = postDateArray
-#         #Find the Youngest Date (most recent)
-#         youngest = max(dt for dt in postDateArray if dt < todayDate)
-#         updatedDate = abs((todayDate - youngest).days)
-#         newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
-#         postDates.text = str(newDates.isoformat())
+def postDateUpdater(xmlFile):
+    for postDates in root.iter('postDate'):
+      originalDate = postDates.text
+      todayDate = datetime.now()
+      #Sets the transactions range 3 months
+      #beginDate = todayDate + dateutil.relativedelta.relativedelta(months=-3)
+      transactionDate = getDateTimeFromISO8601String(originalDate)
+      #Add all transactions into an array.
+      postDateArray.append(transactionDate)
+      postNewArray = postDateArray
+      #Find the Youngest Date (most recent)
+      youngest = max(dt for dt in postDateArray if dt < todayDate)
+      updatedDate = abs((todayDate - youngest).days)
+      newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
+      postDates.text = str(newDates.isoformat())
 
-
+      '''
+       *** USE ONLY IF WE WANT TO SET A RANGE AND MOST ALL TRANSACTIONS INTO THAT RANGE ****
       
-#     return postDates
+      if (transactionDate > beginDate and transactionDate < todayDate):
+        dates.text = str(transactionDate.isoformat())
+      else:
+        updatedDate = abs((todayDate - youngest).days)
+        newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
+        dates.text = str(newDates.isoformat())
+      '''
+    return postDates
   
 
 
@@ -128,7 +119,7 @@ def transactionAmountUpdater(xmlFile):
 #transactionAmountUpdater(tree)
 #baseTypeRandomizer(tree)
 #accountName(tree)
-#postDateUpdater(tree)
+postDateUpdater(tree)
 transDateUpdater(tree)
 print("XML File Created")
 #print(newArray)

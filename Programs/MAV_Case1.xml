@@ -1,0 +1,58 @@
+<site>
+    <status>0</status>
+    <bankAccount uniqueId="21232423" acctType="checking">
+        <accountName>IQ Bank Checking</accountName>
+        <accountNumber>XXX-XXX0118</accountNumber>
+        <accountHolder>Mike Matas</accountHolder>
+        <balance balType="availableBalance">
+            <curAmt curCode="USD">20113.42</curAmt>
+        </balance>
+        <balance balType="currentBalance">
+            <curAmt curCode="USD">20113.42</curAmt>
+        </balance>
+        <transactionList>
+            <transaction uniqueId="00001260" type="deposit" baseType="credit">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2017-01-14T00:00:00</transDate>
+                <postDate localFormat="yyyy-MM-dd">2016-11-18T00:00:00</postDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+            <transaction uniqueId="100001260" type="deposit" baseType="credit">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2017-01-20T00:00:00</transDate>
+                <postDate localFormat="yyyy-MM-dd">2016-12-02T00:00:00</postDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>           
+            <transaction uniqueId="157" baseType="debit" type="debit">
+                <description>CHECK CARD PURCHASE AMAZON DIGITAL SVCS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">23.43</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-15T00:00:00</transDate>
+            </transaction>
+            <transaction uniqueId="154" baseType="debit" type="debit">
+                <description>CHECK CARD PURCHASE SMOKEY BONES 7533 PLANTATION FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">17.41</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-06T00:00:00</transDate>
+            </transaction>
+            <transaction uniqueId="152" baseType="debit" type="debit">
+                <description>CHECK CRD PURCHASE VESTA *BOOST PREP 888-440-9958 OR</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">28.17</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-03T00:00:00</transDate>
+            </transaction>
+        </transactionList>
+    </bankAccount>
+</site>
