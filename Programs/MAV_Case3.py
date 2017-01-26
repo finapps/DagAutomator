@@ -8,7 +8,7 @@ import random
 global updatedDate
 
 # Open File to be modified
-tree = ET.parse('user.xml')
+tree = ET.parse('MAV_Case3.xml')
 root = tree
 datesArray = []
 
@@ -38,19 +38,9 @@ def dateUpdater(xmlFile):
         updatedDate = abs((todayDate - youngest).days)
         newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
         dates.text = str(newDates.isoformat())
-    print(newArray)
+        #print(originalDate)
 
-    '''
-     *** USE ONLY IF WE WANT TO SET A RANGE AND MOST ALL TRANSACTIONS INTO THAT RANGE ****
-
-    if (transactionDate > beginDate and transactionDate < todayDate):
-      dates.text = str(transactionDate.isoformat())
-    else:
-      updatedDate = abs((todayDate - youngest).days)
-      newDates = transactionDate + dateutil.relativedelta.relativedelta(days=updatedDate)
-      dates.text = str(newDates.isoformat())
-    '''
-   return dates
+    return dates
 
 
 
@@ -100,4 +90,4 @@ dateUpdater(tree)
 # Write back to a file
 now = datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
-tree.write(str(actual_time) + " Checking Dag Account.xml", xml_declaration=True)
+tree.write("MAV_Case3.xml " + str(actual_time) + ".xml", xml_declaration = True)
