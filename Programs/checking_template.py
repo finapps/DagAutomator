@@ -8,7 +8,7 @@ import random
 global updatedDate
 
 # Open File to be modified
-tree = ET.parse('MAV_Case3.xml')
+tree = ET.parse('NoPostDateNEIL.xml')
 datesArray = []
 
 
@@ -19,22 +19,9 @@ def getDateTimeFromISO8601String(i):
   d = dateutil.parser.parse(i)
   return d
 
-def oldPostDate(xmlFile):
-    transactions = tree.iter('transaction')
-    for transaction in transactions:
-        postDate = transaction.find('postDate').text
-        #print(postDate)
-        transactionDate = getDateTimeFromISO8601String(postDate)
-        #print(transactionDate)
-        datesArray.append(transactionDate)
-        #print(datesArray)
-        newArray = datesArray
-        #print(newArray)
-        #dateArray = list(newArray)
-    #print(dateArray)
-    return newArray
 
-def oldTransDate(xmlFile):
+
+def oldDate(xmlFile):
     transactions = tree.iter('transaction')
     for transaction in transactions:
         transDate = transaction.find('transDate').text
@@ -49,7 +36,7 @@ def oldTransDate(xmlFile):
     #print(dateArray)
     return newArray
 
-def newPostDate(newArray):
+def newDate(newArray):
     newDateArray = []
     for date in newArray:
         #print(date)
@@ -57,23 +44,6 @@ def newPostDate(newArray):
         #print(youngest_date)
         todayDate = datetime.now()
         dateDiff = abs((todayDate - youngest_date).days)
-        #print(dateDiff)
-        newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
-        #print(newDate)
-        date = str(newDate.isoformat())
-        newDateArray.append(date)
-        #print(newDateArray)
-    return newDateArray
-
-def newTransDate(newArray):
-    newDateArray = []
-    for date in newArray:
-        #print(date)
-        youngest_date = max(newArray)
-        #print(youngest_date)
-        todayDate = datetime.now()
-        dateDiff = abs((todayDate - youngest_date).days)
-        #print(dateDiff)
         newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
         #print(newDate)
         date = str(newDate.isoformat())
@@ -90,28 +60,19 @@ def updateXML(xmlFile):
     #     print(dateObj)
     #     break
     #print(xmlFile)
-    originalTransDatesArr = oldTransDate(xmlFile)
-    #print(originalTransDatesArr)
-    adjustedTransDatesArr = newTransDate(originalTransDatesArr)
-    
-
-    #print(adjustedTransDatesArr)
+    originalDatesArr = oldDate(xmlFile)
+    #print(originalDatesArr)
+    adjustedDatesArr = newDate(originalDatesArr)
+    #print(adjustedDatesArr)
     #transactions = xmlFile.iter('transDate')
     #for transaction in transactions:
-    try:
-        originalPostDatesArr = oldPostDate(xmlFile)
-        adjustedPostDatesArr = newPostDate(originalPostDatesArr)
-    except:
-        print("Error")
-
-    for num in range(0, len(originalTransDatesArr)):
+    transDates = xmlFile.findall('.//transDate')
+    for num in range(0, len(transDates)):
         #print(transDates[0])
         #transDate = transaction.find('transDate')
         #print("Original Value " + str(transDates[num].text))
         #print("New Value " + str(adjustedDatesArr[num]))
-        print(originalTransDatesArr)
-        originalTransDatesArr[num] = adjustedTransDatesArr[num]
-
+        transDates[num].text = adjustedDatesArr[num]
         #print("Final Value " + str(transDates[num].text))
         
 
@@ -120,7 +81,8 @@ def updateXML(xmlFile):
 
 
     #Write back to a file
-    print("XMl Generated")
+    print("XML Generated")
+    print(dateDiff)
     now = datetime.now()
     actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
     xmlFile.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)

@@ -6,9 +6,10 @@ import random
 
 # Global Variables
 global updatedDate
+global dateDiff
 
 # Open File to be modified
-tree = ET.parse('MAV_Case3.xml')
+tree = ET.parse('master_securebank_1.xml')
 datesArray = []
 
 
@@ -44,7 +45,7 @@ def newDate(newArray):
         #print(youngest_date)
         todayDate = datetime.now()
         dateDiff = abs((todayDate - youngest_date).days)
-        #print(dateDiff)
+        #print(dateDiff)    
         newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
         #print(newDate)
         date = str(newDate.isoformat())
@@ -75,19 +76,23 @@ def updateXML(xmlFile):
         #print("New Value " + str(adjustedDatesArr[num]))
         transDates[num].text = adjustedDatesArr[num]
         #print("Final Value " + str(transDates[num].text))
-        
-
     
 
-
-
     #Write back to a file
-    print("XMl Generated")
+    print("XML Generated")
+
     now = datetime.now()
-    actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
-    xmlFile.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
+    actual_time = str(now.strftime("%Y-%m-%d"))
+    xmlFile.write(str(actual_time) + "_securebank_1.xml", xml_declaration=True)
 
     return None
+
+    def testModule(dayDiff, youngest, today):
+        print ("\nToday's Date: " + str(today) + "\n")
+        print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+        print ("Day Difference: " + str(dayDiff) + "\n")
+        return (dayDiff, youngest, today)
+
 #tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
 #newDateArray[oldDate]
 #print(newDateArray)
@@ -96,7 +101,6 @@ def updateXML(xmlFile):
 
 #Update XMLFile
 updateXML(tree)
-
 
 
 # for date in newDateArray: 
