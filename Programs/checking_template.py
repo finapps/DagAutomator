@@ -8,7 +8,7 @@ import random
 global updatedDate
 
 # Open File to be modified
-tree = ET.parse('MAV_Case3.xml')
+tree = ET.parse('NoPostDateNEIL.xml')
 datesArray = []
 
 
@@ -44,7 +44,6 @@ def newDate(newArray):
         #print(youngest_date)
         todayDate = datetime.now()
         dateDiff = abs((todayDate - youngest_date).days)
-        #print(dateDiff)
         newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
         #print(newDate)
         date = str(newDate.isoformat())
@@ -82,7 +81,8 @@ def updateXML(xmlFile):
 
 
     #Write back to a file
-    print("XMl Generated")
+    print("XML Generated")
+    print(dateDiff)
     now = datetime.now()
     actual_time = str(now.strftime("%Y-%m-%d-%H-%M-%S"))
     xmlFile.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
