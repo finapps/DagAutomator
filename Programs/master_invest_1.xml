@@ -89,7 +89,7 @@
                 <transactionId>958120</transactionId>
                 <description>buy Growth Index Fund shares</description>
                 <amount curCode="USD">1185</amount>
-                <date localFormat="yyyy-MM-dd">2016-02-01T00:00:00</date>
+                <date localFormat="yyyy-MM-dd">2017-01-15T00:00:00</date>
                 <settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
                 <symbol>VIIFLG</symbol>
                 <description>DEPOSIT</description>

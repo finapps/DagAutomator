@@ -9,7 +9,7 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('master_checking_1.xml')
+tree = ET.parse('master_securebank_1.xml')
 datesArray = []
 
 
@@ -83,18 +83,62 @@ def updateXML(xmlFile):
 
     now = datetime.now()
     actual_time = str(now.strftime("%Y-%m-%d"))
-    xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
+    xmlFile.write(str(actual_time) + "_securebank_1.xml", xml_declaration=True)
 
     return None
 
-def testModule(dayDiff, youngest, today):
-    print ("\nToday's Date: " + str(today) + "\n")
-    print ("Most Recent Transaction Date: " + str(youngest) + "\n")
-    print ("Day Difference: " + str(dayDiff) + "\n")
-    return (dayDiff, youngest, today)
+    def testModule(dayDiff, youngest, today):
+        print ("\nToday's Date: " + str(today) + "\n")
+        print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+        print ("Day Difference: " + str(dayDiff) + "\n")
+        return (dayDiff, youngest, today)
+
+#tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
+#newDateArray[oldDate]
+#print(newDateArray)
+#Replace Old Date value with new Date Value
+#tree[oldDate] = newDateArray[oldDate]
 
 #Update XMLFile
 updateXML(tree)
 
+
+# for date in newDateArray: 
+#     updatedDate = date # newDateArray[0]
+    
+#     node.text = updatedDate # newDateArray[0]
+
+# print(updatedDate) # newDateArray.last()
+
+# for node in tree.findall('.//transDate'):      
+#     node.text = date # Please note it has to be str '2015', not int like 2015
+#     #print(node.text)
+#return None
+
+
+#postTest(tree)
+#balanceUpdater(tree)
+#transactionAmountUpdater(tree)
+#baseTypeRandomizer(tree)
+#accountName(tree)
+# postDateUpdater(tree)
+#transDateUpdater(tree)
+#print("XML File Created")
+#print(newArray)
+#updateXML(newDate(oldDate(tree)))
+#newDate(oldDate(tree))
+#oldDate(newDate(tree))
+
+#finalDates = transUpdater(dateGetter(tree))
+#dateGetter(dateArray)
+
+
+#return
+
+# for num in range(0, len(tree.findall('.//transDate'))):
+#     print(num)
+#     print(tree.findall('.//transDate')[num].text)
+#     tree.findall('.//transDate')[num].text = newDateArray[num]
+#     print(tree.findall('.//transDate')[num].text)
 
 

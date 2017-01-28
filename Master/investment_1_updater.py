@@ -73,11 +73,7 @@ def updateXML(xmlFile):
     
     
     #Write back to a file
-    print("Generating Investment XML...")
-
-# now = datetime.now()
-#     actual_time = str(now.strftime("%Y-%m-%d"))
-#     xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
+    print("XML Generated")
     
     return transDates
 

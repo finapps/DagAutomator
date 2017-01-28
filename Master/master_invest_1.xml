@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='us-ascii'?>
+<?xml version="1.0"?>
 <site>
     <status>0</status>
-    <investmentAccount acctType="401k" uniqueId="9191111" uniqueIdModified="1">
+    <investmentAccount uniqueId="9191111" uniqueIdModified="1" acctType="401k">
         <link>http://www.altova.com</link>
         <accountNumber>9791018</accountNumber>
         <accountName>IQ 401k</accountName>
@@ -9,13 +9,13 @@
         <isMarginTradingAllowed>1</isMarginTradingAllowed>
         <isOptionTradingAllowed>1</isOptionTradingAllowed>
         <accountCurrency>string</accountCurrency>
-        <accountEquityPercentage />
+        <accountEquityPercentage/>
         <personInformationId>
             <name>
                 <title>Mr.</title>
-                <suffix />
+                <suffix/>
                 <firstName>Mike</firstName>
-                <middleName />
+                <middleName/>
                 <lastName>Mattas</lastName>
             </name>
             <fullName>Mike Mattas</fullName>
@@ -57,7 +57,7 @@
         <planName>Vanguard 401K plan</planName>
         <asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
         <balance balType="totalBalance">
-            <curAmt curCode="USD">54821.5</curAmt>
+            <curAmt curCode="USD">60216.25</curAmt>
         </balance>
         <balance balType="totalVestedBalance">
             <curAmt curCode="USD">65456</curAmt>
@@ -89,7 +89,7 @@
                 <transactionId>958120</transactionId>
                 <description>buy Growth Index Fund shares</description>
                 <amount curCode="USD">1185</amount>
-                <date localFormat="yyyy-MM-dd">2017-01-27T00:00:00</date>
+                <date localFormat="yyyy-MM-dd">2017-01-15T00:00:00</date>
                 <settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
                 <symbol>VIIFLG</symbol>
                 <description>DEPOSIT</description>
@@ -155,7 +155,7 @@
             </transaction>
         </transactionList>
         <holdingList>
-            <holding holdingType="stock" uniqueId="955340537">
+            <holding uniqueId="955340537" holdingType="stock">
                 <link>http://www.altova.com</link>
                 <description>Microsoft Corporation</description>
                 <percentageAllocation>100</percentageAllocation>
@@ -177,7 +177,7 @@
                 <isMarginable>1</isMarginable>
                 <isRestricted>1</isRestricted>
             </holding>
-            <holding holdingType="stock" uniqueId="955340538">
+            <holding uniqueId="955340538" holdingType="stock">
                 <link>http://www.altova.com</link>
                 <description>Alphabet Inc Class A</description>
                 <percentageAllocation>100</percentageAllocation>
@@ -199,7 +199,7 @@
                 <isMarginable>1</isMarginable>
                 <isRestricted>1</isRestricted>
             </holding>
-            <holding holdingType="stock" uniqueId="955340539">
+            <holding uniqueId="955340539" holdingType="stock">
                 <link>http://www.altova.com</link>
                 <description>Amazon.com, Inc.</description>
                 <percentageAllocation>100</percentageAllocation>
@@ -221,7 +221,7 @@
                 <isMarginable>1</isMarginable>
                 <isRestricted>1</isRestricted>
             </holding>
-            <holding holdingType="mutualFund" uniqueId="791746161">
+            <holding uniqueId="791746161" holdingType="mutualFund">
                 <link>http://www.altova.com</link>
                 <description>Morgan Stanley Focus Growth Fund Class A</description>
                 <percentageAllocation>100</percentageAllocation>
@@ -247,7 +247,7 @@
                 <costBasis curCode="USD">10000</costBasis>
                 <percentageChange>1</percentageChange>
             </holding>
-            <holding holdingType="moneyMarketFund" uniqueId="35460187">
+            <holding uniqueId="35460187" holdingType="moneyMarketFund">
                 <link>http://www.altova.com</link>
                 <description>FDIC INSURED DEPOSIT ACCOUNT</description>
                 <percentageAllocation>100</percentageAllocation>
