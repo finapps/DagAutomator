@@ -45,7 +45,7 @@ def newDate(newArray):
         #print(youngest_date)
         todayDate = datetime.now()
         dateDiff = abs((todayDate - youngest_date).days)
-        #print(dateDiff)    
+        #print(dateDiff)
         newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
         #print(newDate)
         date = str(newDate.isoformat())
@@ -55,13 +55,14 @@ def newDate(newArray):
 
 def updateXML(xmlFile):
     #print(newDateArray)
-    #print(tree.findall('.//transDate')[0].text) 
-    # for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates   
+    #print(tree.findall('.//transDate')[0].text)
+    # for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates
     #     print(dateObj.text)
     #     dateObj.text = newDateArray[dateObj]
     #     print(dateObj)
     #     break
     #print(xmlFile)
+
     originalDatesArr = oldDate(xmlFile)
     #print(originalDatesArr)
     adjustedDatesArr = newDate(originalDatesArr)
@@ -76,7 +77,7 @@ def updateXML(xmlFile):
         #print("New Value " + str(adjustedDatesArr[num]))
         transDates[num].text = adjustedDatesArr[num]
         #print("Final Value " + str(transDates[num].text))
-    
+
 
     #Write back to a file
     print("XML Generated")
@@ -103,14 +104,16 @@ def updateXML(xmlFile):
 updateXML(tree)
 
 
-# for date in newDateArray: 
+
+# for date in newDateArray:
+
 #     updatedDate = date # newDateArray[0]
-    
+
 #     node.text = updatedDate # newDateArray[0]
 
 # print(updatedDate) # newDateArray.last()
 
-# for node in tree.findall('.//transDate'):      
+# for node in tree.findall('.//transDate'):
 #     node.text = date # Please note it has to be str '2015', not int like 2015
 #     #print(node.text)
 #return None
@@ -140,5 +143,3 @@ updateXML(tree)
 #     print(tree.findall('.//transDate')[num].text)
 #     tree.findall('.//transDate')[num].text = newDateArray[num]
 #     print(tree.findall('.//transDate')[num].text)
-
-
