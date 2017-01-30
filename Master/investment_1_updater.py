@@ -73,9 +73,26 @@ def updateXML(xmlFile):
     
     
     #Write back to a file
-    print("XML Generated")
+    #print("Generating Investment XML...")
     
     return transDates
+
+def getStockPrice(xmlFile):
+	holdings = tree.iter('holding')
+	for holdings in tree.iter('holding'):
+		price = float(holdings.find('price').text)
+		symbol = holdings.find('symbol').text
+		tickerData = json.dumps(getQuotes(symbol), indent=2)
+		resp_dict = json.loads(tickerData)
+		lastPrice = resp_dict[0]['LastTradePrice']
+		for price in holdings.iter('price'):
+			#print(price)
+			new_price = lastPrice
+			price.text = str(new_price)
+			#print(price.text)
+
+	return price
+
 
 def balanceSumModule(xmlFile):
     transactions = tree.iter('holding')
@@ -85,9 +102,10 @@ def balanceSumModule(xmlFile):
         tickerData = json.dumps(getQuotes(symbol), indent=2)
         resp_dict = json.loads(tickerData)
         lastPrice = resp_dict[0]['LastTradePrice']
-        quantityPrice = float(lastPrice)
+        quantityPrice = lastPrice
+        print(quantityPrice)
         print(quantity, symbol, quantityPrice)
-        individual_balance = quantity * quantityPrice
+        individual_balance = quantity * float(quantityPrice)
         print(individual_balance)
         balanceArray.append(individual_balance)
         total_balance = balanceArray
@@ -101,7 +119,7 @@ def balanceSumModule(xmlFile):
         if balType == 'totalBalance':
             current_amount = node.find('curAmt')
             current_amount.text = str(final_balance)
-        return value.text, current_amount
+        return value.text, current_amount, individual_balance
 
 # # Console TESTING Module #
 # def testModule(dayDiff, youngest, today):
@@ -110,11 +128,11 @@ def balanceSumModule(xmlFile):
 #     print ("Day Difference: " + str(dayDiff) + "\n")
 #     return (dayDiff, youngest, today)
 
-
+getStockPrice(tree)
 updateXML(tree)
 balanceSumModule(tree)
 
 # Write back to a file
 now = dt.datetime.now()
-actual_time = str(now.strftime("%Y-%m-%d"))
+actual_time = str(now.strftime("%Y-%m-%d-%M"))
 tree.write(str(actual_time) + "_investment_1.xml", xml_declaration=True)
