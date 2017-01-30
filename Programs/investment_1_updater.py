@@ -55,7 +55,7 @@ def newDate(newArray):
     return newDateArray
 
 def updateXML(xmlFile):
- 
+
     originalDatesArr = oldDate(xmlFile)
     #print(originalDatesArr)
     adjustedDatesArr = newDate(originalDatesArr)
@@ -70,15 +70,15 @@ def updateXML(xmlFile):
         #print("New Value " + str(adjustedDatesArr[num]))
         transDates[num].text = adjustedDatesArr[num]
     #print("Final Value " + str(transDates[num].text))
-    
-    
+
+
     #Write back to a file
     print("Generating Investment XML...")
 
 # now = datetime.now()
 #     actual_time = str(now.strftime("%Y-%m-%d"))
 #     xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
-    
+
     return transDates
 
 def balanceSumModule(xmlFile):
