@@ -73,34 +73,48 @@ def updateXML(xmlFile):
 
 
 	#Write back to a file
+
+	print("Generating Investment XML...")
+
+# now = datetime.now()
+#     actual_time = str(now.strftime("%Y-%m-%d"))
+#     xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
+
+
 	#print("Generating Investment XML...")
+
 
 	return transDates
 
 def getStockPrice(xmlFile):
 	holdings = tree.iter('holding')
-	for holdings in tree.iter('holding'):
-		price = float(holdings.find('price').text)
-		symbol = holdings.find('symbol').text
+	for holding in holdings:
+		# price = holding.find('price').text
+		price = float(holding.find('price').text)
+		# print(price)
+		symbol = holding.find('symbol').text
 		tickerData = json.dumps(getQuotes(symbol), indent=2)
 		resp_dict = json.loads(tickerData)
 		lastPrice = resp_dict[0]['LastTradePrice']
-		for price in holdings.iter('price'):
+		# print(lastPrice)
+	return lastPrice
+
+def updateStockPrice(lastPrice):
+	holdings = tree.iter('holding')
+	for holding in holdings:
+		new_price = getStockPrice(lastPrice)
+		print(new_price)
+		for price in tree.iter('price'):
 			#print(price)
-			new_price = lastPrice
-			price.text = str(new_price)
-			#print(price.text)
-	return price
+			price = str(new_price)
+			# print(price)
+	return None
 
 
 def balanceSumModule(xmlFile):
 	transactions = tree.iter('holding')
 	for value in transactions:
-		symbol = value.find('symbol').text
-		quantity = float(value.find('quantity').text)
-		tickerData = json.dumps(getQuotes(symbol), indent=2)
-		resp_dict = json.loads(tickerData)
-		lastPrice = resp_dict[0]['LastTradePrice']
+		getStockPrice(xmlFile)
 		quantityPrice = lastPrice
 		print(quantityPrice)
 		print(quantity, symbol, quantityPrice)
@@ -118,27 +132,7 @@ def balanceSumModule(xmlFile):
 		if balType == 'totalBalance':
 			current_amount = node.find('curAmt')
 			current_amount.text = str(final_balance)
-
-	#Update the value of each holding
-def updateValue(xmlFIle):
-	holdings = tree.iter('holding')
-	for holdings in tree.iter('holding'):
-		price = float(holdings.find('price').text)
-		quantity = float(holdings.find('quantity').text)
-		symbol = holdings.find('symbol').text
-		#value = holdings.find('value').text
-
-		#print(value)
-		tickerData = json.dumps(getQuotes(symbol), indent=2)
-		resp_dict = json.loads(tickerData)
-		lastPrice = resp_dict[0]['LastTradePrice']
-		individual_balance = quantity * float(lastPrice)
-		for value in holdings.iter('value'):
-			value.text = individual_balance
-			value.text = str(value.text)
-		print(value.text)
-	return value
-
+		return value.text, current_amount, individual_balance
 
 # # Console TESTING Module #
 # def testModule(dayDiff, youngest, today):
@@ -148,9 +142,9 @@ def updateValue(xmlFIle):
 #     return (dayDiff, youngest, today)
 
 getStockPrice(tree)
+updateStockPrice(tree)
 updateXML(tree)
-balanceSumModule(tree)
-updateValue(tree)
+# balanceSumModule(tree)
 
 # Write back to a file
 now = dt.datetime.now()
