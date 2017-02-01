@@ -9,6 +9,7 @@ import json
 #Variables
 datesArray = []
 balanceArray = []
+valueArray = []
 # Open File to be modified
 tree = ET.parse('master_invest_1.xml')
 root = tree
@@ -55,7 +56,7 @@ def newDate(newArray):
     return newDateArray
 
 def updateXML(xmlFile):
-
+ 
     originalDatesArr = oldDate(xmlFile)
     #print(originalDatesArr)
     adjustedDatesArr = newDate(originalDatesArr)
@@ -70,20 +71,11 @@ def updateXML(xmlFile):
         #print("New Value " + str(adjustedDatesArr[num]))
         transDates[num].text = adjustedDatesArr[num]
     #print("Final Value " + str(transDates[num].text))
-
-
+    
+    
     #Write back to a file
-
-    print("Generating Investment XML...")
-
-# now = datetime.now()
-#     actual_time = str(now.strftime("%Y-%m-%d"))
-#     xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
-
-
     #print("Generating Investment XML...")
-
-
+    
     return transDates
 
 def getStockPrice(xmlFile):
@@ -97,10 +89,27 @@ def getStockPrice(xmlFile):
 		for price in holdings.iter('price'):
 			#print(price)
 			new_price = lastPrice
-			price.text = str(new_price)
-			#print(price.text)
-
+			
 	return price
+
+def updateValue(xmlFIle):
+    holdings = tree.iter('holding')
+    for holdings in tree.iter('holding'):
+        price = float(holdings.find('price').text)
+        quantity = float(holdings.find('quantity').text)
+        symbol = holdings.find('symbol').text
+        #value = holdings.find('value').text
+        
+        #print(value)
+        tickerData = json.dumps(getQuotes(symbol), indent=2)
+        resp_dict = json.loads(tickerData)
+        lastPrice = resp_dict[0]['LastTradePrice']
+        individual_balance = quantity * float(lastPrice)
+        for value in holdings.iter('value'):
+            value.text = individual_balance
+            value.text = str(value.text)
+        print(value.text)
+    return value
 
 
 def balanceSumModule(xmlFile):
@@ -112,15 +121,21 @@ def balanceSumModule(xmlFile):
         resp_dict = json.loads(tickerData)
         lastPrice = resp_dict[0]['LastTradePrice']
         quantityPrice = lastPrice
-        print(quantityPrice)
-        print(quantity, symbol, quantityPrice)
+        #print(quantityPrice)
+        #print(quantity, symbol, quantityPrice)
         individual_balance = quantity * float(quantityPrice)
-        print(individual_balance)
+        #print(individual_balance)
         balanceArray.append(individual_balance)
         total_balance = balanceArray
         final_balance = str(sum(total_balance))
-        print("Total Balance:" + str(final_balance))
+        #print("Total Balance:" + str(final_balance))
 
+    for newValue in tree.iter('value'):
+            newValue.text = individual_balance
+            newValue.text = str(newValue.text)
+            print(newValue.text)
+    
+        
 
     #Update balance
     for node in tree.iter('balance'):
@@ -128,7 +143,7 @@ def balanceSumModule(xmlFile):
         if balType == 'totalBalance':
             current_amount = node.find('curAmt')
             current_amount.text = str(final_balance)
-        return value.text, current_amount, individual_balance
+    return value.text, current_amount, newValue.text
 
 # # Console TESTING Module #
 # def testModule(dayDiff, youngest, today):
@@ -140,6 +155,7 @@ def balanceSumModule(xmlFile):
 getStockPrice(tree)
 updateXML(tree)
 balanceSumModule(tree)
+#updateValue(tree)
 
 # Write back to a file
 now = dt.datetime.now()

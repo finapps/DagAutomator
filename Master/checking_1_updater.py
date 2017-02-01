@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, date as dt
 import dateutil.parser, dateutil.relativedelta
 import xml.etree.ElementTree as ET
 import random
+import os.path
 
 # Global Variables
 global updatedDate
@@ -79,10 +80,12 @@ def updateXML(xmlFile):
     
 
     #Write back to a file
-    print("XML Generated")
+    print("XML Checking 1 Generated")
 
     now = datetime.now()
     actual_time = str(now.strftime("%Y-%m-%d"))
+    save_path = '/GeneratedFiles/'
+    complete_name = os.path.name('/Users/Chris/Desktop/DAGAutomator/Master')
     xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
 
     return None

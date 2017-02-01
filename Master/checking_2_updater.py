@@ -79,7 +79,7 @@ def updateXML(xmlFile):
     
 
     #Write back to a file
-    print("XML Generated")
+    print("XML Checking 2 Generated")
 
     now = datetime.now()
     actual_time = str(now.strftime("%Y-%m-%d"))

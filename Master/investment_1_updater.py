@@ -90,7 +90,6 @@ def getStockPrice(xmlFile):
 			new_price = lastPrice
 			price.text = str(new_price)
 			#print(price.text)
-
 	return price
 
 
