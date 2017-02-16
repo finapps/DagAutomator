@@ -5,6 +5,7 @@ import dateutil.parser, dateutil.relativedelta
 import random
 from googlefinance import getQuotes
 import json
+import os.path
 
 #Variables
 datesArray = []
@@ -90,6 +91,7 @@ def getStockPrice(xmlFile):
 			new_price = lastPrice
 			price.text = str(new_price)
 			#print(price.text)
+
 	return price
 
 
@@ -142,10 +144,10 @@ def updateValue(xmlFIle):
 
 # # Console TESTING Module #
 # def testModule(dayDiff, youngest, today):
-#     print ("\nToday's Date: " + str(today) + "\n")
-#     print ("Most Recent Transaction Date: " + str(youngest) + "\n")
-#     print ("Day Difference: " + str(dayDiff) + "\n")
-#     return (dayDiff, youngest, today)
+#	  print ("\nToday's Date: " + str(today) + "\n")
+#	  print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+#	  print ("Day Difference: " + str(dayDiff) + "\n")
+#	  return (dayDiff, youngest, today)
 
 getStockPrice(tree)
 updateXML(tree)
@@ -154,5 +156,7 @@ updateValue(tree)
 
 # Write back to a file
 now = dt.datetime.now()
-actual_time = str(now.strftime("%Y-%m-%d-%M"))
-tree.write(str(actual_time) + "_investment_1.xml", xml_declaration=True)
+actual_time = str(now.strftime("%Y-%m-%d"))
+save_path = r'generated_dag_files'
+complete_name = os.path.join(save_path, str(actual_time) + "_investment_1.xml")
+tree.write(complete_name, xml_declaration=True)
