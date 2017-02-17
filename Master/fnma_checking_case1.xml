@@ -476,22 +476,6 @@
                 <category>other</category>
                 <transDate localFormat="MM/dd/yy">2016-12-23T14:12:39</transDate>
             </transaction>
-            <transaction baseType="debit" type="debit" uniqueId="901031">
-                <description>NSF FEE</description>
-                <checkNumber>119</checkNumber>
-                <amount curCode="USD">35.00</amount>
-                <link>link</link>
-                <category>other</category>
-                <transDate localFormat="MM/dd/yy">2016-11-23T11:16:09</transDate>
-            </transaction>
-            <transaction baseType="debit" type="debit" uniqueId="01031">
-                <description>NSF FEE</description>
-                <checkNumber>119</checkNumber>
-                <amount curCode="USD">35.00</amount>
-                <link>link</link>
-                <category>other</category>
-                <transDate localFormat="MM/dd/yy">2017-01-24T11:16:09</transDate>
-            </transaction>
             <transaction baseType="debit" type="debit" uniqueId="31">
                 <description>DELTA AIRLINES</description>
                 <checkNumber>119</checkNumber>
