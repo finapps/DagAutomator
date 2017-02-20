@@ -6,10 +6,10 @@
         <accountNumber>XXX-XXX0118</accountNumber>
         <accountHolder>Suzi Builder</accountHolder>
         <balance balType="availableBalance">
-            <curAmt curCode="USD">20113.42</curAmt>
+            <curAmt curCode="USD">20765.31</curAmt>
         </balance>
         <balance balType="currentBalance">
-            <curAmt curCode="USD">20113.42</curAmt>
+            <curAmt curCode="USD">20765.31</curAmt>
         </balance>
         <transactionList>
             <transaction baseType="credit" type="deposit" uniqueId="00001260">
