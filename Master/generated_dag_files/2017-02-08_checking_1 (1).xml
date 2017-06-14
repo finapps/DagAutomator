@@ -1,0 +1,1121 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<site>
+    <status>0</status>
+    <bankAccount acctType="checking" uniqueId="21232423">
+        <accountName>IQ Bank Checking</accountName>
+        <accountNumber>XXX-XXX0118</accountNumber>
+        <accountHolder>Mike Matas</accountHolder>
+        <balance balType="availableBalance">
+            <curAmt curCode="USD">20113.42</curAmt>
+        </balance>
+        <balance balType="currentBalance">
+            <curAmt curCode="USD">20113.42</curAmt>
+        </balance>
+        <transactionList>
+            <transaction baseType="credit" type="deposit" uniqueId="00001260">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2016-12-08T00:00:00</transDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="100001260">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2016-12-22T00:00:00</transDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="157">
+                <description>CHECK CARD PURCHASE AMAZON DIGITAL SVCS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">23.43</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-25T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="154">
+                <description>CHECK CARD PURCHASE SMOKEY BONES 7533 PLANTATION FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">17.41</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-26T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="152">
+                <description>CHECK CRD PURCHASE VESTA *BOOST PREP 888-440-9958 OR</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">28.17</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-23T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="150">
+                <description>CHECK CARD PURCHASE EINSTEIN BROS BAGELS31 PLANTATION FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">36.49</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-22T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="148">
+                <description>CHECK CRD PURCHASE USAPARKING/FLL AIRPORT FORT LAUDERDA FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">25.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-21T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="credit" type="interestPayment" uniqueId="145">
+                <description>INTEREST DUE</description>
+                <link>link</link>
+                <amount curCode="USD">25.59</amount>
+                <transDate localFormat="MM/dd/yy">2016-12-05T09:39:32</transDate>
+                <checkNumber>119</checkNumber>
+                <category>other</category>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="144">
+                <description>CHECK CRD PURCHASE DAVE BUSTER'S #2 MIAMI FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">36.62</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="142">
+                <description>SDL*SAVEOLOGYDEALS  877-503-813 67SKK6</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">40.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-16T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="137">
+                <description>POS PURCHASE - HOOK'S FISH PLANTATION FL 8013</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">9.31</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-18T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="135">
+                <description>ATM WITHDRAWAL - 9501 WESTVIEW DRIVE CORAL SPRINGS FL 7041</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">40.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="134">
+                <description>POS PURCHASE - FAU-DAVIE-BKSTO DAVIE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">28.54</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-16T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="132">
+                <description>CHECK CRD PURCHASE KFC X975107 2975 PLANTATION FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">16.28</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-15T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="130">
+                <description>CACTUS CAR WASH - FT FOR01/08CACTUS CA</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">16.86</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="129">
+                <description>JUST SHOE N ME INC CORRAL GABLES FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">34.71</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-13T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="127">
+                <description>USPS 1130500250/1201 FOR05679812/09USPS 1130</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">44.84</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-12T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="126">
+                <description>SPORTS GRILL SUNSET MIAMI</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">43.55</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-11T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="123">
+                <description>LIME MEXICAN RESTAURANT</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">12.07</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-10T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="122">
+                <description>LIBERTY GAS / DAVIE FT L29865012/11LIBERTY G</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">8.27</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-27T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="119">
+                <description>AMERIKA POS CORAL GABLES FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">39.25</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-08T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="116">
+                <description>RECUR DEBIT CRD NETFLIX.COM NETFLIX.COM CA</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">9.98</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-07T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="113">
+                <description>CHKCARDGOOGLE *MinecraGOOGLE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">10.16</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-06T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="112">
+                <description>CHECK CARD PURCHASE YELLOW CAB FORT LAUDERDAFLL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">24.83</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-02T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="109">
+                <description>ONLINE TRANSFER REF #IBE58WKDL2</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">40.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-03T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="106">
+                <description>CHECK CRD PURCHASE STEAK-N-SHAKE#0595 DAVIE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">27.31</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-03T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="105">
+                <description>NRC Pay Services LLC</description>
+                <link>link</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="MM/dd/yy">2017-01-05T12:52:00</transDate>
+                <checkNumber>119</checkNumber>
+                <category>other</category>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="103">
+                <description>KIKO JAPANESE RESTAURANT</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">30.67</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-02T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="102">
+                <description>POLLO TROPICAL MIAMI STORE #811</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">21.09</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-31T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100">
+                <description>CHECK CRD PURCHASE FLASHBACK DINER</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">26.63</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-30T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="99">
+                <description>POS PURCHASE - GAMESTOP #1664 DAVIE FL 4015</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">46.73</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-29T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="110">
+                <description>SUNDOWNER'S 1 SUNDOWKEY LARGO 80010 103900 OVERSEAS HIGHW</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">47.57</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-28T12:52:18</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="108">
+                <description>BARNES AND NOBLE #2592</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">19.32</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-27T12:52:01</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="107">
+                <description>POS PURCHASE - TARGET T2022 TA DAVIE FL 8013</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">122.52</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-26T12:52:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="104">
+                <description>CHKCARDWENDYS #2077 COOPER Y FLUS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">16.29</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-25T12:51:43</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="101">
+                <description>ALHAMBRA CAFE CORAL GABLES</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">10.78</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-24T12:51:25</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="98">
+                <description>GIFTS DONATIONS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">50.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-23T12:50:56</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="97">
+                <description>THE HOME DEPOT POMPANO</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">124.79</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-22T12:50:56</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="96">
+                <description>ELECTRONIC/ACH DEBIT MASSMUTUAL LIFE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">9.32</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-21T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="95">
+                <description>CHECK CRD PURCHASE CHICKEN KITCHEN PL PLANTATION FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">8.92</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="93">
+                <description>CHECK CARD PURCHASE STARBUCKS CORP00034298 PLANTATION FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">4.43</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="92">
+                <description>CHECK CRD PURCHASE BC CENTER BOOKSTORE DAVIE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">48.71</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-16T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="90">
+                <description>PURCHASES FINANCE CHARGE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">27.49</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-18T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="88">
+                <description>CHASE AUTOPAYPPD ID: 4760039224</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">37.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="85">
+                <description>PANERA BREAD #4705 HALLA11/12PANERA BR</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">5.34</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-15T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="83">
+                <description>OFFICE MAX</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">48.97</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="79">
+                <description>NRC Pay Services LLC</description>
+                <link>link</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="MM/dd/yy">2017-01-19T13:11:51</transDate>
+                <checkNumber>119</checkNumber>
+                <category>other</category>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="78">
+                <description>PIZZA PALACE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">9.55</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-07T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="60">
+                <description>CHKCARDGREEN LEAF'S SUNRISE FLUS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">74.11</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-12T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="56">
+                <description>ATM WITHDRAWAL SPACE COAST CU 7751 WEST OAKLAND B SUNRISE FLUS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">100.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-11T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="55">
+                <description>JUST SHOE N ME INC CORRAL SPRING FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">115.45</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-10T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="52">
+                <description>PUBLIX SUPER MA DAVIE FL 8013</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">219.05</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-09T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="49">
+                <description>RECUR DEBIT CRD PMT NFI*WWW.NETFLIX.CO NETFLIX.COM CA</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">15.65</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-08T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="47">
+                <description>POS PURCHASE STEAK-N-SHAKE#0DAVIE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">32.74</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-07T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="46">
+                <description>CHECK CRD PURCHASE SUNSET STRIP GASOL SUNRISE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">36.94</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-06T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="43">
+                <description>CHECK CRD PURCHASE GAMESTOP.COM/EBGAM 817-422-2085 TX</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">90.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-24T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="42">
+                <description>DEPOSIT MADE IN A BRANCH/STORE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">200.33</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-14T15:02:25</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="01034">
+                <description>GROUPON INC 877-788-785 89498635ZW9 COUPONS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">60.67</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-16T14:12:39</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="901031">
+                <description>NSF FEE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">35.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-16T11:16:09</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="01031">
+                <description>NSF FEE</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">35.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-17T11:16:09</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="31">
+                <description>DELTA AIRLINES</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">374.05</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-21T11:16:09</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="28">
+                <description>ATM WITHDRAWAL - 1950 N UNIVERSITY BLV CORAL SPRINGS FL 7041</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">100.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-04T11:15:38</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="27">
+                <description>RACETRAC665 FT. LAUDERDA54158101</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">67.83</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-06T11:15:38</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="25">
+                <description>CHECK CRD PURCHASE STEVE'S ESPRESSO DAVIE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">47.03</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-07T09:36:39</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="23">
+                <description>ITUNES MUSIC STORE IAUSTIN  MGSFKDKV4K0 iTunes Music Store</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">7.47</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-02T08:24:13</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="21">
+                <description>ONLINE TRANSFER REF #IBE2DQ5LT6 TO COMMAND CASH AND SWEEP</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">635.99</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-01T08:08:11</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="56012121">
+                <description>USAA FUNDS TRANSFER CR~~03051~~~~01873~~0~~14~~0303</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">235.99</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-01T08:08:11</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="5712121">
+                <description>USAA FUNDS TRANSFER CR~~03051~~~~01873~~0~~14~~0303</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">135.99</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-02T08:08:11</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="19">
+                <description>DEL BOCA VISTA HOTELS PORTFINO ORLANDO FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">47.67</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-25T15:22:39</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="16">
+                <description>BEVERLY'S JEWELERS FORT LAUDERDA FL 33309 USA</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">8243.40</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-25T14:06:57</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="15">
+                <description>CHKCARDTACO BELL # 022FORT LARDAFLUS</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">21.36</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-26T14:06:57</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="12">
+                <description>POS PURCHASE - WALGREENS 3015 DAVIE FL 4015 00581335581851216</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">38.90</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-27T13:15:25</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="11">
+                <description>WNE*ZAGATWINE 877-60047211/03WNE*ZAGAT</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">11.42</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-28T13:15:25</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="3">
+                <description>POS THE HOME DEPOT #6341 DAVIE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">51.86</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-30T13:33:58</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="1">
+                <description>CHECK CRD PURCHASE CHICK-FIL-A #02600 DAVIE FL</description>
+                <checkNumber>119</checkNumber>
+                <amount curCode="USD">28.67</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-29T13:30:25</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="99001229">
+                <description>USAIRWAY MANKATO MN</description>
+                <checkNumber>229</checkNumber>
+                <amount curCode="USD">145.30</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-28T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="43141233">
+                <description>BARCLAYCARD US CREDITCARD XXXXX5555</description>
+                <checkNumber>233</checkNumber>
+                <amount curCode="USD">354.30</amount>
+                <link>link</link>
+                <category>Payment</category>
+                <transDate localFormat="MM/dd/yy">2017-01-27T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="21811111">
+                <description>DEPOSIT MADE IN A BRANCH/STORE</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">500.33</amount>
+                <transDate localFormat="yyyy-MM-dd">2016-12-13T00:00:00</transDate>
+                <checkNumber>HSBBK 319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="53141230">
+                <description>ATM WITHDRAWAL - 5830 SOUTH UNIVERSITY DAVIE FL</description>
+                <checkNumber>#230</checkNumber>
+                <amount curCode="USD">200.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-18T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="53141231">
+                <description>DEBIT PIN PURCHASE 1401 MONZA AVE CORAL GABLES</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">124.30</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="53141232">
+                <description>DEBIT PURCHASE NEW MOON RESTAURANT</description>
+                <checkNumber>232</checkNumber>
+                <amount curCode="USD">20.45</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-16T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="53141233">
+                <description>AMEX CARD 06:19 4958</description>
+                <checkNumber>233</checkNumber>
+                <amount curCode="USD">74.30</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-10T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="71041232">
+                <description>DEBIT PURCHASE SPORTS GRILL RESTAURANT MIAMI</description>
+                <checkNumber>232</checkNumber>
+                <amount curCode="USD">22.45</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="87141228">
+                <description>POS PURCHASE - WALMART T2058 DA CORAL GABLES FL</description>
+                <checkNumber>228</checkNumber>
+                <amount curCode="USD">55.70</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="63141228">
+                <description>POS PURCHASE - COSTCO DORAL FL</description>
+                <checkNumber>228</checkNumber>
+                <amount curCode="USD">105.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-06T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="77741230">
+                <description>ANTHONYS COAL FIRE PEMBROKE PINES FL</description>
+                <checkNumber>#230</checkNumber>
+                <amount curCode="USD">33.22</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-24T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="77841232">
+                <description>PHO 78 VIETNAMESE SUNRISE FL</description>
+                <checkNumber>232</checkNumber>
+                <amount curCode="USD">17.45</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-01T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="77841233">
+                <description>JIMMY JOHN'S # 125 PEMBROKE PIN FL</description>
+                <checkNumber>233</checkNumber>
+                <amount curCode="USD">24.30</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-30T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="778412398">
+                <description>SUPERCUTS 10235 COOPER CITY FL 8013</description>
+                <checkNumber>232</checkNumber>
+                <amount curCode="USD">17.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-28T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="77841228">
+                <description>BILL PAY 10080 WATER ON-LINE</description>
+                <checkNumber>228</checkNumber>
+                <amount curCode="USD">75.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-27T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="99991228">
+                <description>CARD SRVCS Online Pmt 110923</description>
+                <checkNumber>228</checkNumber>
+                <amount curCode="USD">350.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-24T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00011555">
+                <description>BILL PAY 78080 ELECTRICITY ON-LINE</description>
+                <checkNumber>228</checkNumber>
+                <amount curCode="USD">250.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-26T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001244">
+                <description>WALGREENS</description>
+                <checkNumber>228</checkNumber>
+                <amount curCode="USD">74.25</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-16T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001247">
+                <description>MONTHLY CHECK RETURN/IMAGE STMT FEE</description>
+                <checkNumber>229</checkNumber>
+                <amount curCode="USD">15.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-21T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001253">
+                <description>BEST BUY 0013 MIAMI FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">354.30</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001259">
+                <description>GULF LIQUORS #7 CORAL GABLES</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">74.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-22T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001261">
+                <description>DEBIT PURCHASE SPORTS GRILL RESTAURANT SOUTH MIAMI</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">22.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-28T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001262">
+                <description>Sears</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">47.25</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-29T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001263">
+                <description>DEBIT PURCHASE MIAMI PARKING SYSTEM COCONUT GROVE</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">7.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-30T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001264">
+                <description>GRAZIANOS RESTAURANT COCONUT GROVE</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">112.55</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-31T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001265">
+                <description>DEBIT PURCHASE SHELL POS DAVIE FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">37.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-02T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001266">
+                <description>DEBIT PIN PURCHASE WHOLE FOODS MARKET</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">74.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-03T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001267">
+                <description>DEBIT PURCHASE EXXONMOBIL POS MIAMI FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">37.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-02T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001268">
+                <description>SXM*SIRIUSXM.COM/ACCT NY</description>
+                <checkNumber>3318</checkNumber>
+                <amount curCode="USD">15.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-04T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="00001269">
+                <description>DEBIT PIN PURCHASE SUNPASS OPERATIONS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">40.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-26T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001259">
+                <description>TOTAL WINE AND SPIRITS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">74.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-06T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001261">
+                <description>DEBIT PURCHASE DUFFY'S RESTAURANT SOUTH MIAMI</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">22.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001262">
+                <description>AutoZone</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">24.25</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-23T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001263">
+                <description>DEBIT PURCHASE BROWARD PARKING SYSTEM HOLLYWOOD</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">5.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-09T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001264">
+                <description>CHILIES RESTAURANT COCONUT GROVE</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">22.55</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-29T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001265">
+                <description>DEBIT PURCHASE EXXONMOBIL POS DAVIE FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">37.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-11-29T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001266">
+                <description>DEBIT PIN PURCHASE 1401 MONZA AVE CORAL GABLES</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">174.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-25T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001267">
+                <description>DEBIT PURCHASE EXXONMOBIL POS MIAMI FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">17.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-24T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001268">
+                <description>UFC FIGHT PASS</description>
+                <checkNumber>3318</checkNumber>
+                <amount curCode="USD">9.99</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-09T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="100001269">
+                <description>DEBIT PIN PURCHASE SUNPASS OPERATIONS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">40.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-03T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001259">
+                <description>GULF LIQUORS #7 CORAL GABLES</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">14.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-09T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001261">
+                <description>DEBIT PURCHASE SPORTS GRILL RESTAURANT SOUTH MIAMI</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">32.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-23T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001262">
+                <description>BEST BUY PLANTATION</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">50.25</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-17T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001263">
+                <description>DEBIT PURCHASE FORT LAUDERDALE PARKING SYSTEM LAS OLAS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">7.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-10T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001264">
+                <description>TGI FRIDAYS RESTAURANT COCONUT GROVE</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">22.55</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-01T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001265">
+                <description>DEBIT PURCHASE CHEVRON POS DAVIE FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">27.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-24T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001266">
+                <description>DEBIT PIN PURCHASE PUBLIX</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">104.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001267">
+                <description>DEBIT PURCHASE EXXONMOBIL POS MIAMI FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">27.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-28T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001268">
+                <description>SXM*SIRIUSXM.COM/ACCT NY</description>
+                <checkNumber>3318</checkNumber>
+                <amount curCode="USD">15.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-14T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="20001269">
+                <description>DEBIT PIN PURCHASE SUNPASS OPERATIONS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">40.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-18T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001259">
+                <description>CROWN LIQUORS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">44.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-22T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001261">
+                <description>DEBIT PURCHASE BOKAMPER'S SPORTS GRILL RESTAURANT FT.LAUDERDALE</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">32.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-23T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001262">
+                <description>ChinaStar</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">5.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-24T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001263">
+                <description>DEBIT PURCHASE MIAMI PARKING SYSTEM SOUTH BEACH</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">17.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-21T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="52030001263">
+                <description>DEBIT PURCHASE WALGREENS</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">14.85</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-21T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001265">
+                <description>DEBIT PURCHASE RACETRACK POS DAVIE FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">37.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-01-31T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001266">
+                <description>DEBIT PIN PURCHASE MILAM'S MARKETS IGA</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">14.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-22T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001267">
+                <description>DEBIT PURCHASE EXXONMOBIL POS MIAMI FL</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">67.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-07T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="30001268">
+                <description>SXM*SIRIUSXM.COM/ACCT NY</description>
+                <checkNumber>3318</checkNumber>
+                <amount curCode="USD">15.00</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2017-02-03T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="debit" type="debit" uniqueId="40001259">
+                <description>KENTUCKY FRIED CHICKEN CORAL GABLES</description>
+                <checkNumber>230</checkNumber>
+                <amount curCode="USD">14.50</amount>
+                <link>link</link>
+                <category>other</category>
+                <transDate localFormat="MM/dd/yy">2016-12-22T00:00:00</transDate>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="50001260">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2017-02-02T00:00:00</transDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="780001260">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2016-11-10T00:00:00</transDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+            <transaction baseType="credit" type="deposit" uniqueId="93050001260">
+                <description>NRC Pay Services LLC</description>
+                <link>http://www.altova.com</link>
+                <amount curCode="USD">4995.31</amount>
+                <transDate localFormat="yyyy-MM-dd">2016-11-24T00:00:00</transDate>
+                <checkNumber>319</checkNumber>
+                <category categoryId="deposit 319">other</category>
+            </transaction>
+        </transactionList>
+    </bankAccount>
+</site>

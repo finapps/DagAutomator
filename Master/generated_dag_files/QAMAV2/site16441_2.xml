@@ -1,0 +1,4082 @@
+<site>
+	<status>0</status>
+	<bankAccount uniqueId="21232423" acctType="checking">
+		<accountName>Bank of America Checking</accountName>
+		<accountNumber>5620790118</accountNumber>
+		<accountHolder>Kevin James</accountHolder>
+		<balance balType="availableBalance">
+			<curAmt curCode="USD">4552.98</curAmt>
+		</balance>
+		<balance balType="currentBalance">
+			<curAmt curCode="USD">3352.98</curAmt>
+		</balance>
+		<transactionList>
+			<transaction uniqueId="1" type="deposit" baseType="credit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE #384232078</description>
+				<link>http://www.altova.com</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</transDate>
+				<postDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</postDate>
+				<checkNumber>319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction uniqueId="2" type="deposit" baseType="credit">
+				<description>DIRECT DEPOSIT BRANCH/STORE #3842125484</description>
+				<link>http://www.altova.com</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</transDate>
+				<postDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</postDate>
+				<checkNumber>319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction uniqueId="48" baseType="credit" type="deposit">
+				<description>TELLER DEPOSIT MIRIMAR</description>
+				<link>link</link>
+				<amount curCode="USD">43.87</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-20T13:12:16</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-20T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="49" baseType="credit" type="credit">
+				<description>TELLER DEPOSIT</description>
+				<link>link</link>
+				<amount curCode="USD">77.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-15T13:11:51</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-15T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="86" type="deposit" baseType="credit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE #384232078</description>
+				<link>http://www.altova.com</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</transDate>
+				<postDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</postDate>
+				<checkNumber>HSBBK 319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction uniqueId="96" type="deposit" baseType="credit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE #384232078</description>
+				<link>http://www.altova.com</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</transDate>
+				<postDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</postDate>
+				<checkNumber>CITIBANK 319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction uniqueId="78" type="deposit" baseType="credit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<link>http://www.altova.com</link>
+				<amount curCode="USD">3000.00</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</transDate>
+				<postDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</postDate>
+				<checkNumber>HSBBK 319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction uniqueId="60" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">3200.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T15:02:25</transDate>
+				<postDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</postDate>
+				<checkNumber>319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction uniqueId="52" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<link>link</link>
+				<amount curCode="USD">2200.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:34:13</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-15T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="28" baseType="credit" type="deposit">
+				<description>TELLER DEPOSIT CITIBANK</description>
+				<link>link</link>
+				<amount curCode="USD">3500.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-01T12:52:00</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-01T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="11" baseType="credit" type="deposit">
+				<description>TELLER DEPOSIT WELLS FARGO</description>
+				<link>link</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-15T11:34:59</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-15T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="010" baseType="credit" type="deposit">
+				<description>TELLER DEPOSIT WELLS FARGO</description>
+				<link>link</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-01T11:34:59</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-01T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="0110" baseType="credit" type="deposit">
+				<description>TELLER DEPOSIT WELLS FARGO</description>
+				<link>link</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-15T11:34:59</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-15T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="020" baseType="credit" type="deposit">
+				<description>TELLER DEPOSIT WELLS FARGO</description>
+				<link>link</link>
+				<amount curCode="USD">2500.00</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-01T11:34:59</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-01T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="3" baseType="debit" type="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED ATM ID NH037520 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">102.75</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="4" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="5" baseType="debit" type="debit">
+				<description>PURCHASE 1-800-Pack R 919 488 3636 NC CARD6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">184.81</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="6" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 02/06 TA #226 WILLCOX RE WILLCOX AZ S305038018827397 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">21.52</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="7" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="8" baseType="credit" type="interestPayment">
+				<description>INTEREST DUE</description>
+				<link>link</link>
+				<amount curCode="USD">25.59</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-02T09:39:32</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-02T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="9" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="10" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="12" baseType="debit" type="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED ST FRANCIS DPAI ISO TULAROSA NM 00305038466010459 ATM ID TX12532 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">62.15</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="13" baseType="debit" type="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED FCTI ISO BLOOMINGTON IL 00585040361619687 ATM ID TQ14132 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">63.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="14" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WU *2207989695 877-989-3268 MO S465037810810849 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">195.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="15" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WU *3418188355 877-989-3268 MO S585037826299469 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">66.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="16" baseType="debit" type="debit">
+				<description>ATM 2121 E CRAIG RD NORTH LAS VEG NV CARD2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">83.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="17" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 02/07 SMOKE and GO LAS VEG NV P00305038722651059 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">51.83</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="18" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED 7-ELEVEN NORTH LAS VEG NV P00000000457701225 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">27.83</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="19" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 02/07 SMITHS 6855 ALIANTE PK N LAS VEGAS NV P00465038814932036 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">9.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="20" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WALGREENS 6435 ALIANTE NORTH LAS VEG NV P00385039746476045 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">9.58</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="21" baseType="debit" type="debit">
+				<description>ATM WITHDRAWAL AUTHORIZED 25 EAST HORIZON PKWY HENDERSON NV 0002017 ATM ID 9943Z CARD 2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">40.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="22" baseType="debit" type="debit">
+				<description>PURCHASE WENDYS-WOLV N LAS VEGAS NV CARD6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">7.08</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="23" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED CITY OF N. LAS VEG 702-6332415 NV S305036696061173 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">224.52</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="24" baseType="debit" type="debit">
+				<description>PURCHASE BURGER KING NORTH LAS VEG NV CARD4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">10.46</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="25" baseType="debit" type="debit">
+				<description>PURCHASE 7-ELEVEN LAS VEGAS NV CARD2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.79</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="26" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED 7-ELEVEN HENDERSON NV P00000000139466280 CARD 2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">6.48</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="27" baseType="debit" type="debit">
+				<description>PURCHASE ANNA'S LINEN N LAS VEGAS NV CARD6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">64.85</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="29" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ROSS STORES #1061 N LAS VEGAS NV P00000000045066464 CARD 6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">26.66</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="30" baseType="debit" type="debit">
+				<description>WalMart CC WM EPAY 020515 XXXXX1</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">100.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="31" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED REBEL 2191 LAS VEGAS NV P00465040188563702 CARD 2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-31T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="32" baseType="debit" type="debit">
+				<description>PURCHASE Silver State North Las Veg NV CARD6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">604.25</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="33" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED RAMEN SORA LAS VEGAS NV S385037117208244 CARD 6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">28.24</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T12:52:18</transDate>
+			</transaction>
+			<transaction uniqueId="34" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SMITHS 6855 ALIANTE PK N LAS VEGAS NV P00465038745449111 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">115.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T12:52:01</transDate>
+			</transaction>
+			<transaction uniqueId="35" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED OREILLY AUTO PARTS 310 SAN JOSE CA P00000000449798102 CARD 9903</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.69</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T12:52:00</transDate>
+			</transaction>
+			<transaction uniqueId="36" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED COSTCO WHSE #0778 FREMONT CA P00585040726137399 CARD 9903</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">1.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T12:51:43</transDate>
+			</transaction>
+			<transaction uniqueId="37" baseType="debit" type="debit">
+				<description>PURCHASE AMAZON MKTPL AMZN COM BILL WA CARD6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">4.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T12:51:25</transDate>
+			</transaction>
+			<transaction uniqueId="38" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AEROPOSTALE #855 CAPITOLA CA P00305039151813715 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">12.89</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T12:50:56</transDate>
+			</transaction>
+			<transaction uniqueId="39" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SC LOCUST GARAGE SANTA CRUZ CA S585038296489340 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">5.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T12:50:56</transDate>
+			</transaction>
+			<transaction uniqueId="40" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED KIANTIS PIZZA SANTA CRUZ CA S305038118389880 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">72.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="41" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AEROPOSTALE #855 CAPITOLA CA P00465039153695785 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">17.51</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="42" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S585037614833975 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.86</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="43" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED Amazon Video On De 866-216-1072 WA S585038333606967 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="44" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PAYPAL *DESIGNERSH 402-935-7733 CA S465039204295418 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="45" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S385036612975727 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">11.41</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="46" baseType="debit" type="debit">
+				<description>CHECK # 1256</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">3.79</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="47" baseType="debit" type="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBECDC7V5N CUSTOM MANAGEMENT</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">500.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="50" baseType="debit" type="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBECDC7V5N CUSTOM MANAGEMENT</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">500.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="51" baseType="debit" type="debit">
+				<description>TRANSFER TO ROWE KRISTOPHER REF #PPE2PT427Z VIA MOBILE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">202.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="53" baseType="debit" type="debit">
+				<description>PAYPAL TRANSFER 150128 52H228LERMHPN MICHAEL SNITKER</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">100.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="54" baseType="debit" type="debit">
+				<description>OVERDRAFT PROTECTION XFER TO CHECKING</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">37.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="55" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE WWW.KOHLS.COM #087 866-887-8884 OH 434256XXXXXX1745 084313125538925 ?MCC=5311</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">19.06</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="56" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE BURGER KING #2748 LOCKPORT IL 434256XXXXXX1745 304319775461135 ?MCC=5814</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">14.76</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="57" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE ORLAND PARK CINEMA ORLAND PARK IL 434256XXXXXX1745 464326061162076 ?MCC=7832</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">21.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="58" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED JIMMY JOHNS - 846 LOCKPORT IL S304351856619514 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">32.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="59" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S464361022357889 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">129.38</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="61" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED LASER POINTER CIRC NORTH YORK CD S165003812631086 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">69.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T14:12:39</transDate>
+			</transaction>
+			<transaction uniqueId="62" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S085019686221927 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">30.37</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T11:16:09</transDate>
+			</transaction>
+			<transaction uniqueId="63" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 01/25 GOOGLE *Supercell GOOGLE.COM/CH CA S465025448475902 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">99.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T11:15:38</transDate>
+			</transaction>
+			<transaction uniqueId="64" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855034004235325 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">19.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T11:15:38</transDate>
+			</transaction>
+			<transaction uniqueId="65" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE HAIR CUTTERY #3329 LOCKPORT IL 434256XXXXXX1745 464317004143122 ?MCC=7230</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">22.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T09:36:39</transDate>
+			</transaction>
+			<transaction uniqueId="66" baseType="debit" type="debit">
+				<description>POS PURCHASE - #03720 JEWEL LOCKPORT IL 1745 00584327047288274</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">43.53</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-31T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="67" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED ON STFUHELP.COM877731 NICOSIA CY S854339003903783 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="68" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MICROSOFT * BILL.MS.NET WA S304347697435482 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">7.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="69" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PORTILLOS HOT DOG' SHOREWOOD IL S005001026555565 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">23.13</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="70" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ORLAND PARK CINEMA 708-873-1582 IL S465007123094517 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">12.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="71" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WU GM FINANCIAL 800-284-2271 TX S385013618841439 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">385.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T13:15:25</transDate>
+			</transaction>
+			<transaction uniqueId="72" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED TARGET T0 TARGET T0363 Scottsdale AZ P00000000549049297 CARD 4442</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">43.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-23T13:15:25</transDate>
+			</transaction>
+			<transaction uniqueId="73" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ULTA 3 SCOTTSDALE AZ P00465039666493436 CARD 4442</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">9.70</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T13:33:58</transDate>
+			</transaction>
+			<transaction uniqueId="74" baseType="debit" type="debit">
+				<description>WALGREENS P00385039107377036 CARD 4442</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">11.86</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T13:30:25</transDate>
+			</transaction>
+			<transaction uniqueId="75" type="debit" baseType="debit">
+				<description>THE VIG S585039130859165 CARD 4442</description>
+				<checkNumber>229</checkNumber>
+				<amount curCode="USD">36.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="76" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Wal-Mart Super Center SCOTTSDALE AZ P00000000545562599 CARD 4442</description>
+				<checkNumber>233</checkNumber>
+				<amount curCode="USD">22.43</amount>
+				<link>link</link>
+				<category>Payment</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="77" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED DUBLINER IRISH PUB PHOENIX AZ S305038717609856 CARD 4442</description>
+				<checkNumber>3319</checkNumber>
+				<amount curCode="USD">12.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="79" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM NETFLIX.COM CA S465036339028382 CARD 4442</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">8.63</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="80" type="debit" baseType="debit">
+				<description>PURCHASE RESCUED TREA PHOENIX AZ CARD4442</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="81" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE FIRESTONE 344547 ROMEOVILLE IL 434256XXXXXX1745 384319736189272 ?MCC=5532</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">24.13</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="82" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE GOOGLE *Music GOOGLE.COM/CH CA 434256XXXXXX1745 584324839487394 ?MCC=7399</description>
+				<checkNumber>233</checkNumber>
+				<amount curCode="USD">1.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-16T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="83" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED TARGET T0 TARGET T0363 Scottsdale AZ P00000000243012175 CARD 4442</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">30.51</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="84" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S384337831645757 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">30.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="85" type="debit" baseType="debit">
+				<description>GMFinancia GMFinancia 141217 000451348403 STEVEN SPENCER</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">385.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="87" type="debit" baseType="debit">
+				<description>BASHAS' P00385041071925580 CARD 4442</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">15.84</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="88" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S854354005062889 CARD 1745</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">19.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="89" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SHELL SERVICE STATION 4442</description>
+				<checkNumber>233</checkNumber>
+				<amount curCode="USD">24.75</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="90" type="debit" baseType="debit">
+				<description>AMAZON.COM BILL WA S584360818100846 CARD 1745</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">66.67</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="91" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED GEICO *AUTO MACON DC S585013622426995 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">302.15</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="92" type="debit" baseType="debit">
+				<description>PURCHASE WALGREENS SCOTTSDALE AZ CARD4442</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">2.42</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="93" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SOUTHWES 526247 800-435-9792 TX S165017642905308 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">665.20</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="94" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S624356545262102 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">36.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="95" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED DOLLAR GENERAL S084357751784084 CARD 1745</description>
+				<checkNumber>229</checkNumber>
+				<amount curCode="USD">31.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="97" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE CULVER'S OF LOCKPO LOCKPORT IL 434256XXXXXX1745 284317011920765 ?MCC=5814</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">18.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="98" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S165002115859831 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">43.77</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="99" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED REV CAFE 1127 PHOENIX AZ S385037489527557 CARD 4442</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.68</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="100" type="debit" baseType="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="101" type="debit" baseType="debit">
+				<description>OVERDRAFT TRANSFER FEE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">12.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="102" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S085013059436840 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">46.81</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="103" type="debit" baseType="debit">
+				<description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQYJYN2Y XXXXXX1137</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="104" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE COMCAST CHICAGO 800-COMCAST IL 434256XXXXXX1745 584318821385224 ?MCC=4899</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">183.68</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="105" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE MICROSOFT * BILL.MS.NET WA 434256XXXXXX1745 384322861725575 ?MCC=4816</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">106.24</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="106" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE FIRESTONE 344547 ROMEOVILLE IL 434256XXXXXX1745 584321844722324 ?MCC=5532</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">317.57</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="107" type="debit" baseType="debit">
+				<description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQZ43YWS XXXXXX1137</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-28T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="108" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MCDONALD'S F12256 LOCKPORT IL S585019559668468 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="109" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED GEEKSQUADPLAN 0001 800-4335778 MN S385021116502937 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="110" type="debit" baseType="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="111" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PORTILLOS HOT DOGS NEW LENOX IL S285038059429197 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">30.40</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="112" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL 00464329653470396 ATM ID T64290 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">103.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="113" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S464336253174192 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">83.71</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="114" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM NETFLIX.COM CA S304341312567925 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">16.21</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="115" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S004348399779245 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">41.41</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="116" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Amazon.com AMZN.COM/BILL WA S384346488651660 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">36.44</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="117" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S084350393379280 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">15.78</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="119" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED VENDOSUPPORT.COM 8777773758 CH S284347019365605 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="120" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED GEEKSQUADPLAN 0001 800-4335778 MN S584355119413130 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="121" type="debit" baseType="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBE2PLZ4DX SAVINGS VIA MOBILE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">1500.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-16T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="122" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855004006275632 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="123" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED RTE 66 FOOD N FUEL JOLIET IL S385007240404108 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">7.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="124" type="debit" baseType="debit">
+				<description>DEBIT CRD PURCHASE WWW.VENDOSUPPORT.C +18777773758 CH 434256XXXXXX1745 084317016283947 ?MCC=5967</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="125" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE CHICKEN N SPICE JOLIET IL 434256XXXXXX1745 304326840120378 ?MCC=5812</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">32.13</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="126" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED HARBOR FREIGHT TOOLS U JOLIET IL P00384335610677797 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">403.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="127" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S284339135692119 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">61.20</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="128" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED RB-ORLAND PARK ORLAND PARK IL S384355696512870 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">46.92</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="129" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ON COMCAST CHICAGO 800-COMCAST IL S304360621503079 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">438.42</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="130" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S285001663395941 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">30.89</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="131" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ORLAND PARK CINEMA ORLAND PARK IL S385007147340273 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.88</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="132" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855034004235251 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="133" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE AMAZON MKTPLACE PM AMZN.COM/BILL WA 434256XXXXXX1745 304315818871558 ?MCC=5942</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">35.73</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="134" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED TropicD 7274986514 GE S584337287769255 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">29.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="135" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED MSFT *XBOX MUSIC 800-642-7676 WA S385013454803111 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="136" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S085019687995421 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">37.92</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="137" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED RED LOBSTER US0000 JOLIET IL S465024046411253 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">160.35</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-31T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="138" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Amazon.com AMZN.COM/BILL WA S305024391642522 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">71.38</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="139" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE MICHAELS PIZZA ROM ROMEOVILLE IL 434256XXXXXX1745 464323831521512 ?MCC=5812</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">32.08</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="140" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED CULVER'S OF LOCKPO LOCKPORT IL S164337030704706 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">22.01</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="141" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ROMEOVILLE MINUTEM ROMEOVILLE IL S304340688739881 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.73</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="142" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED MSFT *XBOX MUSIC 800-642-7676 WA S464346009838441 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="143" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED MSFT *XBOX LIVE 800-642-7676 WA S384346396539349 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">59.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="144" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED WENDYS #8949 HOMER GLEN IL S164354857349253 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">18.84</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="145" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED GOOGLE *Google Pla GOOGLE.COM/CH CA S304360734109627 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">6.16</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="146" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED HOMEDEPOT.COM 800-430-3376 GA S464359821953642 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">63.72</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="147" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S005005135493664 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">21.45</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="148" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BUCA DI BEPPO-ORLA ORLAND PARK IL S305007127275101 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">99.34</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="149" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S385006006684207 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">35.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="150" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED JEWEL #3720 LOCKPORT IL S384358818298138 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">68.78</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-23T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="151" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MCDONALD'S F12256 LOCKPORT IL S585001666816553 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="152" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S385003758321421 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">34.01</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="153" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 7337 WEST 100THP187011 BRIDGEVIEW IL 00305003344708815 ATM ID P187011 CARD</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">220.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="154" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL 00585012712399456 ATM ID T64290 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">303.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="155" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED Gold s Gym 970-2434653 CO S585014318820711 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">39.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="156" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPRINT *WIRELESS 800-639-6111 KS S385017800856822 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">45.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="157" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED WFB*IDPROTCT726087 877-2247430 MN S385028620542257 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">12.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="158" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S165037110290883 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">21.85</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="159" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE SPEEDWAY 05381 314 LOCKPORT IL 434256XXXXXX1745 004315112878079 ?MCC=5541</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">4.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="160" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMT CCBill.com *Clock 888-5969279 AZ 434256XXXXXX1745 584317083780059 ?MCC=5967</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="161" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMT MSFT *XBOX MUSIC 800-642-7676 WA 434256XXXXXX1745 304317348068095 ?MCC=4816</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="162" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BURGER KING #2748 LOCKPORT IL S305014765162195 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.10</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="163" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BEST BUY #307 JOLIET IL P00000000757482844 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">489.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="164" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MCDONALD'S F12256 LOCKPORT IL S305022808532093 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">12.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="165" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED ZOOSK 18889396675 888-939-6675 CA S165037111757214 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="166" type="debit" baseType="debit">
+				<description>PURCHASE DUNKIN #3102 LOCKPORT IL CARD1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">11.49</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="167" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE MAURIE'S TABLE INC JOLIET IL 434256XXXXXX1745 464319083016641 ?MCC=5812</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">77.09</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="168" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMTGold s Gym 970-2434653 CO 434256XXXXXX1745 464318320146073 ?MCC=7997</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">39.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="169" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE GOOGLE *Music GOOGLE.COM/CH CA 434256XXXXXX1745 384321165424314 ?MCC=7399</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">11.82</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="170" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE JEWEL #3720 LOCKPORT IL 434256XXXXXX1745 384327044372616 ?MCC=5411</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">116.58</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="171" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BEST BUY MHT 0000 JOLIET IL S384332788164043 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">1626.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="172" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED WFB*IDPROTCT726087 877-2247430 MN S584332670942597 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">12.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="173" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 0GJ46230BG5205905 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.11</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="174" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S854339003903456 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="175" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED TMG055 CHICAGO, IL BOLINGBROOK IL S164347084195748 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">197.47</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="176" type="debit" baseType="debit">
+				<description>Details Payment From Jacqueline Musich 97U26034SM9953816 Paypal fees:-0.82</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">17.22</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="177" type="debit" baseType="debit">
+				<description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPE2PGJBJP XXXXXX1137</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="178" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 89E53493M8690924W Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">5.09</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="179" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL 00584350787781078 ATM ID T64290 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">103.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="180" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED CULVER'S OF LOCKPO LOCKPORT IL S164350836884351 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">30.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="181" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED CHEESECAKE FACTORY ORLAND PARK IL S304357023312571 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">103.03</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="182" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PUBLIC LANDING LOCKPORT IL S384357756864325 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">150.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="183" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 5UE094989B872613B Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">4.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="184" type="debit" baseType="debit">
+				<description>DEBIT CRD PURCHASE STFUHELP.COM877731 NICOSIA CY 434256XXXXXX1745 854324003644885 ?MCC=5967</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="185" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MSFT *WINDOWS ST BILL.MS.NET WA S384332824890465 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">5.30</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="186" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 40E910357H3396224 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.65</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="187" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ON 12/03 AMAZON MKTPLACE PM AMZN.COM/BILL WA S464336226971208 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">12.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="188" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 98S02925RH520982M Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.11</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="189" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED NANCYS PIZZA - LOC LOCKPORT IL S384342842674268 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">35.53</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="190" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED CCBill.com *Clock 888-5969279 AZ S304347080964411 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="191" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BUILDABEAR WRKSHP ORLAND PARK IL S384355719900324 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">96.75</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="192" type="debit" baseType="debit">
+				<description>Details Transfer To Bank Account 5J413084K14628607 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">200.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="193" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S384361637168668 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">57.03</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="194" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM NETFLIX.COM CA S465007305259939 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">16.21</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="195" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855019003654500 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="196" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S005024107686204 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">20.05</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="197" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 9UV07098596375447 Paypal fees:0.00</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">4.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="198" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE AMAZON MKTPLACE PM AMZN.COM/BILL WA 434256XXXXXX1745 304315818871582 ?MCC=5942</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.47</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="199" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE JEWEL #3720 LOCKPORT IL 434256XXXXXX1745 384327829951307 ?MCC=5411</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">178.98</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="200" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 8PX68231VU053215L Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.29</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="201" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMT GEEKSQUADPLAN 0001 800-4335778 MN 434256XXXXXX1745 384325117636242 ?MCC=5732</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="202" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S284339133241189 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">32.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="203" type="debit" baseType="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBEK6MWMDQ SAVINGS VIA MOBILE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2000.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="204" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED WEATHERTECH MACNEI 800-441-6287 IL S584345826468789 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">195.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="205" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BEST BUY MHT 0000 JOLIET IL S584357781880900 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">125.04</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="206" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED WFB*IDPROTCT726087 877-2247430 MN S584363735702032 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">17.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="207" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PORTILLOS HOT DOG' SHOREWOOD IL S285001044957906 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">8.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="208" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 9PJ89558BK0544106 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2.59</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="209" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 01/03 VONCH BRIDGEVIEW IL S465003267473353 CARD</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">427.54</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T12:54:15</transDate>
+			</transaction>
+			<transaction uniqueId="210" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855004006275649 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T12:54:15</transDate>
+			</transaction>
+			<transaction uniqueId="211" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED POF 1-800-763-5007 604-692-2542 DE S165011156280120 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.70</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T12:54:01</transDate>
+			</transaction>
+			<transaction uniqueId="212" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S285013058652774 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">35.02</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T12:54:01</transDate>
+			</transaction>
+			<transaction uniqueId="213" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED JIMMY JOHNS - 846 LOCKPORT IL S465020624784750 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">30.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-16T12:52:32</transDate>
+			</transaction>
+			<transaction uniqueId="214" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S305021081695206 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">240.29</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T12:52:32</transDate>
+			</transaction>
+			<transaction uniqueId="215" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM 866-579-7172 CA S085038312058963 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">16.21</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T12:52:18</transDate>
+			</transaction>
+			<transaction uniqueId="216" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE SPEEDWAY 07440 100 LOCKPORT IL 434256XXXXXX1745 164326158805578 ?MCC=5542</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">47.01</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T15:34:13</transDate>
+			</transaction>
+			<transaction uniqueId="217" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MICROSOFT * BILL.MS.NET WA S384348033460545 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">0.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-21-18T15:34:13</transDate>
+			</transaction>
+			<transaction uniqueId="218" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S464345861864922 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">60.81</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="219" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="220" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">300.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="221" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED BURGER KING #2748 LOCKPORT IL S465028820292860 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">20.02</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="222" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S384336280406680 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">7.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="223" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED KENWOOD HOMER GLEN HOMER GLEN IL S284355021605872 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">37.23</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="224" baseType="debit" type="debit">
+				<description>Details Payment To eBay Inc Shipping 09A51313R9654481Y Paypal fees:0.00</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">4.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="225" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED GRAND PREE 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="226" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SUBWAY 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="227" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED QUIZNOS 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="228" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED TARGET 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="229" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED BESTBUY 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="230" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED BED BATH BEYOND 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="231" baseType="debit" type="debit">
+				<description>MOES 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">18.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="232" baseType="debit" type="debit">
+				<description>US AIRWAYS S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="233" baseType="debit" type="debit">
+				<description>DELTA CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="234" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="235" type="debit" baseType="debit">
+				<description>ACH TRANSFER TO REGIONS BANK</description>
+				<checkNumber>118</checkNumber>
+				<amount curCode="USD">2100.00</amount>
+				<link>link</link>
+				<category>category</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="236" baseType="debit" type="debit">
+				<description>Details Payment To eBay Inc Shipping 4HH53223F6957190F Paypal fees:0.00</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">3.11</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="237" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED ZOOSK 18889396675 888-939-6675 CA S085006111121591 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="238" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">300.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="239" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED HAIR CUTTERY #3329 LOCKPORT IL S305013809394814 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">22.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="240" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED NANCYS PIZZA - LOC LOCKPORT IL S585018859108977 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">26.65</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="241" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S465031636144305 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.55</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="242" baseType="credit" type="interestPayment">
+				<description>INTEREST DUE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">92.55</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="243" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MICROSOFT * BILL.MS.NET WA S384343687092710 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">21.24</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="244" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S464353849238265 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">45.37</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="245" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S004361402615277 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">6.79</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="246" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">300.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="247" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S165005136396513 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">31.45</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="248" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="249" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SQ *CR TOWING Joliet IL S585034645211606 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">254.68</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="250" baseType="credit" type="interestPayment">
+				<description>INTEREST DUE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">92.55</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="251" baseType="debit" type="debit">
+				<description>GMFinancia GMFinancia 141117 000451348403 STEVEN SPENCER</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">385.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="252" baseType="debit" type="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED ON 02/07 403 S Main 54 Truck S Mullinville KS 00465039134475406 ATM ID NH037520 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">102.75</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="253" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="254" baseType="debit" type="debit">
+				<description>PURCHASE 1-800-Pack R 919 488 3636 NC CARD6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">184.81</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="255" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 02/06 TA #226 WILLCOX RE WILLCOX AZ S305038018827397 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">21.52</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="256" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="257" baseType="credit" type="interestPayment">
+				<description>INTEREST DUE</description>
+				<link>link</link>
+				<amount curCode="USD">25.59</amount>
+				<transDate localFormat="MM/dd/yy">2017-05-02T09:39:32</transDate>
+				<postDate localFormat="MM/dd/yy">2017-05-02T00:00:00</postDate>
+				<checkNumber>119</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction uniqueId="258" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="259" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="260" baseType="debit" type="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED ON 02/07 21 ST FRANCIS DPAI ISO TULAROSA NM 00305038466010459 ATM ID TX12532 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">62.15</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="261" baseType="debit" type="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED ON 02/09 I-55 I-74 I-39 FCTI ISO BLOOMINGTON IL 00585040361619687 ATM ID TQ14132 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">63.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="262" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WU *2207989695 877-989-3268 MO S465037810810849 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">195.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="263" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WU *3418188355 877-989-3268 MO S585037826299469 CARD 6770</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">66.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="264" baseType="debit" type="debit">
+				<description>ATM 2121 E CRAIG RD NORTH LAS VEG NV CARD2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">83.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="265" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 02/07 SMOKE and GO/6365 SIMMON NORTH LAS VEG NV P00305038722651059 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">51.83</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="266" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED 7-ELEVEN NORTH LAS VEG NV P00000000457701225 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">27.83</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="267" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 02/07 SMITHS 6855 ALIANTE PK N LAS VEGAS NV P00465038814932036 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">9.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="268" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WALGREENS 6435 ALIANTE NORTH LAS VEG NV P00385039746476045 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">9.58</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="269" baseType="debit" type="debit">
+				<description>ATM WITHDRAWAL AUTHORIZED 25 EAST HORIZON PKWY HENDERSON NV 0002017 ATM ID 9943Z CARD 2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">40.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="270" baseType="debit" type="debit">
+				<description>PURCHASE WENDYS-WOLV N LAS VEGAS NV CARD6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">7.08</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="271" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED CITY OF N. LAS VEG 702-6332415 NV S305036696061173 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">224.52</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="272" baseType="debit" type="debit">
+				<description>PURCHASE BURGER KING NORTH LAS VEG NV CARD4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">10.46</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="273" baseType="debit" type="debit">
+				<description>PURCHASE 7-ELEVEN LAS VEGAS NV CARD2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.79</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="274" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED 7-ELEVEN HENDERSON NV P00000000139466280 CARD 2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">6.48</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="275" baseType="debit" type="debit">
+				<description>PURCHASE ANNA'S LINEN N LAS VEGAS NV CARD6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">64.85</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="276" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ROSS STORES #1061 N LAS VEGAS NV P00000000045066464 CARD 6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">26.66</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="277" baseType="debit" type="debit">
+				<description>WalMart CC WM EPAY 020515 XXXXX1</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">100.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="278" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED REBEL 2191 LAS VEGAS NV P00465040188563702 CARD 2371</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-31T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="279" baseType="debit" type="debit">
+				<description>PURCHASE Silver State North Las Veg NV CARD6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">604.25</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="280" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED RAMEN SORA LAS VEGAS NV S385037117208244 CARD 6344</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">28.24</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T12:52:18</transDate>
+			</transaction>
+			<transaction uniqueId="281" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SMITHS 6855 ALIANTE PK N LAS VEGAS NV P00465038745449111 CARD 4586</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">115.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T12:52:01</transDate>
+			</transaction>
+			<transaction uniqueId="282" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED OREILLY AUTO PARTS 310 SAN JOSE CA P00000000449798102 CARD 9903</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.69</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T12:52:00</transDate>
+			</transaction>
+			<transaction uniqueId="283" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED COSTCO WHSE #0778 FREMONT CA P00585040726137399 CARD 9903</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">1.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T12:51:43</transDate>
+			</transaction>
+			<transaction uniqueId="284" baseType="debit" type="debit">
+				<description>PURCHASE AMAZON MKTPL AMZN COM BILL WA CARD6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">4.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T12:51:25</transDate>
+			</transaction>
+			<transaction uniqueId="285" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AEROPOSTALE #855 CAPITOLA CA P00305039151813715 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">12.89</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T12:50:56</transDate>
+			</transaction>
+			<transaction uniqueId="286" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SC LOCUST GARAGE SANTA CRUZ CA S585038296489340 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">5.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T12:50:56</transDate>
+			</transaction>
+			<transaction uniqueId="287" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED KIANTIS PIZZA SANTA CRUZ CA S305038118389880 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">72.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="288" baseType="debit" type="debit">
+				<description>GAP #855 CAPITOLA CA P00465039153695785 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">17.51</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="289" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S585037614833975 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">8.86</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="290" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED Amazon Video On De 866-216-1072 WA S585038333606967 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="291" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PAYPAL *DESIGNERSH 402-935-7733 CA S465039204295418 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="292" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S385036612975727 CARD 6381</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">11.41</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="293" baseType="debit" type="debit">
+				<description>CHECK # 1256</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">3.79</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="294" baseType="debit" type="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBECDC7V5N CUSTOM MANAGEMENT</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">500.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="295" baseType="debit" type="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBECDC7V5N CUSTOM MANAGEMENT</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">500.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="296" baseType="debit" type="debit">
+				<description>TRANSFER TO ROWE KRISTOPHER REF #PPE2PT427Z VIA MOBILE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">202.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="297" baseType="debit" type="debit">
+				<description>PAYPAL TRANSFER 150128 52H228LERMHPN MICHAEL SNITKER</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">100.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="298" baseType="debit" type="debit">
+				<description>OVERDRAFT PROTECTION XFER TO CHECKING</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">37.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="299" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE WWW.KOHLS.COM #087 866-887-8884 OH 434256XXXXXX1745 084313125538925 ?MCC=5311</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">19.06</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="300" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE BURGER KING #2748 LOCKPORT IL 434256XXXXXX1745 304319775461135 ?MCC=5814</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">14.76</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="301" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE ORLAND PARK CINEMA ORLAND PARK IL 434256XXXXXX1745 464326061162076 ?MCC=7832</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">21.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="302" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED JIMMY JOHNS - 846 LOCKPORT IL S304351856619514 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">32.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="303" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S464361022357889 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">129.38</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="304" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED LASER POINTER CIRC NORTH YORK CD S165003812631086 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">69.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T14:12:39</transDate>
+			</transaction>
+			<transaction uniqueId="305" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S085019686221927 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">30.37</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T11:16:09</transDate>
+			</transaction>
+			<transaction uniqueId="306" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 01/25 GOOGLE *Supercell GOOGLE.COM/CH CA S465025448475902 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">99.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T11:15:38</transDate>
+			</transaction>
+			<transaction uniqueId="307" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855034004235325 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">19.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T11:15:38</transDate>
+			</transaction>
+			<transaction uniqueId="308" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE HAIR CUTTERY #3329 LOCKPORT IL 434256XXXXXX1745 464317004143122 ?MCC=7230</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">22.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T09:36:39</transDate>
+			</transaction>
+			<transaction uniqueId="309" baseType="debit" type="debit">
+				<description>POS PURCHASE - #03720 JEWEL LOCKPORT IL 1745 00584327047288274</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">43.53</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-31T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="310" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED ON STFUHELP.COM877731 NICOSIA CY S854339003903783 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="311" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MICROSOFT * BILL.MS.NET WA S304347697435482 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">7.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="312" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PORTILLOS HOT DOG' SHOREWOOD IL S005001026555565 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">23.13</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="313" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ORLAND PARK CINEMA 708-873-1582 IL S465007123094517 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">12.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="314" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WU GM FINANCIAL 800-284-2271 TX S385013618841439 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">385.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T13:15:25</transDate>
+			</transaction>
+			<transaction uniqueId="315" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED TARGET T0 TARGET T0363 Scottsdale AZ P00000000549049297 CARD 4442</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">43.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-23T13:15:25</transDate>
+			</transaction>
+			<transaction uniqueId="316" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ULTA 3 SCOTTSDALE AZ P00465039666493436 CARD 4442</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">9.70</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T13:33:58</transDate>
+			</transaction>
+			<transaction uniqueId="317" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED WALGREENS 7337 N VIA P SCOTTSDALE AZ P00385039107377036 CARD 4442</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">11.86</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T13:30:25</transDate>
+			</transaction>
+			<transaction uniqueId="318" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED THE VIG SCOTTSDALE SCOTTSDALE AZ S585039130859165 CARD 4442</description>
+				<checkNumber>229</checkNumber>
+				<amount curCode="USD">36.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="319" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Wal-Mart Super Center SCOTTSDALE AZ P00000000545562599 CARD 4442</description>
+				<checkNumber>233</checkNumber>
+				<amount curCode="USD">22.43</amount>
+				<link>link</link>
+				<category>Payment</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="320" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED DUBLINER IRISH PUB PHOENIX AZ S305038717609856 CARD 4442</description>
+				<checkNumber>3319</checkNumber>
+				<amount curCode="USD">12.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="321" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM NETFLIX.COM CA S465036339028382 CARD 4442</description>
+				<checkNumber>#230</checkNumber>
+				<amount curCode="USD">8.63</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="322" type="debit" baseType="debit">
+				<description>PURCHASE RESCUED TREA PHOENIX AZ CARD4442</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="323" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE FIRESTONE 344547 ROMEOVILLE IL 434256XXXXXX1745 384319736189272 ?MCC=5532</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">24.13</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="324" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE GOOGLE *Music GOOGLE.COM/CH CA 434256XXXXXX1745 584324839487394 ?MCC=7399</description>
+				<checkNumber>233</checkNumber>
+				<amount curCode="USD">1.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-16T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="325" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED TARGET T0 TARGET T0363 Scottsdale AZ P00000000243012175 CARD 4442</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">30.51</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="326" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S384337831645757 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">30.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="327" type="debit" baseType="debit">
+				<description>GMFinancia GMFinancia 141217 000451348403 STEVEN SPENCER</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">385.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="328" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BASHAS' #016 SCOTTSDALE AZ P00385041071925580 CARD 4442</description>
+				<checkNumber>#230</checkNumber>
+				<amount curCode="USD">15.84</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="329" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S854354005062889 CARD 1745</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">19.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="330" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SHELL Service Station PHOENIX AZ P00465038750212055 CARD 4442</description>
+				<checkNumber>233</checkNumber>
+				<amount curCode="USD">24.75</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="331" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Amazon.com AMZN.COM/BILL WA S584360818100846 CARD 1745</description>
+				<checkNumber>232</checkNumber>
+				<amount curCode="USD">66.67</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="332" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED GEICO *AUTO MACON DC S585013622426995 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">302.15</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="333" type="debit" baseType="debit">
+				<description>PURCHASE WALGREENS SCOTTSDALE AZ CARD4442</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">2.42</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="334" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SOUTHWES 526247 800-435-9792 TX S165017642905308 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">665.20</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-08T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="335" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S624356545262102 CARD 1745</description>
+				<checkNumber>228</checkNumber>
+				<amount curCode="USD">36.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="336" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED DOLLAR GENERAL #14 LOCKPORT IL S084357751784084 CARD 1745</description>
+				<checkNumber>229</checkNumber>
+				<amount curCode="USD">31.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="337" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE CULVER'S OF LOCKPO LOCKPORT IL 434256XXXXXX1745 284317011920765 ?MCC=5814</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">18.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="338" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S165002115859831 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">43.77</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="339" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED REV CAFE 1127 PHOENIX AZ S385037489527557 CARD 4442</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.68</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="340" type="debit" baseType="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="341" type="debit" baseType="debit">
+				<description>OVERDRAFT TRANSFER FEE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">12.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="342" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S085013059436840 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">46.81</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="343" type="debit" baseType="debit">
+				<description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQYJYN2Y XXXXXX1137</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="344" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE COMCAST CHICAGO 800-COMCAST IL 434256XXXXXX1745 584318821385224 ?MCC=4899</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">183.68</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="345" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE MICROSOFT * BILL.MS.NET WA 434256XXXXXX1745 384322861725575 ?MCC=4816</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">106.24</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="346" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE FIRESTONE 344547 ROMEOVILLE IL 434256XXXXXX1745 584321844722324 ?MCC=5532</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">317.57</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="347" type="debit" baseType="debit">
+				<description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQZ43YWS XXXXXX1137</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-28T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="348" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MCDONALD'S F12256 LOCKPORT IL S585019559668468 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="349" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED GEEKSQUADPLAN 0001 800-4335778 MN S385021116502937 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="350" type="debit" baseType="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="351" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PORTILLOS HOT DOGS NEW LENOX IL S285038059429197 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">30.40</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="352" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL 00464329653470396 ATM ID T64290 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">103.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="353" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S464336253174192 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">83.71</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="354" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM NETFLIX.COM CA S304341312567925 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">16.21</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="355" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S004348399779245 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">41.41</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="356" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Amazon.com AMZN.COM/BILL WA S384346488651660 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">36.44</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="357" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S084350393379280 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">15.78</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="358" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED VENDOSUPPORT.COM 8777773758 CH S284347019365605 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="359" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED GEEKSQUADPLAN 0001 800-4335778 MN S584355119413130 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="360" type="debit" baseType="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBE2PLZ4DX SAVINGS VIA MOBILE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">1500.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-16T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="361" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855004006275632 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="362" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED RTE 66 FOOD N FUEL JOLIET IL S385007240404108 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">7.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="363" type="debit" baseType="debit">
+				<description>DEBIT CRD PURCHASE WWW.VENDOSUPPORT.C +18777773758 CH 434256XXXXXX1745 084317016283947 ?MCC=5967</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="364" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE CHICKEN N SPICE JOLIET IL 434256XXXXXX1745 304326840120378 ?MCC=5812</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">32.13</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="365" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED HARBOR FREIGHT TOOLS U JOLIET IL P00384335610677797 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">403.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="366" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S284339135692119 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">61.20</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="367" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED RB-ORLAND PARK ORLAND PARK IL S384355696512870 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">46.92</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="368" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ON COMCAST CHICAGO 800-COMCAST IL S304360621503079 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">438.42</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="369" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S285001663395941 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">30.89</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-09T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="370" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ORLAND PARK CINEMA ORLAND PARK IL S385007147340273 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.88</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="371" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855034004235251 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="372" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE AMAZON MKTPLACE PM AMZN.COM/BILL WA 434256XXXXXX1745 304315818871558 ?MCC=5942</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">35.73</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="373" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED TropicD 7274986514 GE S584337287769255 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">29.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="374" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED MSFT *XBOX MUSIC 800-642-7676 WA S385013454803111 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="375" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S085019687995421 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">37.92</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="376" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED RED LOBSTER US0000 JOLIET IL S465024046411253 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">160.35</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-31T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="377" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED Amazon.com AMZN.COM/BILL WA S305024391642522 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">71.38</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="378" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE MICHAELS PIZZA ROM ROMEOVILLE IL 434256XXXXXX1745 464323831521512 ?MCC=5812</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">32.08</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-29T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="379" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED CULVER'S OF LOCKPO LOCKPORT IL S164337030704706 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">22.01</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-30T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="380" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ROMEOVILLE MINUTEM ROMEOVILLE IL S304340688739881 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.73</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-27T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="381" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED MSFT *XBOX MUSIC 800-642-7676 WA S464346009838441 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-26T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="382" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED MSFT *XBOX LIVE 800-642-7676 WA S384346396539349 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">59.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-25T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="382" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED WENDYS #8949 HOMER GLEN IL S164354857349253 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">18.84</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="383" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED GOOGLE *Google Pla GOOGLE.COM/CH CA S304360734109627 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">6.16</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="384" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED HOMEDEPOT.COM 800-430-3376 GA S464359821953642 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">63.72</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="385" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S005005135493664 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">21.45</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-24T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="386" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BUCA DI BEPPO-ORLA ORLAND PARK IL S305007127275101 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">99.34</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="387" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S385006006684207 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">35.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="388" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED JEWEL #3720 LOCKPORT IL S384358818298138 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">68.78</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-23T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="389" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MCDONALD'S F12256 LOCKPORT IL S585001666816553 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="390" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S385003758321421 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">34.01</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="391" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 7337 WEST 100THP187011 BRIDGEVIEW IL 00305003344708815 ATM ID P187011 CARD</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">220.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="392" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL 00585012712399456 ATM ID T64290 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">303.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="393" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED Gold s Gym 970-2434653 CO S585014318820711 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">39.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="394" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPRINT *WIRELESS 800-639-6111 KS S385017800856822 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">45.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-17T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="395" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED WFB*IDPROTCT726087 877-2247430 MN S385028620542257 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">12.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="396" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S165037110290883 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">21.85</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="397" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE SPEEDWAY 05381 314 LOCKPORT IL 434256XXXXXX1745 004315112878079 ?MCC=5541</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">4.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="398" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMT CCBill.com *Clock 888-5969279 AZ 434256XXXXXX1745 584317083780059 ?MCC=5967</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="399" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMT MSFT *XBOX MUSIC 800-642-7676 WA 434256XXXXXX1745 304317348068095 ?MCC=4816</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="400" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BURGER KING #2748 LOCKPORT IL S305014765162195 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.10</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="401" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BEST BUY #307 JOLIET IL P00000000757482844 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">489.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="402" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MCDONALD'S F12256 LOCKPORT IL S305022808532093 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">12.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="403" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED ZOOSK 18889396675 888-939-6675 CA S165037111757214 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="404" type="debit" baseType="debit">
+				<description>PURCHASE DUNKIN #3102 LOCKPORT IL CARD1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">11.49</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="405" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE MAURIE'S TABLE INC JOLIET IL 434256XXXXXX1745 464319083016641 ?MCC=5812</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">77.09</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="406" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMTGold s Gym 970-2434653 CO 434256XXXXXX1745 464318320146073 ?MCC=7997</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">39.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="407" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE GOOGLE *Music GOOGLE.COM/CH CA 434256XXXXXX1745 384321165424314 ?MCC=7399</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">11.82</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="408" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE JEWEL #3720 LOCKPORT IL 434256XXXXXX1745 384327044372616 ?MCC=5411</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">116.58</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="409" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BEST BUY MHT 0000 JOLIET IL S384332788164043 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">1626.33</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="410" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED WFB*IDPROTCT726087 877-2247430 MN S584332670942597 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">12.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="411" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 0GJ46230BG5205905 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.11</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="412" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S854339003903456 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="413" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED TMG055 CHICAGO, IL BOLINGBROOK IL S164347084195748 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">197.47</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="414" type="debit" baseType="debit">
+				<description>Details Payment From Jacqueline Musich 97U26034SM9953816 Paypal fees:-0.82</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">17.22</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="415" type="debit" baseType="debit">
+				<description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPE2PGJBJP XXXXXX1137</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">25.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="416" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 89E53493M8690924W Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">5.09</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="417" type="debit" baseType="debit">
+				<description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL 00584350787781078 ATM ID T64290 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">103.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="418" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED CULVER'S OF LOCKPO LOCKPORT IL S164350836884351 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">30.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="419" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED CHEESECAKE FACTORY ORLAND PARK IL S304357023312571 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">103.03</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="420" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PUBLIC LANDING LOCKPORT IL S384357756864325 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">150.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="421" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 5UE094989B872613B Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">4.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="422" type="debit" baseType="debit">
+				<description>DEBIT CRD PURCHASE STFUHELP.COM877731 NICOSIA CY 434256XXXXXX1745 854324003644885 ?MCC=5967</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="423" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED MSFT *WINDOWS ST BILL.MS.NET WA S384332824890465 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">5.30</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="424" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 40E910357H3396224 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">10.65</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="425" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED ON 12/03 AMAZON MKTPLACE PM AMZN.COM/BILL WA S464336226971208 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">12.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="426" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 98S02925RH520982M Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.11</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="427" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED NANCYS PIZZA - LOC LOCKPORT IL S384342842674268 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">35.53</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="428" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED CCBill.com *Clock 888-5969279 AZ S304347080964411 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">24.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="429" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BUILDABEAR WRKSHP ORLAND PARK IL S384355719900324 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">96.75</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="430" type="debit" baseType="debit">
+				<description>Details Transfer To Bank Account 5J413084K14628607 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">200.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="431" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S384361637168668 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">57.03</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="432" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM NETFLIX.COM CA S465007305259939 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">16.21</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="433" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855019003654500 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">19.97</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="434" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S005024107686204 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">20.05</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="435" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 9UV07098596375447 Paypal fees:0.00</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">4.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="436" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE AMAZON MKTPLACE PM AMZN.COM/BILL WA 434256XXXXXX1745 304315818871582 ?MCC=5942</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.47</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="437" type="debit" baseType="debit">
+				<description>CHECK CRD PURCHASE JEWEL #3720 LOCKPORT IL 434256XXXXXX1745 384327829951307 ?MCC=5411</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">178.98</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="438" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 8PX68231VU053215L Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">3.29</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-03T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="439" type="debit" baseType="debit">
+				<description>RECUR DEBIT CRD PMT GEEKSQUADPLAN 0001 800-4335778 MN 434256XXXXXX1745 384325117636242 ?MCC=5732</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">9.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-04T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="440" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S284339133241189 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">32.96</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-06T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="441" type="debit" baseType="debit">
+				<description>ONLINE TRANSFER TO SPENCER S REF #IBEK6MWMDQ SAVINGS VIA MOBILE</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2000.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-05T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="442" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED WEATHERTECH MACNEI 800-441-6287 IL S584345826468789 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">195.19</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="443" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED BEST BUY MHT 0000 JOLIET IL S584357781880900 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">125.04</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="444" type="debit" baseType="debit">
+				<description>RECURRING PAYMENT AUTHORIZED WFB*IDPROTCT726087 877-2247430 MN S584363735702032 CARD 1745</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">17.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-07T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="445" type="debit" baseType="debit">
+				<description>PURCHASE AUTHORIZED PORTILLOS HOT DOG' SHOREWOOD IL S285001044957906 CARD 1745</description>
+				<checkNumber>3318</checkNumber>
+				<amount curCode="USD">8.32</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="446" type="debit" baseType="debit">
+				<description>Details Payment To eBay Inc Shipping 9PJ89558BK0544106 Paypal fees:0.00</description>
+				<checkNumber>230</checkNumber>
+				<amount curCode="USD">2.59</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="447" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED ON 01/03 VONCH BRIDGEVIEW IL S465003267473353 CARD</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">427.54</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-22T12:54:15</transDate>
+			</transaction>
+			<transaction uniqueId="448" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED STFUHELP.COM877731 NICOSIA CY S855004006275649 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T12:54:15</transDate>
+			</transaction>
+			<transaction uniqueId="449" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED POF 1-800-763-5007 604-692-2542 DE S165011156280120 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.70</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-20T12:54:01</transDate>
+			</transaction>
+			<transaction uniqueId="450" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S285013058652774 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">35.02</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T12:54:01</transDate>
+			</transaction>
+			<transaction uniqueId="451" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED JIMMY JOHNS - 846 LOCKPORT IL S465020624784750 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">30.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-16T12:52:32</transDate>
+			</transaction>
+			<transaction uniqueId="452" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S305021081695206 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">240.29</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-14T12:52:32</transDate>
+			</transaction>
+			<transaction uniqueId="453" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED NETFLIX.COM 866-579-7172 CA S085038312058963 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">16.21</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-12T12:52:18</transDate>
+			</transaction>
+			<transaction uniqueId="454" baseType="debit" type="debit">
+				<description>CHECK CRD PURCHASE SPEEDWAY 07440 100 LOCKPORT IL 434256XXXXXX1745 164326158805578 ?MCC=5542</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">47.01</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-18T15:34:13</transDate>
+			</transaction>
+			<transaction uniqueId="455" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MICROSOFT * BILL.MS.NET WA S384348033460545 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">0.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-21-18T15:34:13</transDate>
+			</transaction>
+			<transaction uniqueId="456" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S464345861864922 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">60.81</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="457" baseType="debit" type="debit">
+				<description>NON-WELLS FARGO ATM TRANSACTION FEE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">2.50</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="458" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">300.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="459" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED BURGER KING #2748 LOCKPORT IL S465028820292860 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">20.02</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="460" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED AMAZON MKTPLACE PM AMZN.COM/BILL WA S384336280406680 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">7.64</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="461" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED KENWOOD HOMER GLEN HOMER GLEN IL S284355021605872 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">37.23</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="462" baseType="credit" type="interestPayment">
+				<description>Details Payment To eBay Inc Shipping 09A51313R9654481Y Paypal fees:0.00</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">4.99</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="463" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="464" baseType="debit" type="debit">
+				<description>MOES 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="465" baseType="debit" type="debit">
+				<description>POLLO TROPICAL IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="466" baseType="debit" type="debit">
+				<description>MOTOROLA 05381 314 LOCKPORT IL S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="467" baseType="debit" type="debit">
+				<description>SPRINT PCS S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">138.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="468" baseType="debit" type="debit">
+				<description>SIR PIZZA S284362690522492 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">18.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="469" baseType="debit" type="debit">
+				<description>BOSTON MARKET CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="470" baseType="debit" type="debit">
+				<description>APPLE STORE CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="471" baseType="debit" type="debit">
+				<description>WALLGREENS CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">38.87</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="472" type="debit" baseType="debit">
+				<description>ACH TRANSFER TO REGIONS BANK</description>
+				<checkNumber>118</checkNumber>
+				<amount curCode="USD">2100.00</amount>
+				<link>link</link>
+				<category>category</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T00:00:00</transDate>
+			</transaction>
+			<transaction uniqueId="473" baseType="debit" type="debit">
+				<description>Details Payment To eBay Inc Shipping 4HH53223F6957190F Paypal fees:0.00</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">3.11</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="474" baseType="debit" type="debit">
+				<description>RECURRING PAYMENT AUTHORIZED ZOOSK 18889396675 888-939-6675 CA S085006111121591 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.95</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="474" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">300.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="475" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED HAIR CUTTERY #3329 LOCKPORT IL S305013809394814 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">22.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-01T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="476" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED NANCYS PIZZA - LOC LOCKPORT IL S585018859108977 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">26.65</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="477" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S465031636144305 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">29.55</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="478" baseType="credit" type="interestPayment">
+				<description>INTEREST DUE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">92.55</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="479" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MICROSOFT * BILL.MS.NET WA S384343687092710 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">21.24</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="480" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED PIZZA HUT 31680316 815-8382294 IL S464353849238265 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">45.37</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="481" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 05381 314 LOCKPORT IL S004361402615277 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">6.79</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-13T15:33:42</transDate>
+			</transaction>
+			<transaction uniqueId="482" baseType="credit" type="deposit">
+				<description>DEPOSIT MADE IN A BRANCH/STORE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">300.00</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-10T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="483" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SPEEDWAY 07440 100 LOCKPORT IL S165005136396513 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">31.45</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-11T15:33:09</transDate>
+			</transaction>
+			<transaction uniqueId="484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="485" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED SQ *CR TOWING Joliet IL S585034645211606 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">254.68</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-19T08:08:11</transDate>
+			</transaction>
+			<transaction uniqueId="486" baseType="credit" type="interestPayment">
+				<description>INTEREST DUE</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">92.55</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-15T15:22:39</transDate>
+			</transaction>
+			<transaction uniqueId="487" baseType="debit" type="debit">
+				<description>ALL STATE 141117 000451348403</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">385.07</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-02T14:06:57</transDate>
+			</transaction>
+			<transaction uniqueId="101484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="102484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="103484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="104484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="105484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="106484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="107484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="108484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="109484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="1010484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="1011484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="1012484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="1013484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="1014484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+			<transaction uniqueId="1015484" baseType="debit" type="debit">
+				<description>PURCHASE AUTHORIZED MAMMA ONESTA'S LOCKPORT IL S385008066867770 CARD 1745</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">44.12</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2017-05-21T08:24:13</transDate>
+			</transaction>
+		</transactionList>
+	</bankAccount>
+</site>

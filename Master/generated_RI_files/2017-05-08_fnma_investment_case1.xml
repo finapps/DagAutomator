@@ -1,0 +1,270 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<site>
+	<status>0</status>
+	<investmentAccount acctType="401k" uniqueId="9191111" uniqueIdModified="1">
+		<link>http://www.altova.com</link>
+		<accountNumber>9791018</accountNumber>
+		<accountName>IQ 401k</accountName>
+		<accountHolder>Homer Loanseeker</accountHolder>
+		<isMarginTradingAllowed>1</isMarginTradingAllowed>
+		<isOptionTradingAllowed>1</isOptionTradingAllowed>
+		<accountCurrency>string</accountCurrency>
+		<accountEquityPercentage />
+		<personInformationId>
+			<name>
+				<title>Mr.</title>
+				<suffix />
+				<firstName>Homer</firstName>
+				<middleName />
+				<lastName>Loanseeker</lastName>
+			</name>
+			<fullName>Homer Loanseeker</fullName>
+			<gender>Male</gender>
+			<birthDateTime localFormat="yyyy-MM-dd">1979-10-30</birthDateTime>
+			<nickName>Homer</nickName>
+			<phone>22222</phone>
+			<workPhone>22222</workPhone>
+			<homePhone>22222</homePhone>
+			<mobilePhone>22222</mobilePhone>
+			<fax>22222</fax>
+			<pager>22222</pager>
+			<email>abc@yodlee.com</email>
+			<ssn>1</ssn>
+			<homeAddress>
+				<address>
+					<address1>ssssssssssssss</address1>
+					<address2>ssssssssssssss</address2>
+					<city>newyork</city>
+					<state>newyork</state>
+					<country>newyork</country>
+					<zip>String</zip>
+				</address>
+				<fullAddress>String</fullAddress>
+			</homeAddress>
+			<workAddress>
+				<address>
+					<address1>Newyork</address1>
+					<address2>Newyork</address2>
+					<city>NewYork</city>
+					<state>California</state>
+					<country>America</country>
+					<zip>12345</zip>
+				</address>
+				<fullAddress>fullAddress</fullAddress>
+			</workAddress>
+		</personInformationId>
+		<planNumber>1</planNumber>
+		<planName>Vanguard 401K plan</planName>
+		<asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
+		<balance balType="totalBalance">
+			<curAmt curCode="USD">57179.8</curAmt>
+		</balance>
+		<balance balType="totalVestedBalance">
+			<curAmt curCode="USD">65456</curAmt>
+		</balance>
+		<balance balType="totalUnvestedBalance">
+			<curAmt curCode="USD">30000</curAmt>
+		</balance>
+		<balance balType="fundsOwed">
+			<curAmt curCode="USD">14400</curAmt>
+		</balance>
+		<balance balType="availableLoan">
+			<curAmt curCode="USD">14400</curAmt>
+		</balance>
+		<balance balType="buyingPower">
+			<curAmt curCode="USD">65456</curAmt>
+		</balance>
+		<balance balType="marginBalance">
+			<curAmt curCode="USD">2369</curAmt>
+		</balance>
+		<balance balType="unsettledFunds">
+			<curAmt curCode="USD">1534</curAmt>
+		</balance>
+		<balance balType="shortBalance">
+			<curAmt curCode="USD">1500</curAmt>
+		</balance>
+		<transactionList>
+			<transaction type="buy" uniqueId="102186709" uniqueIdModified="1">
+				<link>http://www.altova.com</link>
+				<transactionId>958120</transactionId>
+				<description>buy Growth Index Fund shares</description>
+				<amount curCode="USD">1185</amount>
+				<date localFormat="yyyy-MM-dd">2017-05-08T00:00:00</date>
+				<settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
+				<symbol>VIIFLG</symbol>
+				<description>DEPOSIT</description>
+				<quantity>50</quantity>
+				<price curCode="USD">17.23</price>
+				<commission curCode="USD">125</commission>
+				<amount curCode="USD">500.00</amount>
+				<grossAmount curCode="USD">1378.50</grossAmount>
+				<cusipNumber>999888101</cusipNumber>
+				<secFee curCode="USD">68.50</secFee>
+				<deferredCompensationSource>defcompsource</deferredCompensationSource>
+				<deferredCompensationType>defcomptype</deferredCompensationType>
+				<contributionYear>12</contributionYear>
+				<orderHandlingFee curCode="USD">30.00</orderHandlingFee>
+				<referredAccountType>unknown</referredAccountType>
+				<confirmationNumber>7542</confirmationNumber>
+			</transaction>
+			<transaction type="sell" uniqueId="00013552" uniqueIdModified="1">
+				<link>http://www.altova.com</link>
+				<transactionId>357369</transactionId>
+				<description>Sold shares of WindsorII</description>
+				<amount curCode="USD">1200</amount>
+				<date localFormat="yyyy-MM-dd">2016-06-02T00:00:00</date>
+				<settleDate localFormat="yyyy-MM-dd">2016-01-06T00:00:00</settleDate>
+				<symbol>VMNFX</symbol>
+				<description>DEPOSIT</description>
+				<quantity>40</quantity>
+				<price curCode="USD">25.00</price>
+				<commission curCode="USD">75.00</commission>
+				<amount curCode="USD">500.00</amount>
+				<grossAmount curCode="USD">1200</grossAmount>
+				<cusipNumber>74523493</cusipNumber>
+				<secFee curCode="USD">25.00</secFee>
+				<deferredCompensationSource>defcompsource</deferredCompensationSource>
+				<deferredCompensationType>defcomptype</deferredCompensationType>
+				<contributionYear>12</contributionYear>
+				<orderHandlingFee curCode="USD">25.00</orderHandlingFee>
+				<referredAccountType>unknown</referredAccountType>
+				<confirmationNumber>60023</confirmationNumber>
+			</transaction>
+			<transaction type="loanPayment" uniqueId="0002176767" uniqueIdModified="1">
+				<link>http://www.altova.com</link>
+				<transactionId>124836</transactionId>
+				<description>DIVIDEND DISTRIBUTION</description>
+				<amount curCode="USD">50.00</amount>
+				<date localFormat="yyyy-MM-dd">2016-06-01T00:00:00</date>
+				<settleDate localFormat="yyyy-MM-dd">2016-02-10T00:00:00</settleDate>
+				<symbol>VPMCX</symbol>
+				<description>DIVIDEND DISTRIBUTION</description>
+				<quantity>623</quantity>
+				<price curCode="USD">19.23</price>
+				<commission curCode="USD">125</commission>
+				<amount curCode="USD">50.00</amount>
+				<grossAmount curCode="USD">2000</grossAmount>
+				<cusipNumber>484234222</cusipNumber>
+				<secFee curCode="USD">75</secFee>
+				<deferredCompensationSource>defcompsource</deferredCompensationSource>
+				<deferredCompensationType>defcomptype</deferredCompensationType>
+				<contributionYear>12</contributionYear>
+				<orderHandlingFee curCode="USD">100</orderHandlingFee>
+				<referredAccountType>unknown</referredAccountType>
+				<confirmationNumber>75014</confirmationNumber>
+			</transaction>
+		</transactionList>
+		<holdingList>
+			<holding holdingType="stock" uniqueId="955340537">
+				<link>http://www.altova.com</link>
+				<description>Microsoft Corporation</description>
+				<percentageAllocation>100</percentageAllocation>
+				<riskCategory>category</riskCategory>
+				<mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+				<mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+				<employerContribution curCode="USD">3500</employerContribution>
+				<employeeContribution curCode="USD">2000</employeeContribution>
+				<internalReferenceNumber>string</internalReferenceNumber>
+				<symbol>MSFT</symbol>
+				<quantity>100</quantity>
+				<price curCode="USD">69.00</price>
+				<dailyChange curCode="USD">115</dailyChange>
+				<value curCode="USD">6900.0</value>
+				<cusipNumber>74300183</cusipNumber>
+				<isShort>1</isShort>
+				<percentageChange>1</percentageChange>
+				<costBasis curCode="USD">2000</costBasis>
+				<isMarginable>1</isMarginable>
+				<isRestricted>1</isRestricted>
+			</holding>
+			<holding holdingType="stock" uniqueId="955340538">
+				<link>http://www.altova.com</link>
+				<description>Alphabet Inc Class A</description>
+				<percentageAllocation>100</percentageAllocation>
+				<riskCategory>category</riskCategory>
+				<mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+				<mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+				<employerContribution curCode="USD">3500</employerContribution>
+				<employeeContribution curCode="USD">2000</employeeContribution>
+				<internalReferenceNumber>string</internalReferenceNumber>
+				<symbol>GOOGL</symbol>
+				<quantity>10</quantity>
+				<price curCode="USD">950.28</price>
+				<dailyChange curCode="USD">115</dailyChange>
+				<value curCode="USD">9502.8</value>
+				<cusipNumber>74300183</cusipNumber>
+				<isShort>1</isShort>
+				<percentageChange>1</percentageChange>
+				<costBasis curCode="USD">1250</costBasis>
+				<isMarginable>1</isMarginable>
+				<isRestricted>1</isRestricted>
+			</holding>
+			<holding holdingType="stock" uniqueId="955340539">
+				<link>http://www.altova.com</link>
+				<description>Amazon.com, Inc.</description>
+				<percentageAllocation>100</percentageAllocation>
+				<riskCategory>category</riskCategory>
+				<mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</mostRecentContributionDate>
+				<mostRecentContributionAmount curCode="USD">5500</mostRecentContributionAmount>
+				<employerContribution curCode="USD">3500</employerContribution>
+				<employeeContribution curCode="USD">2000</employeeContribution>
+				<internalReferenceNumber>string</internalReferenceNumber>
+				<symbol>AMZN</symbol>
+				<quantity>10</quantity>
+				<price curCode="USD">934.15</price>
+				<dailyChange curCode="USD">115</dailyChange>
+				<value curCode="USD">9341.5</value>
+				<cusipNumber>74300183</cusipNumber>
+				<isShort>1</isShort>
+				<percentageChange>1</percentageChange>
+				<costBasis curCode="USD">375.00</costBasis>
+				<isMarginable>1</isMarginable>
+				<isRestricted>1</isRestricted>
+			</holding>
+			<holding holdingType="mutualFund" uniqueId="791746161">
+				<link>http://www.altova.com</link>
+				<description>Morgan Stanley Focus Growth Fund Class A</description>
+				<percentageAllocation>100</percentageAllocation>
+				<riskCategory>category</riskCategory>
+				<mostRecentContributionDate localFormat="yyyy-MM-dd">2016-11-13T00:00:00</mostRecentContributionDate>
+				<mostRecentContributionAmount curCode="USD">3500</mostRecentContributionAmount>
+				<employerContribution curCode="USD">2300</employerContribution>
+				<employeeContribution curCode="USD">1200</employeeContribution>
+				<internalReferenceNumber>string</internalReferenceNumber>
+				<symbol>AMOAX</symbol>
+				<quantity>525</quantity>
+				<price curCode="USD">49.02</price>
+				<dailyChange curCode="USD">6.70</dailyChange>
+				<value curCode="USD">25735.5</value>
+				<cusipNumber>100997544</cusipNumber>
+				<yield>2000</yield>
+				<yieldAsOf localFormat="yyyy-MM-dd">2016-11-15T00:00:00</yieldAsOf>
+				<assetClass>Large Growth</assetClass>
+				<FIAssetClass>Equity class</FIAssetClass>
+				<newspaperAbbreviation>newspaper</newspaperAbbreviation>
+				<isMarginable>1</isMarginable>
+				<mutualFundNumber>2001011</mutualFundNumber>
+				<costBasis curCode="USD">10000</costBasis>
+				<percentageChange>1</percentageChange>
+			</holding>
+			<holding holdingType="moneyMarketFund" uniqueId="35460187">
+				<link>http://www.altova.com</link>
+				<description>FDIC INSURED DEPOSIT ACCOUNT</description>
+				<percentageAllocation>100</percentageAllocation>
+				<riskCategory>12</riskCategory>
+				<mostRecentContributionDate localFormat="yyyy-MM-dd">2016-10-03T00:00:00</mostRecentContributionDate>
+				<mostRecentContributionAmount curCode="USD">6700</mostRecentContributionAmount>
+				<employerContribution curCode="USD">8700</employerContribution>
+				<employeeContribution curCode="USD">8000</employeeContribution>
+				<internalReferenceNumber>345177</internalReferenceNumber>
+				<symbol>VMMXX</symbol>
+				<quantity>5700</quantity>
+				<price curCode="USD">1.00</price>
+				<dailyChange curCode="USD">1.00</dailyChange>
+				<value curCode="USD">5700.0</value>
+				<cusipNumber>64529847</cusipNumber>
+				<moneyMarketFundNumber>76548</moneyMarketFundNumber>
+			</holding>
+		</holdingList>
+	</investmentAccount>
+</site>

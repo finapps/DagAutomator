@@ -2,7 +2,7 @@
 	<status>0</status>
 	<bankAccount uniqueId="21232423" acctType="checking">
 		<accountName>Chase Checking</accountName>
-		<accountNumber>XXX-XXX0118</accountNumber>
+		<accountNumber>XXX-XXX1018</accountNumber>
 		<accountHolder>Yodlee User</accountHolder>
 		<balance balType="availableBalance">
 			<curAmt curCode="USD">39739.01</curAmt>
