@@ -5,7 +5,6 @@ import dateutil.parser, dateutil.relativedelta
 import random
 from googlefinance import getQuotes
 import json
-import os.path
 
 #Variables
 datesArray = []
@@ -74,43 +73,52 @@ def updateXML(xmlFile):
 
 
 	#Write back to a file
+
+	print("Generating Investment XML...")
+
+# now = datetime.now()
+#     actual_time = str(now.strftime("%Y-%m-%d"))
+#     xmlFile.write(str(actual_time) + "_checking_1.xml", xml_declaration=True)
+
+
 	#print("Generating Investment XML...")
+
 
 	return transDates
 
 def getStockPrice(xmlFile):
 	holdings = tree.iter('holding')
-	for holdings in tree.iter('holding'):
-		price = float(holdings.find('price').text)
-		symbol = holdings.find('symbol').text
+	for holding in holdings:
+		# price = holding.find('price').text
+		price = float(holding.find('price').text)
+		# print(price)
+		symbol = holding.find('symbol').text
 		tickerData = json.dumps(getQuotes(symbol), indent=2)
 		resp_dict = json.loads(tickerData)
 		lastPrice = resp_dict[0]['LastTradePrice']
-		for price in holdings.iter('price'):
-			#print(price)
-			new_price = lastPrice
-			price.text = str(new_price)
-			#print(price.text)
+		# print(lastPrice)
+	return lastPrice
 
-	return price
+def updateStockPrice(lastPrice):
+	holdings = tree.iter('holding')
+	for holding in holdings:
+		new_price = getStockPrice(lastPrice)
+		print(new_price)
+		for price in tree.iter('price'):
+			#print(price)
+			price = str(new_price)
+			# print(price)
+	return None
 
 
 def balanceSumModule(xmlFile):
 	transactions = tree.iter('holding')
 	for value in transactions:
-		symbol = value.find('symbol').text
-		quantity = float(value.find('quantity').text)
-		tickerData = json.dumps(getQuotes(symbol), indent=2)
-		resp_dict = json.loads(tickerData)
-		lastPrice = resp_dict[0]['LastTradePrice']
+		getStockPrice(xmlFile)
 		quantityPrice = lastPrice
 		print(quantityPrice)
 		print(quantity, symbol, quantityPrice)
-<<<<<<< HEAD
-		individual_balance = quantity * float(str(quantityPrice).replace(',',''))
-=======
 		individual_balance = quantity * float(quantityPrice)
->>>>>>> e6507882dc7f8aebc655f381cc6d830e4efa0b01
 		print(individual_balance)
 		balanceArray.append(individual_balance)
 		total_balance = balanceArray
@@ -124,51 +132,21 @@ def balanceSumModule(xmlFile):
 		if balType == 'totalBalance':
 			current_amount = node.find('curAmt')
 			current_amount.text = str(final_balance)
-
-	#Update the value of each holding
-def updateValue(xmlFIle):
-	holdings = tree.iter('holding')
-	for holdings in tree.iter('holding'):
-<<<<<<< HEAD
-		price = float(holdings.find('price').text.replace(',',''))
-=======
-		price = float(holdings.find('price').text)
->>>>>>> e6507882dc7f8aebc655f381cc6d830e4efa0b01
-		quantity = float(holdings.find('quantity').text)
-		symbol = holdings.find('symbol').text
-		#value = holdings.find('value').text
-
-		#print(value)
-		tickerData = json.dumps(getQuotes(symbol), indent=2)
-		resp_dict = json.loads(tickerData)
-		lastPrice = resp_dict[0]['LastTradePrice']
-<<<<<<< HEAD
-		individual_balance = quantity * float(lastPrice.replace(',',''))
-=======
-		individual_balance = quantity * float(lastPrice)
->>>>>>> e6507882dc7f8aebc655f381cc6d830e4efa0b01
-		for value in holdings.iter('value'):
-			value.text = individual_balance
-			value.text = str(value.text)
-		print(value.text)
-	return value
-
+		return value.text, current_amount, individual_balance
 
 # # Console TESTING Module #
 # def testModule(dayDiff, youngest, today):
-#	  print ("\nToday's Date: " + str(today) + "\n")
-#	  print ("Most Recent Transaction Date: " + str(youngest) + "\n")
-#	  print ("Day Difference: " + str(dayDiff) + "\n")
-#	  return (dayDiff, youngest, today)
+#     print ("\nToday's Date: " + str(today) + "\n")
+#     print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+#     print ("Day Difference: " + str(dayDiff) + "\n")
+#     return (dayDiff, youngest, today)
 
 getStockPrice(tree)
+updateStockPrice(tree)
 updateXML(tree)
-balanceSumModule(tree)
-updateValue(tree)
+# balanceSumModule(tree)
 
 # Write back to a file
 now = dt.datetime.now()
-actual_time = str(now.strftime("%Y-%m-%d"))
-save_path = r'generated_dag_files'
-complete_name = os.path.join(save_path, str(actual_time) + "_investment_1.xml")
-tree.write(complete_name, xml_declaration=True)
+actual_time = str(now.strftime("%Y-%m-%d-%M"))
+tree.write(str(actual_time) + "_investment_1.xml", xml_declaration=True)
