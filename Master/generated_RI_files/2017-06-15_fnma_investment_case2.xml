@@ -1,11 +1,10 @@
-<?xml version='1.0' encoding='us-ascii'?>
 <site>
     <status>0</status>
     <investmentAccount acctType="401k" uniqueId="9191111" uniqueIdModified="1">
         <link>http://www.altova.com</link>
         <accountNumber>9791018</accountNumber>
         <accountName>IQ 401k</accountName>
-        <accountHolder>Homer Loanseeker</accountHolder>
+        <accountHolder>Patrick Purchaser</accountHolder>
         <isMarginTradingAllowed>1</isMarginTradingAllowed>
         <isOptionTradingAllowed>1</isOptionTradingAllowed>
         <accountCurrency>string</accountCurrency>
@@ -14,14 +13,14 @@
             <name>
                 <title>Mr.</title>
                 <suffix />
-                <firstName>Homer</firstName>
+                <firstName>Patrick</firstName>
                 <middleName />
-                <lastName>Loanseeker</lastName>
+                <lastName>Purchaser</lastName>
             </name>
-            <fullName>Homer Loanseeker</fullName>
+            <fullName>Patrick Purchaser</fullName>
             <gender>Male</gender>
             <birthDateTime localFormat="yyyy-MM-dd">1979-10-30</birthDateTime>
-            <nickName>Homer</nickName>
+            <nickName>Pat</nickName>
             <phone>22222</phone>
             <workPhone>22222</workPhone>
             <homePhone>22222</homePhone>
@@ -57,7 +56,7 @@
         <planName>Vanguard 401K plan</planName>
         <asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
         <balance balType="totalBalance">
-            <curAmt curCode="USD">54656.7</curAmt>
+            <curAmt curCode="USD">57669.0</curAmt>
         </balance>
         <balance balType="totalVestedBalance">
             <curAmt curCode="USD">65456</curAmt>
@@ -89,7 +88,7 @@
                 <transactionId>958120</transactionId>
                 <description>buy Growth Index Fund shares</description>
                 <amount curCode="USD">1185</amount>
-                <date localFormat="yyyy-MM-dd">2017-02-15T00:00:00</date>
+                <date localFormat="yyyy-MM-dd">2017-06-15T00:00:00</date>
                 <settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
                 <symbol>VIIFLG</symbol>
                 <description>DEPOSIT</description>
@@ -112,7 +111,7 @@
                 <transactionId>357369</transactionId>
                 <description>Sold shares of WindsorII</description>
                 <amount curCode="USD">1200</amount>
-                <date localFormat="yyyy-MM-dd">2016-03-12T00:00:00</date>
+                <date localFormat="yyyy-MM-dd">2016-07-10T00:00:00</date>
                 <settleDate localFormat="yyyy-MM-dd">2016-01-06T00:00:00</settleDate>
                 <symbol>VMNFX</symbol>
                 <description>DEPOSIT</description>
@@ -135,7 +134,7 @@
                 <transactionId>124836</transactionId>
                 <description>DIVIDEND DISTRIBUTION</description>
                 <amount curCode="USD">50.00</amount>
-                <date localFormat="yyyy-MM-dd">2016-03-11T00:00:00</date>
+                <date localFormat="yyyy-MM-dd">2016-07-09T00:00:00</date>
                 <settleDate localFormat="yyyy-MM-dd">2016-02-10T00:00:00</settleDate>
                 <symbol>VPMCX</symbol>
                 <description>DIVIDEND DISTRIBUTION</description>
@@ -167,9 +166,9 @@
                 <internalReferenceNumber>string</internalReferenceNumber>
                 <symbol>MSFT</symbol>
                 <quantity>100</quantity>
-                <price curCode="USD">64.57</price>
+                <price curCode="USD">69.90</price>
                 <dailyChange curCode="USD">115</dailyChange>
-                <value curCode="USD">6456.999999999999</value>
+                <value curCode="USD">6990.0</value>
                 <cusipNumber>74300183</cusipNumber>
                 <isShort>1</isShort>
                 <percentageChange>1</percentageChange>
@@ -189,9 +188,9 @@
                 <internalReferenceNumber>string</internalReferenceNumber>
                 <symbol>GOOGL</symbol>
                 <quantity>10</quantity>
-                <price curCode="USD">840.03</price>
+                <price curCode="USD">960.18</price>
                 <dailyChange curCode="USD">115</dailyChange>
-                <value curCode="USD">8400.3</value>
+                <value curCode="USD">9601.8</value>
                 <cusipNumber>74300183</cusipNumber>
                 <isShort>1</isShort>
                 <percentageChange>1</percentageChange>
@@ -211,9 +210,9 @@
                 <internalReferenceNumber>string</internalReferenceNumber>
                 <symbol>AMZN</symbol>
                 <quantity>10</quantity>
-                <price curCode="USD">836.39</price>
+                <price curCode="USD">964.17</price>
                 <dailyChange curCode="USD">115</dailyChange>
-                <value curCode="USD">8363.9</value>
+                <value curCode="USD">9641.7</value>
                 <cusipNumber>74300183</cusipNumber>
                 <isShort>1</isShort>
                 <percentageChange>1</percentageChange>

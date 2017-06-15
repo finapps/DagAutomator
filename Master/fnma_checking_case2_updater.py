@@ -86,7 +86,7 @@ def updateXML(xmlFile):
 	actual_time = str(now.strftime("%Y-%m-%d"))
 
 	save_path = r'generated_RI_files'
-	abs_path = r'C:\Users\FinApps\Google Drive\DAG ACCOUNTS VALID DATA\RiskInsight'
+	abs_path = r'C:\Users\bot-w\Google Drive\DAG ACCOUNTS VALID DATA\RiskInsight'
 	complete_name = os.path.join(save_path, str(actual_time) + "_fnma_checking_case2.xml")
 	abs_complete_name = os.path.join(abs_path, str(actual_time) + "_fnma_checking_case2.xml")
 	xmlFile.write(complete_name, xml_declaration=True)

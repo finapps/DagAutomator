@@ -56,7 +56,7 @@
 		<planName>Vanguard 401K plan</planName>
 		<asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
 		<balance balType="totalBalance">
-			<curAmt curCode="USD">48273.3</curAmt>
+			<curAmt curCode="USD">48272.3</curAmt>
 		</balance>
 		<balance balType="totalVestedBalance">
 			<curAmt curCode="USD">65456</curAmt>
@@ -166,9 +166,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>MSFT</symbol>
 				<quantity>100</quantity>
-				<price curCode="USD">69.93</price>
+				<price curCode="USD">69.90</price>
 				<dailyChange curCode="USD">115</dailyChange>
-				<value curCode="USD">6993.0</value>
+				<value curCode="USD">6990.0</value>
 				<cusipNumber>74300183</cusipNumber>
 				<isShort>1</isShort>
 				<percentageChange>1</percentageChange>
@@ -188,9 +188,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>AMZN</symbol>
 				<quantity>10</quantity>
-				<price curCode="USD">963.99</price>
+				<price curCode="USD">964.17</price>
 				<dailyChange curCode="USD">115</dailyChange>
-				<value curCode="USD">9639.9</value>
+				<value curCode="USD">9641.7</value>
 				<cusipNumber>74300183</cusipNumber>
 				<isShort>1</isShort>
 				<percentageChange>1</percentageChange>
@@ -210,9 +210,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>ALLY</symbol>
 				<quantity>10</quantity>
-				<price curCode="USD">20.49</price>
+				<price curCode="USD">20.51</price>
 				<dailyChange curCode="USD">115</dailyChange>
-				<value curCode="USD">204.9</value>
+				<value curCode="USD">205.1</value>
 				<cusipNumber>74300183</cusipNumber>
 				<isShort>1</isShort>
 				<percentageChange>1</percentageChange>
