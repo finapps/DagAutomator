@@ -85,9 +85,12 @@ def updateXML(xmlFile):
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'generated_dag_files'
+	save_path = r'generated_RI_files'
+	abs_path = r'C:\Users\bot-w\Google Drive\DAG ACCOUNTS VALID DATA\RiskInsight'
 	complete_name = os.path.join(save_path, str(actual_time) + "_fnma_checking_case1.xml")
+	abs_complete_name = os.path.join(abs_path, str(actual_time) + "_fnma_checking_case1.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
+	xmlFile.write(abs_complete_name, xml_declaration=True)
 
 	return None
 
