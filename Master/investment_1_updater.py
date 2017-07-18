@@ -109,7 +109,6 @@ def balanceSumModule(xmlFile):
 
 		individual_balance = quantity * float(str(quantityPrice).replace(',',''))
 
-		individual_balance = quantity * float(quantityPrice)
 
 		print(individual_balance)
 		balanceArray.append(individual_balance)
@@ -132,7 +131,7 @@ def updateValue(xmlFIle):
 
 		price = float(holdings.find('price').text.replace(',',''))
 
-		price = float(holdings.find('price').text)
+		
 
 		quantity = float(holdings.find('quantity').text)
 		symbol = holdings.find('symbol').text
@@ -145,7 +144,7 @@ def updateValue(xmlFIle):
 
 		individual_balance = quantity * float(lastPrice.replace(',',''))
 
-		individual_balance = quantity * float(lastPrice)
+		
 
 		for value in holdings.iter('value'):
 			value.text = individual_balance

@@ -105,7 +105,7 @@ def balanceSumModule(xmlFile):
 		quantityPrice = lastPrice
 		print(quantityPrice)
 		print(quantity, symbol, quantityPrice)
-		individual_balance = quantity * float(quantityPrice)
+		individual_balance = quantity * float(str(quantityPrice).replace(',',''))
 		print(individual_balance)
 		balanceArray.append(individual_balance)
 		total_balance = balanceArray
@@ -124,7 +124,7 @@ def balanceSumModule(xmlFile):
 def updateValue(xmlFIle):
 	holdings = tree.iter('holding')
 	for holdings in tree.iter('holding'):
-		price = float(holdings.find('price').text)
+		price = float(holdings.find('price').text.replace(',',''))
 		quantity = float(holdings.find('quantity').text)
 		symbol = holdings.find('symbol').text
 		#value = holdings.find('value').text
@@ -133,7 +133,7 @@ def updateValue(xmlFIle):
 		tickerData = json.dumps(getQuotes(symbol), indent=2)
 		resp_dict = json.loads(tickerData)
 		lastPrice = resp_dict[0]['LastTradePrice']
-		individual_balance = quantity * float(lastPrice)
+		individual_balance = quantity * float(lastPrice.replace(',',''))
 		for value in holdings.iter('value'):
 			value.text = individual_balance
 			value.text = str(value.text)
