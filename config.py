@@ -1,0 +1,2 @@
+INFOLDER = "infolder"
+OUTFOLDER = "outfolder"
