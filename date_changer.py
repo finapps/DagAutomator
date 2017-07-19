@@ -45,13 +45,12 @@ def newDate(newArray):
 		newDateArray.append(date)
 	return newDateArray
 
-def updateXML(xmlFile, filenam e):
+def updateXML(xmlFile, filename):
     originalDatesArr = oldDate(xmlFile)
     adjustedDatesArr = newDate(originalDatesArr)
     transDates = xmlFile.findall('.//transDate')
     if transDates == []:
         transDates = xmlFile.findall('.//date')
-    print(transDates)
     for num in range(0, len(transDates)):
         transDates[num].text = adjustedDatesArr[num]
 
