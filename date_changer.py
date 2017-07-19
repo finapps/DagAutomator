@@ -37,41 +37,15 @@ def oldDate(xmlFile):
 def newDate(newArray):
 	newDateArray = []
 	for date in newArray:
-		#print(date)
 		youngest_date = max(newArray)
-		#print(youngest_date)
 		todayDate = datetime.now()
 		dateDiff = abs((todayDate - youngest_date).days)
-		#print(dateDiff)
 		newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
-		#print(newDate)
 		date = str(newDate.isoformat())
 		newDateArray.append(date)
-		#print(newDateArray)
 	return newDateArray
 
-'''
-def updateXML(xmlFile,filename):
-	originalDatesArr = oldDate(xmlFile)
-	#print(originalDatesArr)
-	adjustedDatesArr = newDate(originalDatesArr)
-	#print(adjustedDatesArr)
-	transDates = xmlFile.findall('.//transDate')
-	for num in range(0, len(transDates)):
-		transDates[num].text = adjustedDatesArr[num]
-
-	#Write back to a file
-	print("XML Generated")
-
-	now = datetime.now()
-	actual_time = str(now.strftime("%Y-%m-%d"))
-
-	xmlFile.write(OUTFOLDER + "/" + filename, xml_declaration=True)
-
-	return None
-'''
-
-def updateXML(xmlFile, filename):
+def updateXML(xmlFile, filenam e):
     originalDatesArr = oldDate(xmlFile)
     adjustedDatesArr = newDate(originalDatesArr)
     transDates = xmlFile.findall('.//transDate')
@@ -79,7 +53,6 @@ def updateXML(xmlFile, filename):
         transDates = xmlFile.findall('.//date')
     print(transDates)
     for num in range(0, len(transDates)):
-        print("i")
         transDates[num].text = adjustedDatesArr[num]
 
     print("XML Generated")
