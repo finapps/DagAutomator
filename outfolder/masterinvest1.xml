@@ -89,7 +89,7 @@
 				<transactionId>958120</transactionId>
 				<description>buy Growth Index Fund shares</description>
 				<amount curCode="USD">1185</amount>
-				<date localFormat="yyyy-MM-dd">2017-01-15T00:00:00</date>
+				<date localFormat="yyyy-MM-dd">2017-07-19T00:00:00</date>
 				<settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
 				<symbol>VIIFLG</symbol>
 				<description>DEPOSIT</description>
@@ -112,7 +112,7 @@
 				<transactionId>357369</transactionId>
 				<description>Sold shares of WindsorII</description>
 				<amount curCode="USD">1200</amount>
-				<date localFormat="yyyy-MM-dd">2016-02-10T00:00:00</date>
+				<date localFormat="yyyy-MM-dd">2016-08-13T00:00:00</date>
 				<settleDate localFormat="yyyy-MM-dd">2016-01-06T00:00:00</settleDate>
 				<symbol>VMNFX</symbol>
 				<description>DEPOSIT</description>
@@ -135,7 +135,7 @@
 				<transactionId>124836</transactionId>
 				<description>DIVIDEND DISTRIBUTION</description>
 				<amount curCode="USD">50.00</amount>
-				<date localFormat="yyyy-MM-dd">2016-02-09T00:00:00</date>
+				<date localFormat="yyyy-MM-dd">2016-08-12T00:00:00</date>
 				<settleDate localFormat="yyyy-MM-dd">2016-02-10T00:00:00</settleDate>
 				<symbol>VPMCX</symbol>
 				<description>DIVIDEND DISTRIBUTION</description>

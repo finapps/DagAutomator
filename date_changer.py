@@ -50,6 +50,7 @@ def newDate(newArray):
 		#print(newDateArray)
 	return newDateArray
 
+'''
 def updateXML(xmlFile,filename):
 	originalDatesArr = oldDate(xmlFile)
 	#print(originalDatesArr)
@@ -58,7 +59,6 @@ def updateXML(xmlFile,filename):
 	transDates = xmlFile.findall('.//transDate')
 	for num in range(0, len(transDates)):
 		transDates[num].text = adjustedDatesArr[num]
-
 
 	#Write back to a file
 	print("XML Generated")
@@ -69,6 +69,27 @@ def updateXML(xmlFile,filename):
 	xmlFile.write(OUTFOLDER + "/" + filename, xml_declaration=True)
 
 	return None
+'''
+
+def updateXML(xmlFile, filename):
+    originalDatesArr = oldDate(xmlFile)
+    adjustedDatesArr = newDate(originalDatesArr)
+    transDates = xmlFile.findall('.//transDate')
+    if transDates == []:
+        transDates = xmlFile.findall('.//date')
+    print(transDates)
+    for num in range(0, len(transDates)):
+        print("i")
+        transDates[num].text = adjustedDatesArr[num]
+
+    print("XML Generated")
+
+    now = datetime.now()
+    actual_time = str(now.strftime("%Y-%m-%d"))
+
+    xmlFile.write(OUTFOLDER + "/" + filename, xml_declaration=True)
+
+    return None
 
 def testModule(dayDiff, youngest, today):
 	print ("\nToday's Date: " + str(today) + "\n")
