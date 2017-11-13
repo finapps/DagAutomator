@@ -56,10 +56,10 @@
 		<planName>Vanguard 401K plan</planName>
 		<asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
 		<balance balType="totalBalance">
-			<curAmt curCode="USD">60216.25</curAmt>
+			<curAmt curCode="USD">42343.15</curAmt>
 		</balance>
 		<balance balType="totalVestedBalance">
-			<curAmt curCode="USD">65456</curAmt>
+			<curAmt curCode="USD">42343</curAmt>
 		</balance>
 		<balance balType="totalUnvestedBalance">
 			<curAmt curCode="USD">30000</curAmt>

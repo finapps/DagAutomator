@@ -4,16 +4,16 @@ import dateutil.parser, dateutil.relativedelta
 import xml.etree.ElementTree as ET
 import random
 import os.path
+import boto3
 
 # Global Variables
 global updatedDate
 global dateDiff
 
 # Open File to be modified
-
-tree = ET.parse('fnma_checking_case1.xml')
+tree = ET.parse('fnma_checking_case1_andre.xml')
 datesArray = []
-
+s3 = boto3.client('s3')
 
 
 # Parser to convert date from ISOFormat to Date Object
@@ -81,16 +81,16 @@ def updateXML(xmlFile):
 
 
 	#Write back to a file
-	print("XML Generated")
+	print("FNMA Checking 1 ==> XML Generated")
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
 	save_path = r'generated_RI_files'
-	abs_path = r'C:\Users\bot-w\Google Drive\DAG ACCOUNTS VALID DATA\RiskInsight'
 	complete_name = os.path.join(save_path, str(actual_time) + "_fnma_checking_case1.xml")
-	abs_complete_name = os.path.join(abs_path, str(actual_time) + "_fnma_checking_case1.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
-	xmlFile.write(abs_complete_name, xml_declaration=True)
+	filename = complete_name
+	bucket_name = 'dagautomator'
+	s3.upload_file(filename, bucket_name, filename)
 
 	return None
 

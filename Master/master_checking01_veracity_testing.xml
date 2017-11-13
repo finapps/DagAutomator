@@ -1,0 +1,256 @@
+<site>
+   <status>0</status>
+   <bankAccount uniqueId="21232423" acctType="checking">
+      <accountName>Chase Checking</accountName>
+      <accountNumber>XXX-XXX0118</accountNumber>
+      <accountHolder>Yodlee User</accountHolder>
+      <balance balType="availableBalance">
+         <curAmt curCode="USD">590.75</curAmt>
+      </balance>
+      <balance balType="currentBalance">
+         <curAmt curCode="USD">590.75</curAmt>
+      </balance>
+      <transactionList>
+         <transaction uniqueId="1" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>DIRECT DEPPPD ID: xxxxxx4404</description>
+            <amount curCode="USD">1568.25</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-13T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="2" baseType="debit" type="debit">
+            <link>link</link>
+            <description>Monthly Mortgage Payment</description>
+            <amount curCode="USD">-1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-15T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="3" baseType="debit" type="debit">
+            <link>link</link>
+            <description>RECURRING PAYMENT AUTHORIZED Gold s Gym xxx-xxx4653 CO Sxxxxxxxxxxx0711 CARD 1745</description>
+            <amount curCode="USD">-570</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-16T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="4" baseType="debit" type="debit">
+            <link>link</link>
+            <description>PURCHASE AUTHORIZED CITY OF N. LAS VEG xxx-xxx2415 NV Sxxxxxxxxxxx1173 CARD 4586</description>
+            <amount curCode="USD">-35</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-22T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="5" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>TELLER DEPOSIT MIRIMAR</description>
+            <amount curCode="USD">150</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-23T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="6" baseType="debit" type="debit">
+            <link>link</link>
+            <description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL xxxxxxxxxxxxx9456 ATM ID Tx4290 CARD 1745</description>
+            <amount curCode="USD">-75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-26T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="7" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>DIRECT DEPPPD ID: xxxxxx4404</description>
+            <amount curCode="USD">1568.25</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-27T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="8" baseType="debit" type="debit">
+            <link>link</link>
+            <description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQYJYN2Y XXXXXX1137</description>
+            <amount curCode="USD">-190</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-27T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="9" baseType="debit" type="debit">
+            <link>link</link>
+            <description>CHECK CRD PURCHASE COMCAST MIAMI 800-COMCAST FL 4x4256XXXXXX1745 xxxxxxxxxxx5224 ?MCC=4899</description>
+            <amount curCode="USD">-85</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-28T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="10" baseType="debit" type="debit">
+            <link>link</link>
+            <description>NON-WF ATM WITHDRAWAL AUTHORIZED 800 SOUTH STATEFIRST MIDW LOCKPORT IL xxxxxxxxxxxxx9456 ATM ID Tx4290 CARD 1745</description>
+            <amount curCode="USD">-250</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-29T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="11" baseType="debit" type="debit">
+            <link>link</link>
+            <description>CHECK CRD PURCHASE FIRESTONE xx4547 ROMEOVILLE IL 4x4256XXXXXX1745 xxxxxxxxxxx2324 ?MCC=5532</description>
+            <amount curCode="USD">-50</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-30T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="12" baseType="debit" type="debit">
+            <link>link</link>
+            <description>PURCHASE AUTHORIZED RED LOBSTER US0000 JOLIET IL Sxxxxxxxxxxx1253 CARD 1745</description>
+            <amount curCode="USD">-150</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-02T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="13" baseType="debit" type="debit">
+            <link>link</link>
+            <description>PURCHASE AUTHORIZED GEICO *AUTO MACON DC Sxxxxxxxxxxx6995 CARD 1745</description>
+            <amount curCode="USD">-800</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-03T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="14" baseType="debit" type="debit">
+            <link>link</link>
+            <description>PURCHASE AMAZON MKTPL AMZN COM BILL WA CARD6381</description>
+            <amount curCode="USD">-200</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-05T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="15" baseType="debit" type="debit">
+            <link>link</link>
+            <description>OVERDRAFT PROTECTION XFER TO CHECKING</description>
+            <amount curCode="USD">-55</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-09T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="16" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>DIRECT DEPPPD ID: xxxxxx4404</description>
+            <amount curCode="USD">1567.75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-10T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="17" baseType="debit" type="debit">
+            <link>link</link>
+            <description>RECURRING PAYMENT AUTHORIZED Gold s Gym xxx-xxx4653 CO Sxxxxxxxxxxx0711 CARD 1745</description>
+            <amount curCode="USD">-570</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-11T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="18" baseType="debit" type="debit">
+            <link>link</link>
+            <description>CHECK CRD PURCHASE FIRESTONE xx4547 ROMEOVILLE IL 4x4256XXXXXX1745 xxxxxxxxxxx2324 ?MCC=5532</description>
+            <amount curCode="USD">-50</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-13T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="19" baseType="debit" type="debit">
+            <link>link</link>
+            <description>Monthly Mortgage Payment</description>
+            <amount curCode="USD">-1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-15T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="20" baseType="debit" type="debit">
+            <link>link</link>
+            <description>PURCHASE AUTHORIZED RED LOBSTER US0000 JOLIET IL Sxxxxxxxxxxx1253 CARD 1745</description>
+            <amount curCode="USD">-50</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-10T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="21" baseType="debit" type="debit">
+            <link>link</link>
+            <description>NSF Fee</description>
+            <amount curCode="USD">-35</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-10T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="22" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>TELLER DEPOSIT MIRIMAR</description>
+            <amount curCode="USD">84.75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-17T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="23" baseType="debit" type="debit">
+            <link>link</link>
+            <description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQYJYN2Y XXXXXX1137</description>
+            <amount curCode="USD">-190</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="24" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>DIRECT DEPPPD ID: xxxxxx4404</description>
+            <amount curCode="USD">1567.75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-24T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="25" baseType="debit" type="debit">
+            <link>link</link>
+            <description>CHECK CRD PURCHASE COMCAST MIAMI 800-COMCAST FL 4x4256XXXXXX1745 xxxxxxxxxxx5224 ?MCC=4899</description>
+            <amount curCode="USD">-85</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-26T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="26" baseType="debit" type="debit">
+            <link>link</link>
+            <description>CHECK CRD PURCHASE FIRESTONE xx4547 ROMEOVILLE IL 4x4256XXXXXX1745 xxxxxxxxxxx2324 ?MCC=5532</description>
+            <amount curCode="USD">-40</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-05T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="27" baseType="credit" type="deposit">
+            <link>link</link>
+            <description>DIRECT DEPPPD ID: xxxxxx4404</description>
+            <amount curCode="USD">1567.75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-10T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="28" baseType="debit" type="debit">
+            <link>link</link>
+            <description>RECURRING PAYMENT AUTHORIZED Gold s Gym xxx-xxx4653 CO Sxxxxxxxxxxx0711 CARD 1745</description>
+            <amount curCode="USD">-570</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-11T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="29" baseType="debit" type="debit">
+            <link>link</link>
+            <description>RECURRING TRANSFER TO SPENCER S SAVINGS REF #OPEQYJYN2Y XXXXXX1137</description>
+            <amount curCode="USD">-190</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-22T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction uniqueId="30" baseType="debit" type="debit">
+            <link>link</link>
+            <description>IRS USATAXPYMT xxxxxxxxxxx2343 WEB ID: xxxxxx2000</description>
+            <amount curCode="USD">-1469.75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-24T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+      </transactionList>
+   </bankAccount>
+</site>

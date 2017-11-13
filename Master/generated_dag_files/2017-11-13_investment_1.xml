@@ -56,10 +56,10 @@
 		<planName>Vanguard 401K plan</planName>
 		<asOf localFormat="yyyy-MM-dd">2011-08-01T00:00:00</asOf>
 		<balance balType="totalBalance">
-			<curAmt curCode="USD">48352.1</curAmt>
+			<curAmt curCode="USD">42343.15</curAmt>
 		</balance>
 		<balance balType="totalVestedBalance">
-			<curAmt curCode="USD">65456</curAmt>
+			<curAmt curCode="USD">42343</curAmt>
 		</balance>
 		<balance balType="totalUnvestedBalance">
 			<curAmt curCode="USD">30000</curAmt>
@@ -88,7 +88,7 @@
 				<transactionId>958120</transactionId>
 				<description>buy Growth Index Fund shares</description>
 				<amount curCode="USD">1185</amount>
-				<date localFormat="yyyy-MM-dd">2017-06-29T00:00:00</date>
+				<date localFormat="yyyy-MM-dd">2017-11-13T00:00:00</date>
 				<settleDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</settleDate>
 				<symbol>VIIFLG</symbol>
 				<description>DEPOSIT</description>
@@ -111,7 +111,7 @@
 				<transactionId>357369</transactionId>
 				<description>Sold shares of WindsorII</description>
 				<amount curCode="USD">1200</amount>
-				<date localFormat="yyyy-MM-dd">2016-07-24T00:00:00</date>
+				<date localFormat="yyyy-MM-dd">2016-12-08T00:00:00</date>
 				<settleDate localFormat="yyyy-MM-dd">2016-01-06T00:00:00</settleDate>
 				<symbol>VMNFX</symbol>
 				<description>DEPOSIT</description>
@@ -134,7 +134,7 @@
 				<transactionId>124836</transactionId>
 				<description>DIVIDEND DISTRIBUTION</description>
 				<amount curCode="USD">50.00</amount>
-				<date localFormat="yyyy-MM-dd">2016-07-23T00:00:00</date>
+				<date localFormat="yyyy-MM-dd">2016-12-07T00:00:00</date>
 				<settleDate localFormat="yyyy-MM-dd">2016-02-10T00:00:00</settleDate>
 				<symbol>VPMCX</symbol>
 				<description>DIVIDEND DISTRIBUTION</description>
@@ -166,9 +166,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>MSFT</symbol>
 				<quantity>100</quantity>
-				<price curCode="USD">68.90</price>
+				<price curCode="USD">62.35</price>
 				<dailyChange curCode="USD">115</dailyChange>
-				<value curCode="USD">6890.0</value>
+				<value curCode="USD">6235</value>
 				<cusipNumber>74300183</cusipNumber>
 				<isShort>1</isShort>
 				<percentageChange>1</percentageChange>
@@ -188,9 +188,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>AMZN</symbol>
 				<quantity>10</quantity>
-				<price curCode="USD">981.18</price>
+				<price curCode="USD">826.96</price>
 				<dailyChange curCode="USD">115</dailyChange>
-				<value curCode="USD">9811.8</value>
+				<value curCode="USD">8273.6</value>
 				<cusipNumber>74300183</cusipNumber>
 				<isShort>1</isShort>
 				<percentageChange>1</percentageChange>
@@ -210,9 +210,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>ALLY</symbol>
 				<quantity>10</quantity>
-				<price curCode="USD">21.48</price>
+				<price curCode="USD">810.53</price>
 				<dailyChange curCode="USD">115</dailyChange>
-				<value curCode="USD">214.8</value>
+				<value curCode="USD">8104.4</value>
 				<cusipNumber>74300183</cusipNumber>
 				<isShort>1</isShort>
 				<percentageChange>1</percentageChange>
@@ -232,9 +232,9 @@
 				<internalReferenceNumber>string</internalReferenceNumber>
 				<symbol>AMOAX</symbol>
 				<quantity>525</quantity>
-				<price curCode="USD">49.02</price>
+				<price curCode="USD">26.73</price>
 				<dailyChange curCode="USD">6.70</dailyChange>
-				<value curCode="USD">25735.5</value>
+				<value curCode="USD">14033.25</value>
 				<cusipNumber>100997544</cusipNumber>
 				<yield>2000</yield>
 				<yieldAsOf localFormat="yyyy-MM-dd">2016-11-15T00:00:00</yieldAsOf>
@@ -260,7 +260,7 @@
 				<quantity>5700</quantity>
 				<price curCode="USD">1.00</price>
 				<dailyChange curCode="USD">1.00</dailyChange>
-				<value curCode="USD">5700.0</value>
+				<value curCode="USD">6700</value>
 				<cusipNumber>64529847</cusipNumber>
 				<moneyMarketFundNumber>76548</moneyMarketFundNumber>
 			</holding>

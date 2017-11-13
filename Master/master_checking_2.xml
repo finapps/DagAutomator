@@ -106,15 +106,7 @@
 				<link>link</link>
 				<category>other</category>
 				<transDate localFormat="MM/dd/yy">2016-12-09T00:00:00</transDate>
-			</transaction>
-			<transaction baseType="debit" type="debit" uniqueId="142">
-				<description>SDL*SAVEOLOGYDEALS	 877-503-813 67SKK6</description>
-				<checkNumber>119</checkNumber>
-				<amount curCode="USD">40.00</amount>
-				<link>link</link>
-				<category>other</category>
-				<transDate localFormat="MM/dd/yy">2016-12-08T00:00:00</transDate>
-			</transaction>			  
+			</transaction>		  
 			<transaction baseType="debit" type="debit" uniqueId="137">
 				<description>POS PURCHASE - HOOK'S FISH PLANTATION FL 8013</description>
 				<checkNumber>119</checkNumber>
@@ -538,14 +530,6 @@
 				<link>link</link>
 				<category>other</category>
 				<transDate localFormat="MM/dd/yy">2016-10-30T09:36:39</transDate>
-			</transaction>
-			<transaction baseType="debit" type="debit" uniqueId="23">
-				<description>ITUNES MUSIC STORE IAUSTIN	 MGSFKDKV4K0 iTunes Music Store</description>
-				<checkNumber>119</checkNumber>
-				<amount curCode="USD">7.47</amount>
-				<link>link</link>
-				<category>other</category>
-				<transDate localFormat="MM/dd/yy">2016-10-25T08:24:13</transDate>
 			</transaction>
 			<transaction baseType="debit" type="debit" uniqueId="21">
 				<description>ONLINE TRANSFER REF #IBE2DQ5LT6 TO COMMAND CASH AND SWEEP</description>
