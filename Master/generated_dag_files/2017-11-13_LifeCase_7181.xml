@@ -1,0 +1,2891 @@
+<site>
+   <status>0</status>
+   <bankAccount acctType="checking" uniqueId="21232423">
+      <accountName>Chase Checking</accountName>
+      <accountNumber>XXX-XXX2118</accountNumber>
+      <accountHolder>Yodlee User</accountHolder>
+      <balance balType="availableBalance">
+         <curAmt curCode="USD">4572.00</curAmt>
+      </balance>
+      <balance balType="currentBalance">
+         <curAmt curCode="USD">4572.00</curAmt>
+      </balance>
+      <transactionList>
+         <transaction baseType="DEBIT" type="debit" uniqueId="1">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-07-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="2">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="3">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO PAYROLL</description>
+            <amount curCode="USD">2043.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="4">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">541.86</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-04T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="5">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="6">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">97.98</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="7">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">628.38</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-21T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-08T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="8">
+            <link>link</link>
+            <description>ACH - Legacy at LindenWEB PMTS</description>
+            <amount curCode="USD">29</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="9">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">117.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="10">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">400.91</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="11">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-06-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="12">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="13">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">2041.95</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="14">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">127</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-26T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="15">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">565.47</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-07T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-25T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="16">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="17">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">583.99</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-23T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-11T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="18">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">841.27</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="19">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">117.4</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="20">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="21">
+            <link>link</link>
+            <description>USAA INSURANCE PAYMENT</description>
+            <amount curCode="USD">206.25</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="22">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">219.34</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="23">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="24">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">625</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="25">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">2041.95</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="26">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">30</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="27">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="28">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">585.29</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="29">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">98.65</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="30">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">112.81</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="31">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">195.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="32">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">840.93</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="33">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-04-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="34">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">615.97</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="35">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="36">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">2041.95</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="37">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">50</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-20T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="38">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">124.67</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="39">
+            <link>link</link>
+            <description>USAA INSURANCE PAYMENT</description>
+            <amount curCode="USD">198.75</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="40">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">586.05</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="41">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">5000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="42">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">94</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-23T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-10T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="43">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">195.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-23T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-10T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="44">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">1311</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="45">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">130.4</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="46">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">568.46</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="47">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">100</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="48">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="49">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">1366.58</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="50">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="51">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">2041.95</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="52">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">190.2</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-07T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="53">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">76</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="54">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">100</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="55">
+            <link>link</link>
+            <description>USAA INSURANCE PAYMENT</description>
+            <amount curCode="USD">197.21</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="56">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">5000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="57">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">124.67</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="58">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">712.08</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="59">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">590.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-01T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="60">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-01T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="61">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">647.32</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="62">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">830</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="63">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">173.01</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="64">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="65">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">101</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="66">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="67">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1928.04</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="68">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">620.59</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-03T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-19T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="69">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-31T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="70">
+            <link>link</link>
+            <description>USAA             LOAN PMT   TO</description>
+            <amount curCode="USD">124.67</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="71">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">80</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-21T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="72">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">577.32</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-20T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="73">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">119.14</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="74">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">840</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-18T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="75">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-01-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="76">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">195.22</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="77">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">300</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="78">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">734.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="79">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1925.78</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="80">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">585.47</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="81">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="82">
+            <link>link</link>
+            <description>USAA             LOAN PMT   TO</description>
+            <amount curCode="USD">124.67</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="83">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">100</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-12T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="84">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">190.2</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-12T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="85">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">240</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-23T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="86">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">5.99</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-08T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="87">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">607.16</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-08T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="88">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">93.02</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="89">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-12-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="90">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="91">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">819.03</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="92">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">180</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="93">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="94">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">633.05</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-07T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="95">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">22.15</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-05T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="96">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-31T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="97">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">42.9</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="98">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">82.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="99">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">124.67</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="100">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">657.25</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-24T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="101">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">49.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-07T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="102">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">200</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-18T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="103">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">822.12</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-18T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="104">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">120.05</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="105">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-11-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="106">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">189</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="107">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="108">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="109">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">653.54</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="110">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="111">
+            <link>link</link>
+            <description>USAA             LOAN PMT   TO</description>
+            <amount curCode="USD">107.34</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-25T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="112">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">597.19</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-25T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="113">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">127.08</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="114">
+            <link>link</link>
+            <description>DTV*DIRECTV SERVICE</description>
+            <amount curCode="USD">82.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="115">
+            <link>link</link>
+            <description>VERIZON WRL MY ACCT VE</description>
+            <amount curCode="USD">197.94</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="116">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">817.44</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="117">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-10-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="118">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">701.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="119">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="120">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="121">
+            <link>link</link>
+            <description>VAED TREAS 310   XXVA CH30</description>
+            <amount curCode="USD">417.43</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-02-04T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="122">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">4000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="123">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">599.49</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-15T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="124">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">41</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-25T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-12T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="125">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">98.31</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="126">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">187.82</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="127">
+            <link>link</link>
+            <description>Team Beachbody   EDI PYMNTS</description>
+            <amount curCode="USD">31.1</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-21T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-08T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="128">
+            <link>link</link>
+            <description>VERIZON WRLS MYACCT VE</description>
+            <amount curCode="USD">220.76</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-20T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-07T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="129">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">83.56</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="130">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">813.91</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="131">
+            <link>link</link>
+            <description>VAED TREAS 310   XXVA CH30</description>
+            <amount curCode="USD">1789</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-06T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="132">
+            <link>link</link>
+            <description>Team Beachbody   EDI PYMNTS</description>
+            <amount curCode="USD">40</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="133">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">555.83</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="134">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-09-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="135">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">124.67</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="136">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">154.14</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="137">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="138">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">69.63</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="139">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">180</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="140">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="141">
+            <link>link</link>
+            <description>USAA LOAN PAYMENT</description>
+            <amount curCode="USD">142</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="142">
+            <link>link</link>
+            <description>VAED TREAS 310   XXVA CH30</description>
+            <amount curCode="USD">2027.53</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-01-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="143">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">406.64</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-31T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-18T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="144">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="145">
+            <link>link</link>
+            <description>Team Beachbody   EDI PYMNTS</description>
+            <amount curCode="USD">149.92</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-24T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-11T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="146">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">506.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="147">
+            <link>link</link>
+            <description>FSI*APCO BILLMA          888-333-4026 OH</description>
+            <amount curCode="USD">125.34</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="148">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">810.6</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="149">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">220.13</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="150">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-08-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="151">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="152">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="153">
+            <link>link</link>
+            <description>Team Beachbody   EDI PYMNTS</description>
+            <amount curCode="USD">40</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-03T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="154">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">171.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-03T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="155">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">559.64</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-12-03T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="156">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="157">
+            <link>link</link>
+            <description>Team Beachbody   EDI PYMNTS</description>
+            <amount curCode="USD">40</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="158">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">497.01</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-07T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="159">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">82.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="160">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">224.88</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="161">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">843.54</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="162">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-07-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="163">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="164">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="165">
+            <link>link</link>
+            <description>ACH - AEP             ONLINE PM</description>
+            <amount curCode="USD">25</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="166">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">95.14</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-24T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="167">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">171.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-05T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="168">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">432.19</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-05T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="169">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">4200</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-11-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-20T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="170">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="171">
+            <link>link</link>
+            <description>LOAN DISBURSEMENT</description>
+            <amount curCode="USD">5475</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-15T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="172">
+            <link>link</link>
+            <description>Team Beachbody   EDI PYMNTS</description>
+            <amount curCode="USD">15.55</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="173">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">82.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="174">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">391.96</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="175">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">772</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="176">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-06-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="177">
+            <link>link</link>
+            <description>FSI*APCO BILLMA          888-333-4026 OH</description>
+            <amount curCode="USD">97.86</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="178">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">275.56</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="179">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="180">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="181">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">381.73</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-10-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-26T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="182">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="183">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-25T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="184">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">379.35</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-24T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-12T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="185">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">158</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="186">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">82.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="187">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">171.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="188">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">294.56</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="189">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">772</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="190">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-05-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="191">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">492.49</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="192">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="193">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="194">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">100</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-07T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-25T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="195">
+            <link>link</link>
+            <description>AEP              ONLINE PMT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-09-01T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-19T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="196">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="197">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">490.4</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="198">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">82.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-21T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-08T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="199">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">85.27</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-18T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="200">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">196.58</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="201">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">772</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="202">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="203">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="204">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">171.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="205">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">370.31</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="206">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">731.36</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="207">
+            <link>link</link>
+            <description>BLUE RIDGE REGIO DIRECT DEP</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="208">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">112.2</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-03T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="209">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">498.33</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="210">
+            <link>link</link>
+            <description>DTV*DIRECTV HAR    </description>
+            <amount curCode="USD">51.6</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="211">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">5000</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="212">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">2100</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-15T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="213">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">217.42</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-21T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-08T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="214">
+            <link>link</link>
+            <description>FSI*APCO BILLMA          888-333-4026 OH</description>
+            <amount curCode="USD">502.95</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-20T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-07T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="215">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">954.96</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="216">
+            <link>link</link>
+            <description>VACP TREAS 310   XXVA BENEF</description>
+            <amount curCode="USD">2925.44</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="217">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="218">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">161.33</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="219">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">216.6</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="220">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">419.56</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="221">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="222">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="223">
+            <link>link</link>
+            <description>Legacy at Linden WEB PMTS</description>
+            <amount curCode="USD">250</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="224">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">1430</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="225">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">1926.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="226">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">250</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="227">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="228">
+            <link>link</link>
+            <description>WAL-MART ASSOCS. PAYROLL</description>
+            <amount curCode="USD">30.54</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-24T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="229">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">400</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-24T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="230">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER CR</description>
+            <amount curCode="USD">300</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-07T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="231">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">199.58</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="232">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">236.88</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="233">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">876</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="234">
+            <link>link</link>
+            <description>DTV*DIRECTV SER    </description>
+            <amount curCode="USD">134</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-03T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-19T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="235">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">503.76</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-18T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="236">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="237">
+            <link>link</link>
+            <description>WAL-MART ASSOCS. PAYROLL</description>
+            <amount curCode="USD">392.14</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-24T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-10T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="238">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">357.81</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-18T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="239">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="240">
+            <link>link</link>
+            <description>WAL-MART ASSOCS. PAYROLL</description>
+            <amount curCode="USD">620.1</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-10T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="241">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">80</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-25T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="242">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">151.84</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-05T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="243">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">502.23</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-04T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="244">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">300</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-06-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-19T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="245">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">300</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="246">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">30</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="247">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">236.88</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="248">
+            <link>link</link>
+            <description>WAL-MART ASSOCS. PAYROLL</description>
+            <amount curCode="USD">702.89</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="249">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">121.11</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-21T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-07T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="250">
+            <link>link</link>
+            <description>ACH - USAA.COM PAYMNT LOAN</description>
+            <amount curCode="USD">25</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="251">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">61.5</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="252">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-18T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="253">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="254">
+            <link>link</link>
+            <description>WAL-MART ASSOCS. PAYROLL</description>
+            <amount curCode="USD">596.01</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="255">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">145</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-11T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-28T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="256">
+            <link>link</link>
+            <description>CVS              PAYROLL</description>
+            <amount curCode="USD">260.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="257">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">236.88</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-05-01T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-18T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="258">
+            <link>link</link>
+            <description>WAL-MART ASSOCS. PAYROLL</description>
+            <amount curCode="USD">388.59</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-04-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="259">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">300</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-04-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="260">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">230.24</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-04-20T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-07T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="261">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-04-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-12-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="262">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">35</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-11-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="263">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">229.68</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-11-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="264">
+            <link>link</link>
+            <description>CHARTER COMMUNI</description>
+            <amount curCode="USD">29.69</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-11-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="265">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">209.35</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-19T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-11-05T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="266">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-15T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-11-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="267">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-10-19T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="268">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">229.61</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-03-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-10-19T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="269">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">35</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-02-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-10-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="270">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">2824.97</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-02-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-10-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="271">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">238.46</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-02-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-10-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="272">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-02-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-10-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="273">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.28</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-02-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="274">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="275">
+            <link>link</link>
+            <description>CHARTER COMMUNI</description>
+            <amount curCode="USD">155.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="276">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">229.61</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="277">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="278">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.78</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="279">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">231.84</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="280">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-09-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="281">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.28</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-31T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="282">
+            <link>link</link>
+            <description>CHARTER COMMUNI</description>
+            <amount curCode="USD">155.37</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-02T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-20T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="283">
+            <link>link</link>
+            <description>USAA.COM PAYMNT  LOAN</description>
+            <amount curCode="USD">144.8</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="284">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">229.61</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-30T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-17T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="285">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-29T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="286">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.78</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="287">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">20</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="288">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">177.08</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="289">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="290">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-08-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="291">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.28</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="292">
+            <link>link</link>
+            <description>VERIZON WRLS 26          COLUMBUS     GA</description>
+            <amount curCode="USD">256.3</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-12-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-27T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="293">
+            <link>link</link>
+            <description>CHARTER COMMUNI</description>
+            <amount curCode="USD">155.27</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="294">
+            <link>link</link>
+            <description>SYNCHRONY BANK CC PAYMENT</description>
+            <amount curCode="USD">3000</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-16T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="295">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">229.61</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-27T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-15T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="296">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.78</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-26T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-14T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="297">
+            <link>link</link>
+            <description>LOAN DISBURSEMENT</description>
+            <amount curCode="USD">5000</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-25T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-13T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="298">
+            <link>link</link>
+            <description>VZWRLSS*BILL PA          FOLSOM       CA</description>
+            <amount curCode="USD">191.44</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-14T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-02T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="299">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">650</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-07-01T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="300">
+            <link>link</link>
+            <description>DFAS-IN  IND IN ARMY ACT</description>
+            <amount curCode="USD">911.28</amount>
+            <transDate localFormat="yyyy-MM-dd">2015-11-12T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2015-06-30T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+      </transactionList>
+   </bankAccount>
+      <bankAccount acctType="savings" uniqueId="52123245">
+      <accountName>Chase Savings</accountName>
+      <accountNumber>XXX-XXX3118</accountNumber>
+      <accountHolder>Yodlee User</accountHolder>
+      <balance balType="availableBalance">
+         <curAmt curCode="USD">336.26</curAmt>
+      </balance>
+      <balance balType="currentBalance">
+         <curAmt curCode="USD">336.26</curAmt>
+      </balance>
+      <transactionList>
+         <transaction baseType="DEBIT" type="debit" uniqueId="301">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">127</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-26T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="302">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">150</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-05T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-05-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="303">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">1311</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-22T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-03-09T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="304">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">100</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="305">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">5000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="306">
+            <link>link</link>
+            <description>TAX PRODUCTS PE3 SBTPG LLC</description>
+            <amount curCode="USD">6411.02</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2017-02-21T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="307">
+            <link>link</link>
+            <description>MOBILE DEPOSIT</description>
+            <amount curCode="USD">5</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-08-17T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-04-04T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="308">
+            <link>link</link>
+            <description>USAA.COM PAY INT P and C</description>
+            <amount curCode="USD">73.39</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-15T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="309">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">2100</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-28T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-15T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="310">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">1500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-16T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-03-03T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="311">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">250</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="312">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-13T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-29T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="313">
+            <link>link</link>
+            <description>Synchrony Bank   CC PYMT</description>
+            <amount curCode="USD">573.07</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-25T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="314">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">686.31</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-25T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="315">
+            <link>link</link>
+            <description>USAA CREDIT CARD PAYMENT</description>
+            <amount curCode="USD">3609</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-09T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-25T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="316">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">400</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-08T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-24T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="DEBIT" type="debit" uniqueId="317">
+            <link>link</link>
+            <description>USAA FUNDS TRANSFER DB</description>
+            <amount curCode="USD">300</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-07T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-23T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="CREDIT" type="deposit" uniqueId="318">
+            <link>link</link>
+            <description>IRS  TREAS 310     TAX REF</description>
+            <amount curCode="USD">10300</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-07-06T00:00:00</transDate>
+            <postDate localFormat="yyyy-MM-dd">2016-02-22T00:00:00</postDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+      </transactionList>
+   </bankAccount>
+</site>

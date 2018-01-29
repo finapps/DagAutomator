@@ -11,10 +11,9 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('master_checking_2.xml')
+tree = ET.parse('LifeCase-1517.xml')
 datesArray = []
 s3 = boto3.client('s3')
-
 
 
 
@@ -83,34 +82,28 @@ def updateXML(xmlFile):
 	
 
 	#Write back to a file
-	print("Checking 2 ==> XML Generated")
+	print("LifeCase-1517 ==> XML Generated")
 
+	
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
 	save_path = r'generated_dag_files'
-	complete_name = os.path.join(save_path, str(actual_time) + "_checking_02.xml")
+	complete_name = os.path.join(save_path, str(actual_time) + "_LifeCase_1517.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
-	#filename = complete_name
-	#bucket_name = 'dagautomator'
-	#s3.upload_file(filename, bucket_name, filename)
+	filename = complete_name
+	bucket_name = 'dagautomator'
+	s3.upload_file(filename, bucket_name, filename)
 
 	return None
 
-	def testModule(dayDiff, youngest, today):
-		print ("\nToday's Date: " + str(today) + "\n")
-		print ("Most Recent Transaction Date: " + str(youngest) + "\n")
-		print ("Day Difference: " + str(dayDiff) + "\n")
-		return (dayDiff, youngest, today)
-
-#tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
-#newDateArray[oldDate]
-#print(newDateArray)
-#Replace Old Date value with new Date Value
-#tree[oldDate] = newDateArray[oldDate]
+def testModule(dayDiff, youngest, today):
+	print ("\nToday's Date: " + str(today) + "\n")
+	print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+	print ("Day Difference: " + str(dayDiff) + "\n")
+	return (dayDiff, youngest, today)
 
 #Update XMLFile
 updateXML(tree)
-
 
 
 
