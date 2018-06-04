@@ -11,7 +11,7 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('two_transactions.xml')
+tree = ET.parse('../xml_files/2_trans.xml')
 datesArray = []
 s3 = boto3.client('s3')
 
@@ -25,15 +25,9 @@ def oldDate(xmlFile):
 	transactions = tree.iter('transaction')
 	for transaction in transactions:
 		transDate = transaction.find('transDate').text
-		#print(transDate)
 		transactionDate = getDateTimeFromISO8601String(transDate)
-		#print(transactionDate)
 		datesArray.append(transactionDate)
-		#print(datesArray)
 		newArray = datesArray
-		#print(newArray)
-		#dateArray = list(newArray)
-	#print(dateArray)
 	return newArray
 
 def newDate(newArray):
@@ -54,35 +48,18 @@ def newDate(newArray):
 	return newDateArray
 
 def updateXML(xmlFile):
-	#print(newDateArray)
-	#print(tree.findall('.//transDate')[0].text)
-	# for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates
-	#	  print(dateObj.text)
-	#	  dateObj.text = newDateArray[dateObj]
-	#	  print(dateObj)
-	#	  break
-	#print(xmlFile)
 	originalDatesArr = oldDate(xmlFile)
-	#print(originalDatesArr)
 	adjustedDatesArr = newDate(originalDatesArr)
-	#print(adjustedDatesArr)
-	#transactions = xmlFile.iter('transDate')
-	#for transaction in transactions:
 	transDates = xmlFile.findall('.//transDate')
 	for num in range(0, len(transDates)):
-		#print(transDates[0])
-		#transDate = transaction.find('transDate')
-		#print("Original Value " + str(transDates[num].text))
-		#print("New Value " + str(adjustedDatesArr[num]))
 		transDates[num].text = adjustedDatesArr[num]
-		#print("Final Value " + str(transDates[num].text))
 
 	#Write back to a file
-	print("2 Transaction ==> XML Generated")
+	print("2_Transaction XML ==> Complete")
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'edge_cases'
+	save_path = r'../edge_cases'
 	complete_name = os.path.join(save_path, str(actual_time) + "_2_trans.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
 	filename = complete_name

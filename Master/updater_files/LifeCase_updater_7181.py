@@ -11,7 +11,7 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('LifeCase-7181.xml')
+tree = ET.parse('../xml_files/LifeCase-7181.xml')
 datesArray = []
 s3 = boto3.client('s3')
 
@@ -49,7 +49,7 @@ def newDate(newArray):
 		#print(youngest_date)
 		todayDate = datetime.now()
 		dateDiff = abs((todayDate - youngest_date).days)
-		#print(dateDiff)	
+		#print(dateDiff)
 		newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
 		#print(newDate)
 		date = str(newDate.isoformat())
@@ -59,8 +59,8 @@ def newDate(newArray):
 
 def updateXML(xmlFile):
 	#print(newDateArray)
-	#print(tree.findall('.//transDate')[0].text) 
-	# for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates	 
+	#print(tree.findall('.//transDate')[0].text)
+	# for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates
 	#	  print(dateObj.text)
 	#	  dateObj.text = newDateArray[dateObj]
 	#	  print(dateObj)
@@ -80,14 +80,14 @@ def updateXML(xmlFile):
 		#print("New Value " + str(adjustedDatesArr[num]))
 		transDates[num].text = adjustedDatesArr[num]
 		#print("Final Value " + str(transDates[num].text))
-	
+
 
 	#Write back to a file
 	print("LifeCase-7181 ==> XML Generated")
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'generated_dag_files'
+	save_path = r'../generated_dag_files'
 	complete_name = os.path.join(save_path, str(actual_time) + "_LifeCase_7181.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
 	filename = complete_name
@@ -110,7 +110,3 @@ def updateXML(xmlFile):
 
 #Update XMLFile
 updateXML(tree)
-
-
-
-

@@ -11,9 +11,10 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('LifeCase-1517.xml')
+tree = ET.parse('../xml_files/master_checking_2.xml')
 datesArray = []
 s3 = boto3.client('s3')
+
 
 
 
@@ -48,7 +49,7 @@ def newDate(newArray):
 		#print(youngest_date)
 		todayDate = datetime.now()
 		dateDiff = abs((todayDate - youngest_date).days)
-		#print(dateDiff)	
+		#print(dateDiff)
 		newDate = date + dateutil.relativedelta.relativedelta(days=dateDiff)
 		#print(newDate)
 		date = str(newDate.isoformat())
@@ -58,8 +59,8 @@ def newDate(newArray):
 
 def updateXML(xmlFile):
 	#print(newDateArray)
-	#print(tree.findall('.//transDate')[0].text) 
-	# for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates	 
+	#print(tree.findall('.//transDate')[0].text)
+	# for dateObj in tree.findall('.//transDate'): # for date in XMLtransDates
 	#	  print(dateObj.text)
 	#	  dateObj.text = newDateArray[dateObj]
 	#	  print(dateObj)
@@ -79,16 +80,15 @@ def updateXML(xmlFile):
 		#print("New Value " + str(adjustedDatesArr[num]))
 		transDates[num].text = adjustedDatesArr[num]
 		#print("Final Value " + str(transDates[num].text))
-	
+
 
 	#Write back to a file
-	print("LifeCase-1517 ==> XML Generated")
+	print("Checking 2 ==> XML Generated")
 
-	
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'generated_dag_files'
-	complete_name = os.path.join(save_path, str(actual_time) + "_LifeCase_1517.xml")
+	save_path = r'../generated_dag_files'
+	complete_name = os.path.join(save_path, str(actual_time) + "_checking_02.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
 	filename = complete_name
 	bucket_name = 'dagautomator'
@@ -96,14 +96,17 @@ def updateXML(xmlFile):
 
 	return None
 
-def testModule(dayDiff, youngest, today):
-	print ("\nToday's Date: " + str(today) + "\n")
-	print ("Most Recent Transaction Date: " + str(youngest) + "\n")
-	print ("Day Difference: " + str(dayDiff) + "\n")
-	return (dayDiff, youngest, today)
+	def testModule(dayDiff, youngest, today):
+		print ("\nToday's Date: " + str(today) + "\n")
+		print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+		print ("Day Difference: " + str(dayDiff) + "\n")
+		return (dayDiff, youngest, today)
+
+#tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
+#newDateArray[oldDate]
+#print(newDateArray)
+#Replace Old Date value with new Date Value
+#tree[oldDate] = newDateArray[oldDate]
 
 #Update XMLFile
 updateXML(tree)
-
-
-

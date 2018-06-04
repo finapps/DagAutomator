@@ -14,7 +14,7 @@ balanceArray = []
 s3 = boto3.client('s3')
 
 # Open File to be modified
-tree = ET.parse('master_invest_1.xml')
+tree = ET.parse('../xml_files/master_invest_1.xml')
 root = tree
 
 # Parser to convert date from ISOFormat to Date Object
@@ -133,10 +133,9 @@ updateXML(tree)
 # Write back to a file
 now = dt.datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d"))
-save_path = r'generated_dag_files'
+save_path = r'../generated_dag_files'
 complete_name = os.path.join(save_path, str(actual_time) + "_investment_1.xml")
 tree.write(complete_name, xml_declaration=True)
 filename = complete_name
 bucket_name = 'dagautomator'
 s3.upload_file(filename, bucket_name, filename)
-

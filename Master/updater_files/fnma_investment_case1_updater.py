@@ -14,7 +14,7 @@ balanceArray = []
 s3 = boto3.client('s3')
 
 # Open File to be modified
-tree = ET.parse('fnma_investment_case1.xml')
+tree = ET.parse('../xml_files/fnma_investment_case1.xml')
 root = tree
 
 # Parser to convert date from ISOFormat to Date Object
@@ -160,7 +160,7 @@ updateXML(tree)
 now = dt.datetime.now()
 actual_time = str(now.strftime("%Y-%m-%d"))
 
-save_path = r'generated_RI_files'
+save_path = r'../generated_RI_files'
 complete_name = os.path.join(save_path, str(actual_time) + "_fnma_investment_case1.xml")
 tree.write(complete_name, xml_declaration=True)
 filename = complete_name
