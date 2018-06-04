@@ -1,0 +1,32 @@
+<site>
+	<status>0</status>
+	<bankAccount acctType="checking" uniqueId="21232423">
+		<accountName>B of A Checking</accountName>
+		<accountNumber>XXX-XXX0118</accountNumber>
+		<accountHolder>Walt Disney</accountHolder>
+		<balance balType="availableBalance">
+			<curAmt curCode="USD">2455.00</curAmt>
+		</balance>
+		<balance balType="currentBalance">
+			<curAmt curCode="USD">2455.00</curAmt>
+		</balance>
+		<transactionList>
+			<transaction baseType="credit" type="credit" uniqueId="1">
+				<description>DIRECT DEPOSIT MY EMPLOYER</description>
+				<link>http://www.altova.com</link>
+				<amount curCode="USD">1500.00</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-06-03T00:00:00</transDate>
+				<checkNumber>319</checkNumber>
+				<category categoryId="deposit 319">other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="2">
+				<description>CHECK CARD PURCHASE SMOKEY BONES 7533 PLANTATION FL</description>
+				<checkNumber>119</checkNumber>
+				<amount curCode="USD">17.41</amount>
+				<link>link</link>
+				<category>other</category>
+				<transDate localFormat="MM/dd/yy">2018-06-03T00:00:00</transDate>
+			</transaction>	
+		</transactionList>
+	</bankAccount>
+</site>

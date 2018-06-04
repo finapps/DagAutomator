@@ -13,6 +13,7 @@ file10 = runpy.run_path("checking_01_veracity_testing_updater.py")
 file11 = runpy.run_path("LifeCase_updater_1517.py")
 file12 = runpy.run_path("LifeCase_updater_7181.py")
 file13 = runpy.run_path("LifeCase_updater_7966.py")
+file14 = runpy.run_path("two_transactions.py")
 
 print("DagAutomator Report COMPLETE")
 exit()
