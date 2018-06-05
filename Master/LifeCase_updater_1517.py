@@ -11,9 +11,10 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('../xml_files/fnma_checking_case1_andre.xml')
+tree = ET.parse('xml_files/LifeCase-1517.xml')
 datesArray = []
 s3 = boto3.client('s3')
+
 
 
 # Parser to convert date from ISOFormat to Date Object
@@ -81,12 +82,13 @@ def updateXML(xmlFile):
 
 
 	#Write back to a file
-	print("FNMA Checking 1 ==> XML Generated")
+	print("LifeCase-1517 ==> XML Generated")
+
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'../generated_RI_files'
-	complete_name = os.path.join(save_path, str(actual_time) + "_fnma_checking_case1.xml")
+	save_path = r'generated_dag_files'
+	complete_name = os.path.join(save_path, str(actual_time) + "_LifeCase_1517.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
 	filename = complete_name
 	bucket_name = 'dagautomator'

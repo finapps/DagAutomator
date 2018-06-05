@@ -1,0 +1,2829 @@
+<site>
+	<status>0</status>
+	<bankAccount acctType="checking" uniqueId="21232423">
+		<accountName>Chase Checking</accountName>
+		<accountNumber>XXX-XXX0118</accountNumber>
+		<accountHolder>Yodlee User</accountHolder>
+		<balance balType="availableBalance">
+			<curAmt curCode="USD">875.00</curAmt>
+		</balance>
+		<balance balType="currentBalance">
+			<curAmt curCode="USD">875.00</curAmt>
+		</balance>
+		<transactionList>
+			<transaction baseType="debit" type="debit" uniqueId="1">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:370708012EPAYW            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">78.87</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-06-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="2">
+				<link>link</link>
+				<description>CITI CARDS      Bill Payment </description>
+				<amount curCode="USD">1109.91</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-06-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="3">
+				<link>link</link>
+				<description>CHECKCARD  1021 BRISTOL WEST INSURANCE</description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-06-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="4">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1084.28</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="5">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">577.85</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="6">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">85.46</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="7">
+				<link>link</link>
+				<description>CHECKCARD  1012 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.35</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-25T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="8">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">9.18</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-23T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="9">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">231.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-23T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="10">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1496.36</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="11">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="12">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">966.6</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="13">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="14">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="15">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:THRIVENT   ID:C1264018                  INDN:Carolyn M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="16">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="17">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="18">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="19">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="20">
+				<link>link</link>
+				<description>CHECKCARD  0928 AAA CA INSURANCE</description>
+				<amount curCode="USD">272.13</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="21">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:466633012EPAYS            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">78.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-07T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="22">
+				<link>link</link>
+				<description>CITI CARDS      Bill Payment </description>
+				<amount curCode="USD">1569.56</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="23">
+				<link>link</link>
+				<description>CHECKCARD  0921 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-03T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="24">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1662.13</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="25">
+				<link>link</link>
+				<description>BANK OF AMERICA - LINE OF credit Bill Payment </description>
+				<amount curCode="USD">2167</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-05-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="26">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">134.57</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="27">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">2000</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-26T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="28">
+				<link>link</link>
+				<description>CHECKCARD  0911 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.35</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-24T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="29">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">900</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-23T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="30">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">231.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="31">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="32">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">8.96</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="33">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:THRIVENT   ID:C1264018                  INDN:Carolyn M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="34">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">967.19</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="35">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="36">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1626.64</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="37">
+				<link>link</link>
+				<description>WASTE MANAGEMENT DES:INTERNET   ID:99302382                  INDN:ROBERTSON WAYNE        CO ID:9049 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="38">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="39">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="40">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="41">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="42">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:783846002EPAYH            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">78.56</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="43">
+				<link>link</link>
+				<description>CITI CARDS      Bill Payment </description>
+				<amount curCode="USD">1652.49</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="44">
+				<link>link</link>
+				<description>CHECKCARD  0821 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-04-02T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="45">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">162.25</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="46">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1084.28</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="47">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">577.85</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="48">
+				<link>link</link>
+				<description>CHECKCARD  0811 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.35</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-26T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="49">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079056           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">10.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-21T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="50">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">231.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-21T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="51">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-21T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="52">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1422.59</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="53">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:THRIVENT   ID:C1264018                  INDN:Carolyn M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="54">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="55">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">967.19</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="56">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="57">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="58">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="59">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="60">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="61">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:776281002EPAYC            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">78.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-06T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="62">
+				<link>link</link>
+				<description>CHECKCARD  0721 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="63">
+				<link>link</link>
+				<description>CITI CARDS      Bill Payment </description>
+				<amount curCode="USD">1400</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-02T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="64">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">122.1</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-03-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="65">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1662.13</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-27T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="66">
+				<link>link</link>
+				<description>CHECKCARD  0712 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.32</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="67">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">9.53</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="68">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">231.04</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="69">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="70">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">973.5</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="71">
+				<link>link</link>
+				<description>WASTE MANAGEMENT DES:INTERNET   ID:99124716                  INDN:ROBERTSON WAYNE        CO ID:9049 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="72">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="73">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="74">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">2004.77</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="75">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="76">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="77">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="78">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="79">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="80">
+				<link>link</link>
+				<description>BANK OF AMERICA - LINE OF credit Bill Payment </description>
+				<amount curCode="USD">2390.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="81">
+				<link>link</link>
+				<description>Online scheduled transfer from SAV 5756 </description>
+				<amount curCode="USD">2000</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-07T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="82">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:443733002EPAYZ            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">78.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="83">
+				<link>link</link>
+				<description>CHECKCARD  0621 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-02-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="84">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1084.28</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="85">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">83.75</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="86">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1394.2</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="87">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">577.85</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="88">
+				<link>link</link>
+				<description>CHECKCARD  0611 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.32</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="89">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="90">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">231.04</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="91">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1600</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="92">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">10.26</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="93">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="94">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="95">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1952.92</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="96">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">973.5</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="97">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="98">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="99">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="100">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="101">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="102">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:017279002EPAYS            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">78.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-02T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="103">
+				<link>link</link>
+				<description>CHECKCARD  0521 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2018-01-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="104">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">99.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="105">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1433</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="106">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1084.28</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="107">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">577.85</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-27T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="108">
+				<link>link</link>
+				<description>CHECKCARD  0512 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.32</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-25T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="109">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">12.78</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="110">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">231.04</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="111">
+				<link>link</link>
+				<description>CHECKCARD  0506 AAA CA INSURANCE</description>
+				<amount curCode="USD">10</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="112">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="113">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1623.2</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="114">
+				<link>link</link>
+				<description>WASTE MANAGEMENT DES:INTERNET   ID:99533222                  INDN:ROBERTSON WAYNE        CO ID:9049 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="115">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="116">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="117">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">979.81</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="118">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="119">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="120">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="121">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="122">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="123">
+				<link>link</link>
+				<description>BANK OF AMERICA - LINE OF credit Bill Payment </description>
+				<amount curCode="USD">3116.86</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="124">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:217166002EPAYP            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">58</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="125">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="126">
+				<link>link</link>
+				<description>CHECKCARD  0421 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-12-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="127">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1263.21</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="128">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">47.11</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="129">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1662.13</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="130">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">14.05</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="131">
+				<link>link</link>
+				<description>CHECKCARD  0411 AUTOPAY/DISH NTWK                           </description>
+				<amount curCode="USD">99.32</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="132">
+				<link>link</link>
+				<description>IRS  TREAS 310   DES:  TAX REF  ID:543201234200989           INDN:ROBERTSON CAROLYN M   CO ID:9111 </description>
+				<amount curCode="USD">576</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="133">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">247.3</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="134">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="135">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1091.59</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="136">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">986.12</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="137">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="138">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="139">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="140">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="141">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="142">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="143">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="144">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="145">
+				<link>link</link>
+				<description>BANK OF AMERICA - LINE OF credit Bill Payment </description>
+				<amount curCode="USD">1900</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="146">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-06T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="147">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:830805002EPAYK            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">201.57</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-03T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="148">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1400</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-11-02T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="149">
+				<link>link</link>
+				<description>CHECKCARD  0321 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">183.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-31T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="150">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">72.21</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="151">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1084.28</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="152">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">577.85</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-27T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="153">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">20.79</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-24T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="154">
+				<link>link</link>
+				<description>Online scheduled transfer to SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="155">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">286.39</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="156">
+				<link>link</link>
+				<description>WASTE MANAGEMENT DES:INTERNET   ID:99617532                  INDN:ROBERTSON WAYNE        CO ID:9049 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="157">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="158">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="159">
+				<link>link</link>
+				<description>Bank of America Credit Card Bill Payment </description>
+				<amount curCode="USD">1700</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="160">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">986.12</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="161">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="162">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="163">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="164">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="165">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="166">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:160246002EPAYG            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">185.51</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="167">
+				<link>link</link>
+				<description>CHECKCARD  0221 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">182.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-10-03T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="168">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">95.2</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="169">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1052.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="170">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1138.1</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="171">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">561.02</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="172">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">58.09</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="173">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">271.79</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="174">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="175">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="176">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="177">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="178">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="179">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">992.43</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="180">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="181">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="182">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="183">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="184">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="185">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-06T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="186">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:619008003EPAYC            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.74</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="187">
+				<link>link</link>
+				<description>BANK OF AMERICA - LINE OF credit Bill Payment </description>
+				<amount curCode="USD">984</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="188">
+				<link>link</link>
+				<description>CHECKCARD  0121 BRISTOL WEST INSURANCE                      </description>
+				<amount curCode="USD">195</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-09-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="189">
+				<link>link</link>
+				<description>American Express Bill Payment </description>
+				<amount curCode="USD">1400</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="190">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1613.72</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="191">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">114.05</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="192">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">39.05</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="193">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="194">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">178.72</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-21T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="195">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">992.43</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-21T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="196">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="197">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="198">
+				<link>link</link>
+				<description>Waste Management DES:8668342080 ID:100289349860              INDN:WAYNE ROBERTSON        CO ID:2760 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="199">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="200">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="201">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="202">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="203">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="204">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="205">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9101 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-10T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="206">
+				<link>link</link>
+				<description>BANK OF AMERICA - LINE OF credit Bill Payment </description>
+				<amount curCode="USD">2000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-08T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="207">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:551377002EPAYY            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-08-07T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="208">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">100.63</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-31T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="209">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1351.91</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-31T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="210">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1052.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-31T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="211">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">561.02</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="212">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="213">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">16.95</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="214">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">181.63</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="215">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">2000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="216">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="217">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="218">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1653.63</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="219">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">998.74</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="220">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="221">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="222">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="223">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="224">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="225">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:525559002EPAYT            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-07-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="226">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1052.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="227">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1299.56</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="228">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">561.02</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="229">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">113.89</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-27T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="230">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">166.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="231">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="232">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">7.4</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="233">
+				<link>link</link>
+				<description>Waste Management DES:8668342080 ID:100272406106              INDN:WAYNE ROBERTSON        CO ID:2760 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="234">
+				<link>link</link>
+				<description>PROG CASUALTY    DES:INS PREM   ID:POL  36516598             INDN:carolyn m ROBERTSON    CO ID:9409 </description>
+				<amount curCode="USD">290.75</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="235">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="236">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="237">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">1005.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="238">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="239">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1289.12</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="240">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="241">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="242">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="243">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="244">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:678280002EPAYO            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-06-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="245">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1159.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="246">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1613.72</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-30T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="247">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">115.92</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="248">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079053           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">7.76</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-23T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="249">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">166.13</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="250">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="251">
+				<link>link</link>
+				<description>PROG CASUALTY    DES:INS PREM   ID:POL  36516598             INDN:Carolyn m ROBERTSON    CO ID:9409 </description>
+				<amount curCode="USD">200</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="252">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="253">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1700</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="254">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">1005.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="255">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="256">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="257">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="258">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="259">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="260">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="261">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:719869002EPAYK            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.34</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="262">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">141.26</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="263">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1052.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-05-01T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="264">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1153.87</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="265">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">561.02</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="266">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">8.57</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="267">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">166.13</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="268">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="269">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="270">
+				<link>link</link>
+				<description>Waste Management DES:8668342080 ID:100254898957              INDN:WAYNE ROBERTSON        CO ID:2760 </description>
+				<amount curCode="USD">44.22</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="271">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="272">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-19T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="273">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">1005.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="274">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">2200</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-18T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="275">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="276">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="277">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="278">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="279">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="280">
+				<link>link</link>
+				<description>Online Banking transfer from SAV 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-05T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="281">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:494181002EPAYF            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.34</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-04-04T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="282">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1663.8</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-31T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="283">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">1052.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="284">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088 </description>
+				<amount curCode="USD">109.7</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="285">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390 </description>
+				<amount curCode="USD">561.02</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="286">
+				<link>link</link>
+				<description>SO CAL GAS       DES:SIMPLEPAY  ID:034213940079057           INDN:ROBERTSON WAYNE        CO ID:1991 </description>
+				<amount curCode="USD">9.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-22T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="287">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223 </description>
+				<amount curCode="USD">165.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-21T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="288">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="289">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">1360.12</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="290">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">1005.06</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-17T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="291">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390 </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="292">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390 </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="293">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940 </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-16T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="294">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="295">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN M   CO ID:9000 </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="296">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222 </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="297">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031 </description>
+				<amount curCode="USD">1720</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-13T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="298">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:717259002EPAYB            INDN:Carolyn ROBERTSON      CO ID:9864 </description>
+				<amount curCode="USD">179.18</amount>
+				<transDate localFormat="yyyy-MM-dd">2017-03-06T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="299">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">2278.8</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-02-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="300">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031736039 PPD </description>
+				<amount curCode="USD">1690</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-02-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="301">
+				<link>link</link>
+				<description>BANK OF AMERICA  DES:PENSION    ID:XXXXX0007973051           INDN:ROBERTSON CAROLYN M   CO ID:011900571  PPD </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="302">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN     CO ID:9000433885 PPD </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="303">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222195996 PPD </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-02-09T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="304">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:818511012EPAYG            INDN:Carolyn ROBERTSON      CO ID:9864031004 PPD </description>
+				<amount curCode="USD">179.29</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-02-08T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="305">
+				<link>link</link>
+				<description>SO CALIF EDISON  DES:PAYMENTS   ID:2120065966                INDN:ROBERTSON WAYNE       CO ID:0088778600 PPD </description>
+				<amount curCode="USD">83.77</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-29T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="306">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283112                   INDN:ROBERTSON CAROLYN M    CO ID:0390123480 PPD </description>
+				<amount curCode="USD">1022.04</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-28T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="307">
+				<link>link</link>
+				<description>THRIVENT RPS     DES:DEPOSIT    ID:1283111                   INDN:ROBERTSON CAROLYN M    CO ID:0390123480 PPD </description>
+				<amount curCode="USD">544.68</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-27T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="308">
+				<link>link</link>
+				<description>AMERICAN EXPRESS Bill Payment </description>
+				<amount curCode="USD">1474.58</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-25T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="309">
+				<link>link</link>
+				<description>VERIZON WIRELESS DES:PAYMENTS   ID:056069873900001           INDN:0000000056069873900001  CO ID:4223344794 PPD </description>
+				<amount curCode="USD">165.63</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-20T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="310">
+				<link>link</link>
+				<description>THRIVENT PAYMENT DES:AUTO PAY   ID:C1264018                  INDN:CAROLYN M ROBERTSON    CO ID:0390123480 PPD </description>
+				<amount curCode="USD">500</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="311">
+				<link>link</link>
+				<description>BANK OF THE WEST DES:IC PAYMENT ID:00000360300947            INDN:ROBERTSON 00000557608  CO ID:2940475440 PPD </description>
+				<amount curCode="USD">1544.07</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="312">
+				<link>link</link>
+				<description>Agent Assisted transfer from BRK 0401 </description>
+				<amount curCode="USD">1018.94</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-15T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="313">
+				<link>link</link>
+				<description>THRIVENT FINANCL DES:WITHDRAWAL ID:01001003003-101           INDN:ROBERTSON CAROLYN M    CO ID:9390123480 PPD </description>
+				<amount curCode="USD">134.54</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="314">
+				<link>link</link>
+				<description>Online scheduled transfer to Sav 5756 </description>
+				<amount curCode="USD">1000</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-14T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="315">
+				<link>link</link>
+				<description>SSA  TREAS 310   DES:XXSOC SEC  ID:543201234A  SSA           INDN:CAROLYN M ROBERTSON    CO ID:9031736026 PPD </description>
+				<amount curCode="USD">1690</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="316">
+				<link>link</link>
+				<description>BANK OF AMERICA credit CARD Bill Payment </description>
+				<amount curCode="USD">2971.95</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-12T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="317">
+				<link>link</link>
+				<description>BANK OF AMERICA  DES:PENSION    ID:XXXXX0007912345         INDN:ROBERTSON CAROLYN M   CO ID:011900571  PPD </description>
+				<amount curCode="USD">198.73</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="credit" type="deposit" uniqueId="318">
+				<link>link</link>
+				<description>FIDELITY INVESTM DES:PENSION    ID:XXXXX1234                 INDN:ROBERTSON CAROLYN     CO ID:9000433885 PPD </description>
+				<amount curCode="USD">500.44</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="319">
+				<link>link</link>
+				<description>MORTGAGE SERV CT DES:MTG PAYMT  ID:7104708420                INDN:ROBERTSON CAROLYN      CO ID:4222195996 PPD </description>
+				<amount curCode="USD">506.62</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-11T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+			<transaction baseType="debit" type="debit" uniqueId="320">
+				<link>link</link>
+				<description>ATT              DES:Payment    ID:454834012EPAYA            INDN:Carolyn ROBERTSON      CO ID:9864031004 PPD </description>
+				<amount curCode="USD">179.04</amount>
+				<transDate localFormat="yyyy-MM-dd">2016-01-06T00:00:00</transDate>
+				<checkNumber>0</checkNumber>
+				<category>other</category>
+			</transaction>
+		</transactionList>
+	</bankAccount>
+   <bankAccount acctType="savings" uniqueId="21232420">
+      <accountName>Chase Savings</accountName>
+      <accountNumber>XXX-XXX1118</accountNumber>
+      <accountHolder>Yodlee User</accountHolder>
+      <balance balType="availableBalance">
+         <curAmt curCode="USD">3000.00</curAmt>
+      </balance>
+      <balance balType="currentBalance">
+         <curAmt curCode="USD">3000.00</curAmt>
+      </balance>
+      <transactionList>
+         <transaction baseType="credit" type="deposit" uniqueId="321">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-05-18T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="322">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-04-26T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="323">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">900</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-04-23T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="324">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-04-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="325">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-03-21T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="326">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-02-16T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="327">
+            <link>link</link>
+            <description>Online scheduled transfer to CHK 0979 </description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-02-07T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="328">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-01-19T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="329">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1600</amount>
+            <transDate localFormat="yyyy-MM-dd">2018-01-18T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="330">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-12-19T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="331">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-12-04T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="332">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-17T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="333">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-13T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="334">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-06T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="335">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1400</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-11-02T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="336">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-10-19T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="337">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="338">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-19T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="339">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-09-06T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="340">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-22T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="341">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-08-18T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="342">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="343">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">2000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-07-19T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="344">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-06-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="345">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-05-19T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="346">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="347">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="debit" type="debit" uniqueId="348">
+            <link>link</link>
+            <description>Online Banking transfer to CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-04-05T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="349">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">500</amount>
+            <transDate localFormat="yyyy-MM-dd">2017-03-20T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+         <transaction baseType="credit" type="deposit" uniqueId="350">
+            <link>link</link>
+            <description>Online scheduled transfer from CHK 0979 </description>
+            <amount curCode="USD">1000</amount>
+            <transDate localFormat="yyyy-MM-dd">2016-01-14T00:00:00</transDate>
+            <checkNumber>0</checkNumber>
+            <category>other</category>
+         </transaction>
+      </transactionList>
+   </bankAccount>
+</site>

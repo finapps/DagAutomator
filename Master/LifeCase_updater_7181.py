@@ -11,9 +11,10 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('../xml_files/master_securebank_1.xml')
+tree = ET.parse('xml_files/LifeCase-7181.xml')
 datesArray = []
 s3 = boto3.client('s3')
+
 
 
 
@@ -82,17 +83,16 @@ def updateXML(xmlFile):
 
 
 	#Write back to a file
-	print("SecureBank 1 ==> XML Generated")
+	print("LifeCase-7181 ==> XML Generated")
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'../generated_dag_files'
-	complete_name = os.path.join(save_path, str(actual_time) + "_securebank_1.xml")
+	save_path = r'generated_dag_files'
+	complete_name = os.path.join(save_path, str(actual_time) + "_LifeCase_7181.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
 	filename = complete_name
 	bucket_name = 'dagautomator'
 	s3.upload_file(filename, bucket_name, filename)
-
 
 	return None
 
@@ -110,42 +110,3 @@ def updateXML(xmlFile):
 
 #Update XMLFile
 updateXML(tree)
-
-
-# for date in newDateArray:
-#	  updatedDate = date # newDateArray[0]
-
-#	  node.text = updatedDate # newDateArray[0]
-
-# print(updatedDate) # newDateArray.last()
-
-# for node in tree.findall('.//transDate'):
-#	  node.text = date # Please note it has to be str '2015', not int like 2015
-#	  #print(node.text)
-#return None
-
-
-#postTest(tree)
-#balanceUpdater(tree)
-#transactionAmountUpdater(tree)
-#baseTypeRandomizer(tree)
-#accountName(tree)
-# postDateUpdater(tree)
-#transDateUpdater(tree)
-#print("XML File Created")
-#print(newArray)
-#updateXML(newDate(oldDate(tree)))
-#newDate(oldDate(tree))
-#oldDate(newDate(tree))
-
-#finalDates = transUpdater(dateGetter(tree))
-#dateGetter(dateArray)
-
-
-#return
-
-# for num in range(0, len(tree.findall('.//transDate'))):
-#	  print(num)
-#	  print(tree.findall('.//transDate')[num].text)
-#	  tree.findall('.//transDate')[num].text = newDateArray[num]
-#	  print(tree.findall('.//transDate')[num].text)

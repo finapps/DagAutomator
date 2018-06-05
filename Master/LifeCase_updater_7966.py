@@ -11,9 +11,10 @@ global updatedDate
 global dateDiff
 
 # Open File to be modified
-tree = ET.parse('../xml_files/master_checking01_veracity_testing.xml')
+tree = ET.parse('xml_files/LifeCase-7966.xml')
 datesArray = []
 s3 = boto3.client('s3')
+
 
 
 
@@ -82,13 +83,12 @@ def updateXML(xmlFile):
 
 
 	#Write back to a file
-	print("Checking 01 Veracity ==> XML Generated")
-
+	print("LifeCase-7966 ==> XML Generated")
 
 	now = datetime.now()
 	actual_time = str(now.strftime("%Y-%m-%d"))
-	save_path = r'../generated_dag_files'
-	complete_name = os.path.join(save_path, str(actual_time) + "_checking_01_veracity.xml")
+	save_path = r'generated_dag_files'
+	complete_name = os.path.join(save_path, str(actual_time) + "_LifeCase_7966.xml")
 	xmlFile.write(complete_name, xml_declaration=True)
 	filename = complete_name
 	bucket_name = 'dagautomator'
@@ -96,11 +96,17 @@ def updateXML(xmlFile):
 
 	return None
 
-def testModule(dayDiff, youngest, today):
-	print ("\nToday's Date: " + str(today) + "\n")
-	print ("Most Recent Transaction Date: " + str(youngest) + "\n")
-	print ("Day Difference: " + str(dayDiff) + "\n")
-	return (dayDiff, youngest, today)
+	def testModule(dayDiff, youngest, today):
+		print ("\nToday's Date: " + str(today) + "\n")
+		print ("Most Recent Transaction Date: " + str(youngest) + "\n")
+		print ("Day Difference: " + str(dayDiff) + "\n")
+		return (dayDiff, youngest, today)
+
+#tree.write("Dag Account - " + str(actual_time) + ".xml", xml_declaration=True)
+#newDateArray[oldDate]
+#print(newDateArray)
+#Replace Old Date value with new Date Value
+#tree[oldDate] = newDateArray[oldDate]
 
 #Update XMLFile
 updateXML(tree)
