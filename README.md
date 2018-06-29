@@ -1,9 +1,3 @@
-# DagAutomator
+# DAG Automator
 
-### Python Scripts to Auto Generate DAG accounts.
-
-
-
-
-
-
+### Express JS app that will generate XML DAG files using a user friendly front-end form.
