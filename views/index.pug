@@ -7,6 +7,20 @@ block content
   form(action='/xml', method='GET')
     p
       input(type='hidden', name='accountCount', value='1')
+      | Container Type:
+      select(name='account1ContainerType')
+        option(value='bank') Bank
+        option(value='investment') Investment
+      br
+      | Account Type:
+      select(name='account1AccountType')
+        option(value='checking') Checking
+        option(value='savings') Savings
+      br
+      | Currency Code:
+      select(name='account1CurrencyCode')
+        option(value='USD') USD
+      br
       | Account Name:
       input(type='text', name='account1Name', value='')
       br
