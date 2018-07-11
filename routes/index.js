@@ -20,20 +20,21 @@ module.exports = router;
 
 function generateXML(params){
   const accountCount = Number(params.accountCount);
-  const containerType = params.account1ContainerType;
-  const accountType = params.account1AccountType;
-  const currencyCode = params.account1CurrencyCode;
-  const accountName = params.account1Name;
-  const accountHolder = params.account1Holder;
-  const accountNumber = params.account1Number;
-  const currentBalance = Number(params.account1CurrentBalance);
-  const availableBalance = Number(params.account1AvailableBalance);
-  const transactionCount = Number(params.account1TransactionCount);
 
   var site = builder.create('site')
     .ele('status', 0).up();
 
   for(var a = 1; a <= accountCount; a++){
+    const containerType = params[`account${a}ContainerType`];
+    const accountType = params[`account${a}AccountType`];
+    const currencyCode = params[`account${a}CurrencyCode`];
+    const accountName = params[`account${a}Name`];
+    const accountHolder = params[`account${a}Holder`];
+    const accountNumber = params[`account${a}Number`];
+    const currentBalance = Number(params[`account${a}CurrentBalance`]);
+    const availableBalance = Number(params[`account${a}AvailableBalance`]);
+    const transactionCount = Number(params[`account${a}TransactionCount`]);
+    
     var account = builder.create(`${containerType}Account`)
       .att('acctType', accountType)
       .att('uniqueId', a)
