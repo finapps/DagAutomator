@@ -20,6 +20,9 @@ module.exports = router;
 
 function generateXML(params){
   const accountCount = Number(params.accountCount);
+  const containerType = params.account1ContainerType;
+  const accountType = params.account1AccountType;
+  const currencyCode = params.account1CurrencyCode;
   const accountName = params.account1Name;
   const accountHolder = params.account1Holder;
   const accountNumber = params.account1Number;
@@ -27,24 +30,21 @@ function generateXML(params){
   const availableBalance = Number(params.account1AvailableBalance);
   const transactionCount = Number(params.account1TransactionCount);
 
-  console.log(typeof accountCount);
-
   var site = builder.create('site')
     .ele('status', 0).up();
 
   for(var a = 1; a <= accountCount; a++){
-    var account = builder.create('bankAccount')
-      .att('acctType', 'checking')
-      .att('uniqueId', '21232423')
+    var account = builder.create(`${containerType}Account`)
+      .att('acctType', accountType)
+      .att('uniqueId', a)
       .ele('accountName', accountName).up()
       .ele('accountNumber', accountNumber).up()
-      // .ele('accountNumber', 'XXX-XXX0118').up()
       .ele('accountHolder', accountHolder).up()
       .ele('balance', {'balType':'availableBalance'})
-        .ele('curAmt', {'curCode':'USD'}, availableBalance).up()
+        .ele('curAmt', {'curCode':currencyCode}, availableBalance).up()
       .up()
       .ele('balance', {'balType':'currentBalance'})
-        .ele('curAmt', {'curCode':'USD'}, currentBalance).up()
+        .ele('curAmt', {'curCode':currencyCode}, currentBalance).up()
       .up()
       .ele('transactionList');
 
