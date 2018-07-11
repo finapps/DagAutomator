@@ -2,4 +2,26 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Welcome to the #{title}
+
+  form(action='/xml', method='GET')
+    p
+      input(type='hidden', name='accountCount', value='1')
+      | Account Name:
+      input(type='text', name='account1Name', value='')
+      br
+      | Account Holder:
+      input(type='text', name='account1Holder', value='')
+      br
+      | Account Number:
+      input(type='text', name='account1Number', value='')
+      br
+      | Current Balance:
+      input(type='text', name='account1CurrentBalance', value='')
+      br
+      | Available Balance:
+      input(type='text', name='account1AvailableBalance', value='')
+      br
+      | Transaction Count:
+      input(type='text', name='account1TransactionCount', value='')
+    input(type='submit', value='Submit')
