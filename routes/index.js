@@ -33,8 +33,7 @@ function generateXML(params){
     const accountNumber = params[`account${a}Number`];
     const currentBalance = Number(params[`account${a}CurrentBalance`]);
     const availableBalance = Number(params[`account${a}AvailableBalance`]);
-    const transactionCount = Number(params[`account${a}TransactionCount`]);
-    
+
     var account = builder.create(`${containerType}Account`)
       .att('acctType', accountType)
       .att('uniqueId', a)
@@ -49,23 +48,51 @@ function generateXML(params){
       .up()
       .ele('transactionList');
 
-    for(var t = 1; t <= transactionCount; t++){
-      var transaction = builder.create('transaction')
-        .att('baseType', 'credit')
-        .att('type', 'deposit')
-        .att('uniqueId', String(t))
-        .ele('description', 'SANTA CRUZ CNTY  DES:PAYROLL  ID: xx2345  INDN:JOHNSON  G R  CO ID:1946').up()
-        .ele('link', 'http://www.altova.com').up()
-        .ele('amount', {'curCode':'USD'}, '4995.31').up()
-        .ele('transDate', {'localFormat':'yyyy-MM-dd'}, '2017-12-06T00:00:00').up()
-        .ele('checkNumber', 319).up()
-        .ele('category', {'categoryId':'deposit 319'}, 'other').up();
-      account.importDocument(transaction);
-    }
+    account = generateTransactions(account, a, params);
+
     site.importDocument(account);
   }
   // site.end({pretty: true});
 
   // console.log(xml);
   return(site.end({pretty: true}));
+}
+
+
+function generateTransactions(account, acctNo, params){
+  const transactionCount = Number(params[`account${acctNo}TransactionCount`]);
+  const recurrenceDays = Number(params[`account${acctNo}TransactionRecurrenceDays`])
+
+  for(var t = 1; t <= transactionCount; t++){
+    const dateMethod = params[`account${acctNo}Transaction${t}DateMethod`];
+    const dateValue = params[`account${acctNo}Transaction${t}DateValue`];
+    const description = params[`account${acctNo}Transaction${t}Description`];
+    const value = params[`account${acctNo}Transaction${t}Value`];
+    const baseType = params[`account${acctNo}Transaction${t}Type`];
+    var type = "";
+    switch(baseType){
+      case "debit":
+      type = "debit";
+      break;
+      case "credit":
+      type = "deposit";
+      break;
+    };
+
+    var transaction = builder.create('transaction')
+      .att('baseType', baseType)
+      .att('type', type)
+      .att('uniqueId', String(t))
+      .ele('description', description).up()
+      .ele('link', 'http://www.altova.com').up()
+      .ele('amount', {'curCode':'USD'}, value).up()
+      .ele('transDate', {'localFormat':'yyyy-MM-dd'}, '2017-12-06T00:00:00').up()
+      .ele('checkNumber', 319).up()
+      .ele('category', 'other').up();
+      // .end({pretty: true})
+
+    account.importDocument(transaction);
+    // console.log(transactions);
+  }
+  return(account);
 }
