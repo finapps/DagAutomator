@@ -31,11 +31,74 @@ block content
       input(type='text', name='account1Number', value='')
       br
       | Current Balance:
-      input(type='text', name='account1CurrentBalance', value='')
+      input(type='number', name='account1CurrentBalance', value='', min=0, step='0.01')
       br
       | Available Balance:
-      input(type='text', name='account1AvailableBalance', value='')
+      input(type='number', name='account1AvailableBalance', value='', min=0, step='0.01')
       br
       | Transaction Count:
-      input(type='text', name='account1TransactionCount', value='')
+      input(type='number', name='account1TransactionCount', value='3', min=0)
+      br
+      | Transaction Recurrence Days:
+      input(type='number', name='account1TransactionRecurrenceDays', value='90', min=0)
+      br
+      | Transaction 1 Date Method:
+      select(name='account1Transaction1DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Recurring
+      br
+      | Transaction 1 Date Value:
+      input(type='text', name='account1Transaction1DateValue', value='')
+      br
+      | Transaction 1 Description:
+      input(type='text', name='account1Transaction1Description', value='')
+      br
+      | Transaction 1 Value:
+      input(type='number', name='account1Transaction1Value', value='', min=0, step='0.01')
+      br
+      | Transaction 1 Type:
+      select(name='account1Transaction1Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 2 Date Method:
+      select(name='account1Transaction2DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Recurring
+      br
+      | Transaction 2 Date Value:
+      input(type='text', name='account1Transaction2DateValue', value='')
+      br
+      | Transaction 2 Description:
+      input(type='text', name='account1Transaction2Description', value='')
+      br
+      | Transaction 2 Value:
+      input(type='number', name='account1Transaction2Value', value='', min=0, step='0.01')
+      br
+      | Transaction 2 Type:
+      select(name='account1Transaction2Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 3 Date Method:
+      select(name='account1Transaction3DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Recurring
+      br
+      | Transaction 3 Date Value:
+      input(type='text', name='account1Transaction3DateValue', value='')
+      br
+      | Transaction 3 Description:
+      input(type='text', name='account1Transaction3Description', value='')
+      br
+      | Transaction 3 Value:
+      input(type='number', name='account1Transaction3Value', value='', min=0, step='0.01')
+      br
+      | Transaction 3 Type:
+      select(name='account1Transaction3Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
     input(type='submit', value='Submit')
