@@ -48,7 +48,8 @@ function generateXML(params){
       .up()
       .ele('transactionList');
 
-    account = generateTransactions(account, a, params);
+    // account = generateTransactions(account, a, params);
+    generateTransactions(account, a, params);
 
     site.importDocument(account);
   }
@@ -63,9 +64,11 @@ function generateTransactions(account, acctNo, params){
   const transactionCount = Number(params[`account${acctNo}TransactionCount`]);
   const recurrenceDays = Number(params[`account${acctNo}TransactionRecurrenceDays`])
 
+  var transactions = [];
+
   for(var t = 1; t <= transactionCount; t++){
-    const dateMethod = params[`account${acctNo}Transaction${t}DateMethod`];
-    const dateValue = params[`account${acctNo}Transaction${t}DateValue`];
+    const dateMethod = Number(params[`account${acctNo}Transaction${t}DateMethod`]);
+    const dateValue = Number(params[`account${acctNo}Transaction${t}DateValue`]);
     const description = params[`account${acctNo}Transaction${t}Description`];
     const value = params[`account${acctNo}Transaction${t}Value`];
     const baseType = params[`account${acctNo}Transaction${t}Type`];
@@ -79,20 +82,139 @@ function generateTransactions(account, acctNo, params){
       break;
     };
 
-    var transaction = builder.create('transaction')
-      .att('baseType', baseType)
-      .att('type', type)
-      .att('uniqueId', String(t))
-      .ele('description', description).up()
-      .ele('link', 'http://www.altova.com').up()
-      .ele('amount', {'curCode':'USD'}, value).up()
-      .ele('transDate', {'localFormat':'yyyy-MM-dd'}, '2017-12-06T00:00:00').up()
-      .ele('checkNumber', 319).up()
-      .ele('category', 'other').up();
+    switch(dateMethod){
+      case 0: // Once
+        var daysToAdd = Math.floor((Math.random() * recurrenceDays) + 1);
+        var transDate = new Date();
+        transDate.setDate(transDate.getDate() - daysToAdd);
+
+        var transactionData = {
+          'baseType':baseType,
+          'type':type,
+          'uniqueId':String(t),
+          'description':description,
+          'link':'http://www.financialapps.com',
+          'curCode':params[`account${acctNo}CurrencyCode`],
+          'value':value,
+          'transDate':transDate.toJSON(),
+          'checkNumber':319,
+          'category':'other'
+        };
+
+        transactions.push(transactionData);
+        break;
+      case 1: // Offset
+        // var daysToUse = (recurrenceDays / dateValue).floor();
+        for(var f = 0; f < recurrenceDays; f += dateValue){
+          var transDate = new Date();
+          transDate.setDate(transDate.getDate() - f);
+
+          var transactionData = {
+            'baseType':baseType,
+            'type':type,
+            'uniqueId':String(t),
+            'description':description,
+            'link':'http://www.financialapps.com',
+            'curCode':params[`account${acctNo}CurrencyCode`],
+            'value':value,
+            'transDate':transDate.toJSON(),
+            'checkNumber':319,
+            'category':'other'
+          };
+
+          transactions.push(transactionData);
+        }
+        break;
+      case 2: // Recurring bi-weekly on day of week set in dateValue
+        for(var f = 7; f < recurrenceDays; f += 14){
+          var day = new Date().getDate() + (dateValue - new Date().getDay() - 1) - f;
+          var transDate = new Date();
+          transDate.setDate(day);
+
+          var transactionData = {
+            'baseType':baseType,
+            'type':type,
+            'uniqueId':String(t),
+            'description':description,
+            'link':'http://www.financialapps.com',
+            'curCode':params[`account${acctNo}CurrencyCode`],
+            'value':value,
+            'transDate':transDate.toJSON(),
+            'checkNumber':319,
+            'category':'other'
+          };
+
+          transactions.push(transactionData);
+        }
+        break;
+      case 3: // Recurring monthly on day of month set in dateValue
+        var start = 0;
+        if(new Date().getDate() < dateValue){
+          start = 1;
+        }
+
+        var earliest = new Date();
+        earliest.setDate(earliest.getDate() - recurrenceDays);
+        var between = monthDiff(earliest, new Date());
+        if(earliest.getDate() > dateValue){
+          between -= 1;
+        }
+
+        for(var f = start; f <= between; f++){
+          var transDate = new Date();
+          transDate.setMonth(transDate.getMonth() - f)
+          transDate.setDate(dateValue);
+
+          var transactionData = {
+            'baseType':baseType,
+            'type':type,
+            'uniqueId':String(t),
+            'description':description,
+            'link':'http://www.financialapps.com',
+            'curCode':params[`account${acctNo}CurrencyCode`],
+            'value':value,
+            'transDate':transDate.toJSON(),
+            'checkNumber':319,
+            'category':'other'
+          };
+          console.log(earliest);
+          transactions.push(transactionData);
+        }
+        break;
+    }
+
       // .end({pretty: true})
 
-    account.importDocument(transaction);
+    // account.importDocument(transaction);
     // console.log(transactions);
   }
-  return(account);
+  transactions.sort(function(a, b) {
+    return new Date(a.transDate) - new Date(b.transDate);
+  });
+
+  for(var d in transactions){
+    // console.log(transactions[d])
+    var transaction = builder.create('transaction')
+      .att('baseType', transactions[d].baseType)
+      .att('type', transactions[d].type)
+      .att('uniqueId', Number(d) + 1)
+      .ele('description', transactions[d].description).up()
+      // .ele('link', transactions[d].link).up()
+      .ele('amount', {'curCode':transactions[d].curCode}, transactions[d].value).up()
+      .ele('transDate', {'localFormat':'yyyy-MM-dd'}, transactions[d].transDate).up()
+      .ele('checkNumber', transactions[d].checkNumber).up()
+      .ele('category', transactions[d].category).up();
+
+    account.importDocument(transaction);
+  }
+  // return(account);
+  // console.log(transactions);
+}
+
+function monthDiff(d1, d2) {
+    var months;
+    months = (d2.getFullYear() - d1.getFullYear()) * 12;
+    months -= d1.getMonth();
+    months += d2.getMonth();
+    return months <= 0 ? 0 : months;
 }
