@@ -53,9 +53,6 @@ function generateXML(params){
 
     site.importDocument(account);
   }
-  // site.end({pretty: true});
-
-  // console.log(xml);
   return(site.end({pretty: true}));
 }
 
@@ -104,7 +101,6 @@ function generateTransactions(account, acctNo, params){
         transactions.push(transactionData);
         break;
       case 1: // Offset
-        // var daysToUse = (recurrenceDays / dateValue).floor();
         for(var f = 0; f < recurrenceDays; f += dateValue){
           var transDate = new Date();
           transDate.setDate(transDate.getDate() - f);
@@ -177,23 +173,16 @@ function generateTransactions(account, acctNo, params){
             'checkNumber':319,
             'category':'other'
           };
-          console.log(earliest);
           transactions.push(transactionData);
         }
         break;
     }
-
-      // .end({pretty: true})
-
-    // account.importDocument(transaction);
-    // console.log(transactions);
   }
   transactions.sort(function(a, b) {
     return new Date(a.transDate) - new Date(b.transDate);
   });
 
   for(var d in transactions){
-    // console.log(transactions[d])
     var transaction = builder.create('transaction')
       .att('baseType', transactions[d].baseType)
       .att('type', transactions[d].type)
@@ -207,8 +196,6 @@ function generateTransactions(account, acctNo, params){
 
     account.importDocument(transaction);
   }
-  // return(account);
-  // console.log(transactions);
 }
 
 function monthDiff(d1, d2) {
