@@ -9,7 +9,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/xml', function(req, res) {
   var generatedXML = generateXML(req.query);
-  // res.set("Content-Disposition", "attachment;filename=fantasticxmldata.xml");
+  // res.set("Content-Disposition", "attachment;filename=2accts.xml");
   res.set("Content-Disposition", "inline;filename=fantasticxmldata.xml");
   res.set("Content-Type", "application/xml");
   res.send(generatedXML);
@@ -67,7 +67,7 @@ function generateTransactions(account, acctNo, params){
     const dateMethod = Number(params[`account${acctNo}Transaction${t}DateMethod`]);
     const dateValue = Number(params[`account${acctNo}Transaction${t}DateValue`]);
     const description = params[`account${acctNo}Transaction${t}Description`];
-    const value = params[`account${acctNo}Transaction${t}Value`];
+    const value = Number(params[`account${acctNo}Transaction${t}Value`]);
     const baseType = params[`account${acctNo}Transaction${t}Type`];
     var type = "";
     switch(baseType){
@@ -85,14 +85,16 @@ function generateTransactions(account, acctNo, params){
         var transDate = new Date();
         transDate.setDate(transDate.getDate() - daysToAdd);
 
+        var randValue = (Math.random() * 500).toFixed(2);
         var transactionData = {
           'baseType':baseType,
           'type':type,
           'uniqueId':String(t),
-          'description':description,
+          'description':generateHipsum(),
           'link':'http://www.financialapps.com',
           'curCode':params[`account${acctNo}CurrencyCode`],
           'value':value,
+          // 'value':randValue,
           'transDate':transDate.toJSON(),
           'checkNumber':319,
           'category':'other'
@@ -176,6 +178,78 @@ function generateTransactions(account, acctNo, params){
           transactions.push(transactionData);
         }
         break;
+      case 4: // Random transactions across recurrence days coming to average amount weekly
+        var totalTrans = 0
+        var totalAmount = 0
+        for(var f = 7; f < recurrenceDays; f += 7){
+          totalTrans += 1;
+          var transactionAmounts = [];
+          while (transactionAmounts.reduce(getSum, 0) < (value - 30)){
+            transactionAmounts.push(Number((Math.random() * (value / 7)).toFixed(2)))
+          }
+          console.log(transactionAmounts.length);
+          console.log(transactionAmounts.reduce(getSum, 0));
+          totalAmount += transactionAmounts.reduce(getSum, 0);
+          for (var l = 0; l < transactionAmounts.length; l++){
+            var day = new Date().getDate() + ((Math.random() * 7) - new Date().getDay() - 1) - f;
+            var transDate = new Date();
+            transDate.setDate(day);
+            // var transDate = new Date();
+            // transDate.setDate(transDate.getDate() - f);
+
+            var transactionData = {
+              'baseType':baseType,
+              'type':type,
+              'uniqueId':String(t),
+              'description':generateSimpleDesc(),
+              'link':'http://www.financialapps.com',
+              'curCode':params[`account${acctNo}CurrencyCode`],
+              'value':transactionAmounts[l],
+              'transDate':transDate.toJSON(),
+              'checkNumber':319,
+              'category':'other'
+            };
+
+            transactions.push(transactionData);
+          }
+        }
+        console.log(`Average: ${totalAmount / totalTrans}`);
+        break;
+      case 5: // Recurring monthly amount range
+        var start = 0;
+        if(new Date().getDate() < dateValue){
+          start = 1;
+        }
+
+        var earliest = new Date();
+        earliest.setDate(earliest.getDate() - recurrenceDays);
+        var between = monthDiff(earliest, new Date());
+        if(earliest.getDate() > dateValue){
+          between -= 1;
+        }
+
+        for(var f = start; f <= between; f++){
+          var transDate = new Date();
+          transDate.setMonth(transDate.getMonth() - f);
+          transDate.setDate(dateValue);
+
+          var transValue = (Math.random() * ((value + 31) - value) + value).toFixed(2);
+
+          var transactionData = {
+            'baseType':baseType,
+            'type':type,
+            'uniqueId':String(t),
+            'description':description,
+            'link':'http://www.financialapps.com',
+            'curCode':params[`account${acctNo}CurrencyCode`],
+            'value':transValue,
+            'transDate':transDate.toJSON(),
+            'checkNumber':319,
+            'category':'other'
+          };
+          transactions.push(transactionData);
+        }
+        break;
     }
   }
   transactions.sort(function(a, b) {
@@ -189,7 +263,7 @@ function generateTransactions(account, acctNo, params){
       .att('uniqueId', Number(d) + 1)
       .ele('description', transactions[d].description).up()
       // .ele('link', transactions[d].link).up()
-      .ele('amount', {'curCode':transactions[d].curCode}, transactions[d].value).up()
+      .ele('amount', {'curCode':transactions[d].curCode}, Number(transactions[d].value).toFixed(2)).up()
       .ele('transDate', {'localFormat':'yyyy-MM-dd'}, transactions[d].transDate).up()
       .ele('checkNumber', transactions[d].checkNumber).up()
       .ele('category', transactions[d].category).up();
@@ -204,4 +278,26 @@ function monthDiff(d1, d2) {
     months -= d1.getMonth();
     months += d2.getMonth();
     return months <= 0 ? 0 : months;
+}
+
+function generateHipsum(){
+  var hipsum = ["Beard", "sriracha", "migas", "synth", "franzen", "health", "goth", "authentic", "craft", "beer", "chambray", "neutra", "meh", "snackwave", "cred", "Tote", "bag", "venmo", "man",
+  "bun", "lomo", "pok", "pok", "mixtape", "forage", "hot", "chicken", "palo", "santo", "kale", "chips", "retro", "humblebrag", "Roof", "party", "ugh", "quinoa", "forage", "locavore",
+  "drinking", "vinegar", "Food", "truck", "shoreditch", "lomo", "pickled", "live-edge", "brunch", "skateboard", "cornhole", "enamel", "pin", "adaptogen", "tote", "bag", "fanny", "pack", "Deep", "v",
+  "tilde", "heirloom", "cronut", "artisan", "man", "braid", "irony", "pinterest"];
+
+  var hipsumDesc = "";
+  for (var h = 0; h < Math.floor((Math.random() * 5) + 2); h++){
+    hipsumDesc += `${hipsum[Math.floor(Math.random() * hipsum.length)]} `;
+  }
+  return hipsumDesc
+}
+
+function generateSimpleDesc(){
+  var letters = ["A", "B", "C", "D", "E", "F"];
+  return `Transaction ${letters[Math.floor(Math.random() * letters.length)]}`;
+}
+
+function getSum(total, num) {
+  return total + num;
 }
