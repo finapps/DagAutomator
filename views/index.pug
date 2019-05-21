@@ -6,7 +6,12 @@ block content
 
   form(action='/xml', method='GET')
     p
-      input(type='hidden', name='accountCount', value='1')
+      | Account Count
+      input(type='number', name='accountCount', value='2')
+      br
+      br
+      | ACCOUNT 1
+      br
       | Container Type:
       select(name='account1ContainerType')
         option(value='bank') Bank
@@ -48,6 +53,8 @@ block content
         option(value='1') Offset
         option(value='2') Bi-Weekly
         option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
       br
       | Transaction 1 Date Value:
       input(type='number', name='account1Transaction1DateValue', value='', min=1, max=28)
@@ -69,6 +76,8 @@ block content
         option(value='1') Offset
         option(value='2') Bi-Weekly
         option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
       br
       | Transaction 2 Date Value:
       input(type='number', name='account1Transaction2DateValue', value='', min=1, max=28)
@@ -90,6 +99,8 @@ block content
         option(value='1') Offset
         option(value='2') Bi-Weekly
         option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
       br
       | Transaction 3 Date Value:
       input(type='number', name='account1Transaction3DateValue', value='', min=1, max=28)
@@ -111,6 +122,8 @@ block content
         option(value='1') Offset
         option(value='2') Bi-Weekly
         option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
       br
       | Transaction 4 Date Value:
       input(type='number', name='account1Transaction4DateValue', value='', min=1, max=28)
@@ -123,6 +136,182 @@ block content
       br
       | Transaction 4 Type:
       select(name='account1Transaction4Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 5 Date Method:
+      select(name='account1Transaction5DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Bi-Weekly
+        option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
+      br
+      | Transaction 5 Date Value:
+      input(type='number', name='account1Transaction5DateValue', value='', min=1, max=28)
+      br
+      | Transaction 5 Description:
+      input(type='text', name='account1Transaction5Description', value='')
+      br
+      | Transaction 5 Value:
+      input(type='number', name='account1Transaction5Value', value='', min=0, step='0.01')
+      br
+      | Transaction 5 Type:
+      select(name='account1Transaction5Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 6 Date Method:
+      select(name='account1Transaction6DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Bi-Weekly
+        option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
+      br
+      | Transaction 6 Date Value:
+      input(type='number', name='account1Transaction6DateValue', value='', min=1, max=28)
+      br
+      | Transaction 6 Description:
+      input(type='text', name='account1Transaction6Description', value='')
+      br
+      | Transaction 6 Value:
+      input(type='number', name='account1Transaction6Value', value='', min=0, step='0.01')
+      br
+      | Transaction 6 Type:
+      select(name='account1Transaction6Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      br
+      | ACCOUNT 2
+      br
+      | Container Type:
+      select(name='account2ContainerType')
+        option(value='bank') Bank
+        option(value='investment') Investment
+      br
+      | Account Type:
+      select(name='account2AccountType')
+        option(value='checking') Checking
+        option(value='savings') Savings
+      br
+      | Currency Code:
+      select(name='account2CurrencyCode')
+        option(value='USD') USD
+      br
+      | Account Name:
+      input(type='text', name='account2Name', value='')
+      br
+      | Account Holder:
+      input(type='text', name='account2Holder', value='')
+      br
+      | Account Number:
+      input(type='text', name='account2Number', value='')
+      br
+      | Current Balance:
+      input(type='number', name='account2CurrentBalance', value='', min=0, step='0.01')
+      br
+      | Available Balance:
+      input(type='number', name='account2AvailableBalance', value='', min=0, step='0.01')
+      br
+      | Transaction Count:
+      input(type='number', name='account2TransactionCount', value='4', min=0)
+      br
+      | Transaction Recurrence Days:
+      input(type='number', name='account2TransactionRecurrenceDays', value='90', min=0)
+      br
+      | Transaction 1 Date Method:
+      select(name='account2Transaction1DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Bi-Weekly
+        option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
+      br
+      | Transaction 1 Date Value:
+      input(type='number', name='account2Transaction1DateValue', value='', min=1, max=28)
+      br
+      | Transaction 1 Description:
+      input(type='text', name='account2Transaction1Description', value='')
+      br
+      | Transaction 1 Value:
+      input(type='number', name='account2Transaction1Value', value='', min=0, step='0.01')
+      br
+      | Transaction 1 Type:
+      select(name='account2Transaction1Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 2 Date Method:
+      select(name='account2Transaction2DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Bi-Weekly
+        option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
+      br
+      | Transaction 2 Date Value:
+      input(type='number', name='account2Transaction2DateValue', value='', min=1, max=28)
+      br
+      | Transaction 2 Description:
+      input(type='text', name='account2Transaction2Description', value='')
+      br
+      | Transaction 2 Value:
+      input(type='number', name='account2Transaction2Value', value='', min=0, step='0.01')
+      br
+      | Transaction 2 Type:
+      select(name='account2Transaction2Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 3 Date Method:
+      select(name='account2Transaction3DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Bi-Weekly
+        option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
+      br
+      | Transaction 3 Date Value:
+      input(type='number', name='account2Transaction3DateValue', value='', min=1, max=28)
+      br
+      | Transaction 3 Description:
+      input(type='text', name='account2Transaction3Description', value='')
+      br
+      | Transaction 3 Value:
+      input(type='number', name='account2Transaction3Value', value='', min=0, step='0.01')
+      br
+      | Transaction 3 Type:
+      select(name='account2Transaction3Type')
+        option(value='debit') Debit
+        option(value='credit') Credit
+      br
+      | Transaction 4 Date Method:
+      select(name='account2Transaction4DateMethod')
+        option(value='0') Once
+        option(value='1') Offset
+        option(value='2') Bi-Weekly
+        option(value='3') Monthly
+        option(value='4') Average
+        option(value='5') Monthly Trans Within Range (min value)
+      br
+      | Transaction 4 Date Value:
+      input(type='number', name='account2Transaction4DateValue', value='', min=1, max=28)
+      br
+      | Transaction 4 Description:
+      input(type='text', name='account2Transaction4Description', value='')
+      br
+      | Transaction 4 Value:
+      input(type='number', name='account2Transaction4Value', value='', min=0, step='0.01')
+      br
+      | Transaction 4 Type:
+      select(name='account2Transaction4Type')
         option(value='debit') Debit
         option(value='credit') Credit
     input(type='submit', value='Submit')
